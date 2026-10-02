@@ -1,0 +1,42 @@
+PASS translation homogeneous coordinates
+PASS scale including reflection
+PASS rotation degrees counterclockwise
+PASS matrix composition rightmost first
+PASS triangle pixel centers and included diagonal boundary
+PASS triangle CW and CCW identical
+PASS triangle subpixel shape misses pixel center
+PASS triangle collinear and coincident degeneracy
+PASS triangle clipped across all framebuffer bounds
+PASS triangle fully outside framebuffer
+PASS shared edge rectangle has no cracks
+PASS SSAA exact half-square coverage spp=4
+PASS SSAA exact half-square coverage spp=9
+PASS SSAA exact half-square coverage spp=16
+PASS point broadcasts to every supersample
+PASS horizontal and vertical lines broadcast supersamples
+PASS rate change allocates and clears sample buffer
+PASS framebuffer resize preserves rate and supports new bounds
+PASS clear removes previous frame
+PASS barycentric analytic weights at (.5,.5)
+PASS barycentric affine mean under supersampling
+PASS nearest texture corners and center tie
+PASS bilinear texture corners and center average
+PASS texture UV clamps to border texels
+PASS texture invalid levels and empty data are safe magenta
+PASS single texel texture for every UV
+PASS mipmap 4x4 checker reaches populated 1x1 average
+PASS odd non-square mipmap preserves constant field
+PASS one-dimensional mipmap 1x8 preserves constant field
+PASS mipmap regeneration from nonzero starting level
+PASS LOD uses Euclidean texel footprint and max derivative
+PASS LOD respects separate width and height
+PASS LOD magnification and excessive minification clamp
+PASS texture sampling combination p=0 l=0
+PASS texture sampling combination p=0 l=1
+PASS texture sampling combination p=0 l=2
+PASS texture sampling combination p=1 l=0
+PASS texture sampling combination p=1 l=1
+PASS texture sampling combination p=1 l=2
+PASS textured triangle interpolates UV analytically
+PASS textured SSAA derivatives remain one screen pixel
+RESULT 41 passed, 0 failed

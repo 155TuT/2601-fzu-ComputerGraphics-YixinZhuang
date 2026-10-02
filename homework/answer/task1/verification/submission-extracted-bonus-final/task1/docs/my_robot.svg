@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+<!-- A waving runner. Each nested group rotates around its local joint. -->
+<g transform="translate(250 230)"><g transform="rotate(-10)">
+<polygon fill="#1768BA" points="-50,-55 50,-55 50,55 -50,55"/>
+<g transform="translate(0 -105)"><g transform="rotate(10)"><g transform="scale(.55 .55)">
+<polygon fill="#EDAB48" points="-50,-50 50,-50 50,50 -50,50"/>
+<polygon fill="#17334D" points="-27,-14 -15,-14 -15,-2 -27,-2"/>
+<polygon fill="#17334D" points="15,-14 27,-14 27,-2 15,-2"/>
+</g></g></g>
+<g transform="translate(-48 -35)"><g transform="rotate(30)">
+<polygon fill="#29A8A0" points="-85,-10 0,-10 0,10 -85,10"/>
+<g transform="translate(-85 0)"><g transform="rotate(55)">
+<polygon fill="#EDAB48" points="-65,-10 0,-10 0,10 -65,10"/>
+</g></g></g></g>
+<g transform="translate(48 -35)"><g transform="rotate(-65)">
+<polygon fill="#29A8A0" points="0,-10 85,-10 85,10 0,10"/>
+<g transform="translate(85 0)"><g transform="rotate(-35)">
+<polygon fill="#EDAB48" points="0,-10 65,-10 65,10 0,10"/>
+</g></g></g></g>
+<g transform="translate(-32 55)"><g transform="rotate(32)">
+<polygon fill="#17334D" points="-12,0 12,0 12,85 -12,85"/>
+<g transform="translate(0 85)"><g transform="rotate(-65)">
+<polygon fill="#17334D" points="-11,0 11,0 11,75 -11,75"/>
+<polygon fill="#EDAB48" points="-13,70 33,70 33,87 -13,87"/>
+</g></g></g></g>
+<g transform="translate(32 55)"><g transform="rotate(-30)">
+<polygon fill="#17334D" points="-12,0 12,0 12,85 -12,85"/>
+<g transform="translate(0 85)"><g transform="rotate(30)">
+<polygon fill="#17334D" points="-11,0 11,0 11,75 -11,75"/>
+<polygon fill="#EDAB48" points="-13,70 33,70 33,87 -13,87"/>
+</g></g></g></g>
+</g></g></svg>

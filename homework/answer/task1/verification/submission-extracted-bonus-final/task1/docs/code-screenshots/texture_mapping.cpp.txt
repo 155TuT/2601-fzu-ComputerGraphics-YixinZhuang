@@ -1,0 +1,25 @@
+  void RasterizerImp::rasterize_textured_triangle(float x0, float y0, float u0, float v0,
+    float x1, float y1, float u1, float v1,
+    float x2, float y2, float u2, float v2,
+    Texture& tex)
+  {
+    const TriangleSetup triangle(x0, y0, x1, y1, x2, y2);
+    if (!triangle.valid) return;
+    const Vector2D uv0(u0, v0), uv1(u1, v1), uv2(u2, v2);
+    // Affine barycentric gradients give UV(x+1,y)-UV(x,y) and
+    // UV(x,y+1)-UV(x,y). The offset is one screen pixel, even at high rate.
+    const Vector2D dx_uv = (uv0 * triangle.a[0] + uv1 * triangle.a[1]
+                         + uv2 * triangle.a[2]) * triangle.inverse_area;
+    const Vector2D dy_uv = (uv0 * triangle.b[0] + uv1 * triangle.b[1]
+                         + uv2 * triangle.b[2]) * triangle.inverse_area;
+    SampleParams sp;
+    sp.psm = psm;
+    sp.lsm = lsm;
+    for_each_triangle_sample(triangle, width, height, sample_rate, rasterization_method,
+      [&](size_t sample, double w0, double w1, double w2) {
+        sp.p_uv = uv0 * w0 + uv1 * w1 + uv2 * w2;
+        sp.p_dx_uv = sp.p_uv + dx_uv;
+        sp.p_dy_uv = sp.p_uv + dy_uv;
+        sample_buffer[sample] = tex.sample(sp);
+      });
+  }

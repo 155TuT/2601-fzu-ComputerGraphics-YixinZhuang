@@ -1,0 +1,37 @@
+{
+  "archive_crc_and_hash_check": true,
+  "relocated_runtime_tests": [
+    {
+      "scene": "code/svg/basic/test4.svg",
+      "exit_code": 0,
+      "png_dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "scene": "code/svg/texmap/test4.svg",
+      "exit_code": 0,
+      "png_dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "scene": "docs/my_robot.svg",
+      "exit_code": 0,
+      "png_dimensions": [
+        400,
+        400
+      ]
+    },
+    {
+      "scene": "docs/texture_demo.svg",
+      "exit_code": 0,
+      "png_dimensions": [
+        400,
+        400
+      ]
+    }
+  ]
+}

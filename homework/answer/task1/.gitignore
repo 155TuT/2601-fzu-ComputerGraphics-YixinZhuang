@@ -1,0 +1,7 @@
+.tools/
+build/
+bin/
+verification/report/*-render/
+verification/report/*-pages/
+docs/screenshots/.capture/
+/submission

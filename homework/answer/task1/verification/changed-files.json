@@ -1,0 +1,7 @@
+[
+  "CMakeLists.txt",
+  "src/drawrend.cpp",
+  "src/rasterizer.cpp",
+  "src/texture.cpp",
+  "src/transforms.cpp"
+]

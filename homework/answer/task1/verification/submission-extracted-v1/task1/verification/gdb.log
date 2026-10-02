@@ -1,0 +1,11 @@
+Breakpoint 1 at 0x14000c5f0: file C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\code\src\rasterizer.cpp, line 191.
+[New Thread 34292.0xac20]
+[New Thread 34292.0xbbbc]
+[New Thread 34292.0x7634]
+
+Thread 1 hit Breakpoint 1, CGL::RasterizerImp::rasterize_triangle (this=0x29bfb50, x0=201.599319, y0=144.248199, x1=73.5262527, y1=144.248199, x2=137.56279, y2=33.3333321, color=...) at C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\code\src\rasterizer.cpp:191
+191	    Color color) {
+#0  CGL::RasterizerImp::rasterize_triangle (this=0x29bfb50, x0=201.599319, y0=144.248199, x1=73.5262527, y1=144.248199, x2=137.56279, y2=33.3333321, color=...) at C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\code\src\rasterizer.cpp:191
+#1  0x00007ff747641786 in CGL::Polygon::draw (this=0x1e5b90, dr=0x29bfb50, global_transform=...) at C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\code\src\svg.cpp:152
+#2  0x00007ff74763e4ea in CGL::SVG::draw (this=0x1e5990, dr=0x29bfb50, global_transform=...) at C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/code/CGL/include/CGL/matrix3x3.h:15
+#3  CGL::DrawRend::redraw (this=this@entry=0x5ffd70) at C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\code\src\drawrend.cpp:307

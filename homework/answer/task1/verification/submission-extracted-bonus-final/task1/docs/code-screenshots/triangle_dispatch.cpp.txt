@@ -1,0 +1,24 @@
+  template <typename ShadeSample>
+  void for_each_triangle_sample(const TriangleSetup& triangle, size_t width,
+                                size_t height, unsigned int sample_rate,
+                                RasterizationMethod method, const ShadeSample& shade) {
+    if (!triangle.valid || width == 0 || height == 0) return;
+    const SampleBounds box(triangle, width, height, sample_rate);
+    if (box.xb == box.xe || box.yb == box.ye) return;
+    if (method == R_SIMD) {
+#if defined(CGL_ISOLATED_AVX)
+      if (selected_simd_backend() == SIMD_AVX4) {
+        simd4_samples(triangle, box, width, sample_rate, shade); return;
+      }
+#endif
+#if defined(CGL_SSE2)
+      if (selected_simd_backend() == SIMD_SSE2) {
+        simd2_samples(triangle, box, width, sample_rate, shade); return;
+      }
+#endif
+    }
+    for (size_t y = box.yb; y < box.ye; ++y) for (size_t x = box.xb; x < box.xe; ++x) {
+      if (method == R_BASELINE) scalar_pixel<true>(triangle, box, width, sample_rate, x, y, shade);
+      else scalar_pixel<false>(triangle, box, width, sample_rate, x, y, shade);
+    }
+  }

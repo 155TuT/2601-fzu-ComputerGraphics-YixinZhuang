@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96">
+  <!-- Original experiment: thin geometry, shared edge and opaque overlap. -->
+  <polygon points="6.13,8.17 44.39,14.73 11.41,43.29" fill="#111111"/>
+  <polygon points="49.13,9.17 88.39,33.73 88.32,33.87" fill="#111111"/>
+  <polygon points="9.13,51.17 45.39,55.73 13.41,87.29" fill="#d72c39"/>
+  <polygon points="3.03,68.71 43.21,48.13 39.97,89.21" fill="#2357bf"/>
+  <polygon points="53.13,51.17 83.39,54.73 57.41,83.29" fill="#167b68"/>
+  <polygon points="57.41,83.29 83.39,54.73 89.03,87.19" fill="#167b68"/>
+</svg>

@@ -1,0 +1,102 @@
+{
+  "researched_on": "2026-10-02",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Task 1 CPU triangle rasterization performance choices; no implementation",
+  "local_baseline_sha256": "1A7672BA59F48AAEAC75389C9550FAB8B1DB18AABDAF8429215CDA816D3F283C",
+  "sources": [
+    {
+      "title": "A Parallel Algorithm for Polygon Rasterization",
+      "authors": "Juan Pineda",
+      "publication_year": 1988,
+      "url": "https://people.csail.mit.edu/ericchan/bib/pdf/p17-pineda.pdf",
+      "primary_type": "original paper hosted by MIT",
+      "verified": "Full PDF text, sections 2, 4 and 7",
+      "supports": "Affine edge increments, traversal independent of coverage, adjacent pixel parallelism"
+    },
+    {
+      "title": "Tiled Polygon Traversal Using Half-Plane Edge Functions",
+      "authors": "Joel McCormack; Robert McNamara",
+      "publication_year": 2000,
+      "url": "https://diglib.eg.org/items/9d5e02df-e13d-4b3d-b760-550184578e80",
+      "doi": "10.2312/EGGH/EGGH00/015-021",
+      "primary_type": "publisher official paper page",
+      "verified": "Official abstract and bibliographic record",
+      "supports": "Tiled traversal using half-plane edge functions; traversal/cache considerations"
+    },
+    {
+      "title": "Conservative and Tiled Rasterization Using a Modified Triangle Set-Up",
+      "authors": "Tomas Akenine-Moller; Timo Aila",
+      "publication_year": 2005,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/2151237X.2005.10129198",
+      "doi": "10.1080/2151237X.2005.10129198",
+      "primary_type": "publisher official paper page",
+      "verified": "Official abstract; volume publication year 2005 differs from online publication 2011",
+      "supports": "Edge-function triangle setup can support tiled rasterization"
+    },
+    {
+      "title": "GPU Gems 2 Chapter 42: Conservative Rasterization",
+      "authors": "Jon Hasselgren; Tomas Akenine-Moller; Lennart Ohlsson",
+      "publication_year": 2005,
+      "url": "https://developer.nvidia.com/gpugems/gpugems2/part-v-image-oriented-computing/chapter-42-conservative-rasterization",
+      "primary_type": "author-written chapter on official NVIDIA site",
+      "verified": "Sections 42.1 and 42.3; precise conservative coverage definitions and robustness",
+      "supports": "Safe tile-classification concepts; conservative final coverage must not replace center sampling"
+    },
+    {
+      "title": "Masked Software Occlusion Culling",
+      "authors": "Jon Hasselgren; Magnus Andersson; Tomas Akenine-Moller",
+      "publication_year": 2016,
+      "url": "https://fileadmin.cs.lth.se/graphics/research/papers/2016/culling/culling.pdf",
+      "project_url": "https://fileadmin.cs.lth.se/graphics/research/papers/2016/culling/",
+      "intel_url": "https://www.intel.com/content/dam/develop/external/us/en/documents/masked-software-occlusion-culling-779241.pdf",
+      "primary_type": "original research paper and author university project page",
+      "verified": "Indexed primary PDF text section 3.1; project page. Full PDF opening returned Internal Error, no claim of complete PDF inspection",
+      "supports": "Scanline left/right edge events, SIMD coverage generation, research scope is occlusion culling"
+    },
+    {
+      "title": "Intel Intrinsics Guide",
+      "url": "https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html",
+      "primary_type": "official instruction documentation",
+      "verified": "Indexed _mm256_add_pd synopsis, operation and AVX CPUID flag",
+      "supports": "Four packed double lanes use 256bit AVX"
+    },
+    {
+      "title": "MaskedOcclusionCulling",
+      "url": "https://github.com/GameTechDev/MaskedOcclusionCulling",
+      "primary_type": "original paper companion implementation",
+      "verified": "README Requirements and Rasterization precision sections",
+      "supports": "Runtime ISA selection and coverage precision/tie-breaker caveats"
+    },
+    {
+      "title": "Triangle Scan Conversion",
+      "url": "https://groups.csail.mit.edu/graphics/classes/6.837/F98/Lecture7/triangles.html",
+      "primary_type": "MIT official course lecture",
+      "verified": "Official lecture page text",
+      "supports": "Triangle scan conversion and scanline breakpoints"
+    },
+    {
+      "title": "How the stb_truetype Anti-Aliased Software Rasterizer v2 Works",
+      "authors": "Sean Barrett",
+      "publication_year": 2015,
+      "url": "https://nothings.org/gamedev/rasterize/",
+      "primary_type": "implementation author explanation",
+      "verified": "Abstract and scan-conversion description",
+      "supports": "Signed-area analytic coverage and overlap limitation; optional AA only"
+    },
+    {
+      "title": "SMAA: Enhanced Subpixel Morphological Antialiasing",
+      "authors": "Jorge Jimenez; Jose I. Echevarria; Tiago Sousa; Diego Gutierrez",
+      "publication_year": 2012,
+      "url": "https://iryoku.com/smaa/",
+      "primary_type": "paper authors project page",
+      "verified": "Abstract and mode/version history",
+      "supports": "Post-processing AA; distinguish 1x from combined spatial/temporal sampling variants"
+    }
+  ],
+  "limitations": [
+    "No selected implementation or measured speedup",
+    "Local adaptation and ranking are explicitly engineering inference",
+    "No reported research-paper speedup is attributed to this homework",
+    "Some PDF endpoints failed full opening; indexed section evidence is identified"
+  ]
+}

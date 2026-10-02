@@ -1,3 +1,24 @@
 {
-  "cmake.sourceDirectory": "/Users/zhiyi/Documents/Mycode/fzucourses/2601-fzu-ComputerGraphics-YixinZhuang/homework/1/source code"
+  "cmake.sourceDirectory": "${workspaceFolder}/homework/answer/task1/code",
+  "cmake.buildDirectory": "${workspaceFolder}/homework/answer/task1/build",
+  "cmake.cmakePath": "${workspaceFolder}/homework/answer/task1/.tools/cmake-3.31.10-windows-x86_64/bin/cmake.exe",
+  "cmake.generator": "MinGW Makefiles",
+  "cmake.configureOnOpen": false,
+  "cmake.configureEnvironment": {
+    "PATH": "C:/msys64/mingw64/bin;${env:PATH}"
+  },
+  "cmake.buildEnvironment": {
+    "PATH": "C:/msys64/mingw64/bin;${env:PATH}"
+  },
+  "cmake.configureSettings": {
+    "CMAKE_C_COMPILER": "C:/msys64/mingw64/bin/gcc.exe",
+    "CMAKE_CXX_COMPILER": "C:/msys64/mingw64/bin/g++.exe",
+    "CMAKE_MAKE_PROGRAM": "C:/msys64/mingw64/bin/mingw32-make.exe",
+    "CMAKE_PREFIX_PATH": "${workspaceFolder}/homework/answer/task1/.tools/freetype",
+    "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+    "GLFW_BUILD_DOCS": "OFF",
+    "HAVE_AVX_EXTENSIONS": "OFF",
+    "HAVE_AVX2_EXTENSIONS": "OFF",
+    "BUILD_VERIFICATION": "ON"
+  }
 }

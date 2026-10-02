@@ -1,0 +1,22 @@
+  template <bool Direct, typename ShadeSample>
+  inline void scalar_pixel(const TriangleSetup& t, const SampleBounds& box,
+                           size_t width, unsigned int rate, size_t x, size_t y,
+                           const ShadeSample& shade) {
+    const size_t base = (y * width + x) * rate;
+    const double px0 = x + 0.5 * box.spacing;
+    for (unsigned int sy = 0; sy < box.side; ++sy) {
+      const double py = y + (sy + 0.5) * box.spacing;
+      double edge[3];
+      if (!Direct) for (int i = 0; i < 3; ++i)
+        edge[i] = t.a[i] * px0 + t.b[i] * py + t.c[i];
+      for (unsigned int sx = 0; sx < box.side; ++sx) {
+        if (Direct) {
+          const double px = x + (sx + 0.5) * box.spacing;
+          for (int i = 0; i < 3; ++i)
+            edge[i] = t.a[i] * px + t.b[i] * py + t.c[i];
+        }
+        if (covered(t, edge)) shade_edges(t, base + sy * box.side + sx, edge, shade);
+        if (!Direct) for (int i = 0; i < 3; ++i) edge[i] += t.a[i] * box.spacing;
+      }
+    }
+  }

@@ -1,0 +1,960 @@
+[
+  {
+    "path": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-CprograminLinux-WeiweiLin\\homework\\task1\\report.docx",
+    "sha256": "85ba1949b4a9d78ba3ebc499a69f613f18e81952efce42f2fe0f6d31be0389d6",
+    "sections": [
+      {
+        "w_mm": 210.00861111111112,
+        "h_mm": 297.0036111111111,
+        "left_mm": 20.0025,
+        "right_mm": 20.0025,
+        "top_mm": 17.991666666666667,
+        "bottom_mm": 17.991666666666667
+      }
+    ],
+    "font_stats": {
+      "(None, None, None)": 861,
+      "(None, None, True)": 20
+    },
+    "paragraph_samples": [
+      {
+        "text": "学号：052403137 姓名：王智壹 专业：计算机科学与技术 班级：5班",
+        "style": "Metadata",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "CENTER (1)",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "《Linux操作系统设计实践》实验一：进程管理",
+        "style": "Title",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "实验日期：2026 年 9 月 12 日",
+        "style": "Metadata",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "CENTER (1)",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "一、实验环境",
+        "style": "Heading 1",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "实验文件位于 homework/task1。以下编译、运行命令均在该目录执行。",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "二、实验内容",
+        "style": "Heading 1",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "2.1 实验目的与要求",
+        "style": "Heading 2",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "本实验练习 Linux 下 C 程序的多文件开发与构建，理解程序与进程的区别，观察父子进程的并发执行，掌握使用 exec 系列函数执行目标程序以及使用信号通知另",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "根据实验指导书 PDF 第 3、4 页（印刷页码 1、2），编写一个同时满足四项要求的程序：",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "2.2 程序设计思想",
+        "style": "Heading 2",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "程序是一个由父进程管理子进程的命令执行演示器。父进程负责创建、接收通知和回收子进程；子进程先执行演示任务，再通知父进程并切换到目标命令。默认运行约 3 秒即可结",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "1. 父进程设置标准输出为行缓冲，注册信号处理函数，屏蔽 SIGUSR1 和 SIGCHLD，然后调用 fork。",
+        "style": "List Text",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "2. fork 在父进程中返回子进程 PID，在子进程中返回 0。父进程执行 2 步任务，子进程执行 3 步任务，每一步输出本进程的 PID 并暂停约 1 秒，",
+        "style": "List Text",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "3. 父进程完成自己的任务后，用 sigsuspend 暂时解除上述两个信号的屏蔽并等待。子进程完成任务后，通过 kill(parent_pid, SIGUSR",
+        "style": "List Text",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "4. 子进程输出 exec 前的 PID，再调用 execvp。调用成功后，当前子进程的进程映像被目标程序替换；失败时输出错误，并返回 127 或 126。",
+        "style": "List Text",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "5. 父进程收到通知后调用 waitpid，等待指定子进程终止，打印退出码或终止信号，并返回相应状态。若子进程在发送通知之前就退出，SIGCHLD 也能唤醒父进",
+        "style": "List Text",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      }
+    ],
+    "images": [
+      "word/media/image1.png",
+      "word/media/image2.png",
+      "word/media/image3.png",
+      "word/media/image4.png"
+    ]
+  },
+  {
+    "path": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-CprograminLinux-WeiweiLin\\homework\\task2\\report.docx",
+    "sha256": "c1eda9f2a3ecca9da3418eddd97523836d80e125db51dc1b2a4b40b91b266743",
+    "sections": [
+      {
+        "w_mm": 210.00861111111112,
+        "h_mm": 297.0036111111111,
+        "left_mm": 20.0025,
+        "right_mm": 20.0025,
+        "top_mm": 17.991666666666667,
+        "bottom_mm": 17.991666666666667
+      }
+    ],
+    "font_stats": {
+      "(None, None, None)": 1091,
+      "(None, None, True)": 14
+    },
+    "paragraph_samples": [
+      {
+        "text": "学号：052403137 姓名：王智壹 专业：计算机科学与技术 班级：5班",
+        "style": "Metadata",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "CENTER (1)",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "《Linux操作系统设计实践》实验二：进程通信",
+        "style": "Title",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "实验日期：2026 年 9 月 17 日",
+        "style": "Metadata",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "CENTER (1)",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "一、实验环境",
+        "style": "Heading 1",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "实验文件位于 homework/task2。以下编译与运行命令均在该目录执行。服务器和客户端是分别启动的两个独立进程，不要求具有父子关系。",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "二、实验内容",
+        "style": "Heading 1",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "2.1 实验目的与要求",
+        "style": "Heading 2",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "根据实验指导书第 5 页的要求，自选一种本地进程间通信机制，实现客户端进程与服务器端进程之间的信息发送和接收。本实验结合预备内容中重点学习的共享内存、信号量，编",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "客户端发送一行文本，服务器将 ASCII 小写字母转换为大写，再把结果返回客户端。例如，发送 hello linux 后收到 HELLO LINUX。除 ASC",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "2.2 程序设计思想",
+        "style": "Heading 2",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "（1）共享内存中的数据",
+        "style": "Heading 3",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "两个进程使用 shmat 把同一共享内存段附加到各自的地址空间，通过 struct shared_data 读写其中的数据。两个进程的虚拟地址可以不同，只要它们",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "每条文本最多 255 字节，另留 1 字节存放 \\0。长度按字节计算，不等于中文字符数。输入用于普通文本，不支持嵌入 NUL 字节的二进制数据。",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "（2）信号量与收发顺序",
+        "style": "Heading 3",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "仅让两个进程访问同一块内存，不能保证“写完后再读”或“读完后再覆盖”。因此设置三个信号量：",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "普通收发过程如下：",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      }
+    ],
+    "images": [
+      "word/media/image1.png",
+      "word/media/image2.png",
+      "word/media/image3.png",
+      "word/media/image4.png",
+      "word/media/image5.png"
+    ]
+  },
+  {
+    "path": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-CprograminLinux-WeiweiLin\\homework\\task3\\report.docx",
+    "sha256": "be28e5cbafe2d37917cbd359327c01bc55efd0f9972ac149158349d1e5062c82",
+    "sections": [
+      {
+        "w_mm": 210.00861111111112,
+        "h_mm": 297.0036111111111,
+        "left_mm": 20.0025,
+        "right_mm": 20.0025,
+        "top_mm": 17.991666666666667,
+        "bottom_mm": 17.991666666666667
+      }
+    ],
+    "font_stats": {
+      "(None, None, None)": 1198,
+      "(None, None, True)": 18
+    },
+    "paragraph_samples": [
+      {
+        "text": "学号：052403137 姓名：王智壹 专业：计算机科学与技术 班级：5班",
+        "style": "Metadata",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "CENTER (1)",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "《Linux操作系统设计实践》实验三：网络编程及文件操作",
+        "style": "Title",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "实验日期：2026 年 9 月 24 日",
+        "style": "Metadata",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "CENTER (1)",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "一、实验环境",
+        "style": "Heading 1",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "实验文件位于 homework/task3。以下编译和运行命令均在该目录执行。服务器、客户端在两个终端中分别启动；本次实测使用 127.0.0.1 和 loca",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "二、实验内容",
+        "style": "Heading 1",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "2.1 实验目的与要求",
+        "style": "Heading 2",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "实验三要求使用套接口实现客户端与服务器之间的信息发送、接收，并通过文件 I/O 读取和保存收发信息。预备内容重点要求学习网络编程模式及基于数据流的文件 I/O。",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "本实验实现“从文件读取文本、通过 TCP 转换文本、把回复保存到文件”的客户端—服务器程序。客户端逐行发送文本，服务器把 ASCII 小写字母转换为大写，再将结",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "2.2 程序设计思想",
+        "style": "Heading 2",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "（1）文件与进程的分工",
+        "style": "Heading 3",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "默认输入文件 data/messages.txt 包含三行文本。一次服务器运行服务一个客户端连接，同一连接中可以连续处理多行文本。文件读完即结束会话，不需要额外",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "\"wx\" 中的 x 表示独占创建：如果目标已经存在，打开失败。这可以防止覆盖上次结果，也可以防止把输入文件或它的符号链接误当作输出而截断原文。重复实验时应选择新",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "文本以 LF 为行分隔符，一行最多 1024 字节，换行和字符串结束符不计入长度。空行允许发送，文件末尾没有换行的最后一行也会发送。超过长度或包含 NUL 的整",
+        "style": "Normal",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "（2）套接口建立与收发流程",
+        "style": "Heading 3",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      },
+      {
+        "text": "1. 服务器创建 AF_INET/SOCK_STREAM 套接口，设置 SO_REUSEADDR，绑定 IPv4 地址和端口，然后调用 listen 等待连接。",
+        "style": "List Text",
+        "font": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "alignment": "None",
+        "spacing": "None",
+        "indent": null
+      }
+    ],
+    "images": [
+      "word/media/image1.png",
+      "word/media/image2.png",
+      "word/media/image3.png",
+      "word/media/image4.png",
+      "word/media/image5.png",
+      "word/media/image6.png"
+    ]
+  }
+]

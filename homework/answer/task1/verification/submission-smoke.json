@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "zip": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\task1-submit.zip",
+  "extraction": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final",
+  "tests": [
+    {
+      "name": "basic_test4",
+      "svg": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\code\\svg\\basic\\test4.svg",
+      "cwd": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\smoke-output\\basic_test4",
+      "command": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\bin\\draw.exe",
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\code\\svg\\basic\\test4.svg",
+        "nogl",
+        "400",
+        "400"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Succesfully wrote framebuffer\r\n",
+      "png": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\smoke-output\\basic_test4\\test.png",
+      "png_bytes": 1518,
+      "png_sha256": "a00dec710e963649ff7e0df932eadfb843f3d96e91e4338ca15343648058c5c6",
+      "png_info": {
+        "width": 400,
+        "height": 400,
+        "bit_depth": 4,
+        "color_type": 3,
+        "foreground_pixels": 18671,
+        "nonopaque_pixels": 0,
+        "validation": "all chunk CRCs, complete IDAT decode, all scanline filters and pixels"
+      }
+    },
+    {
+      "name": "teacher_robot",
+      "svg": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\code\\svg\\transforms\\robot.svg",
+      "cwd": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\smoke-output\\teacher_robot",
+      "command": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\bin\\draw.exe",
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\code\\svg\\transforms\\robot.svg",
+        "nogl",
+        "400",
+        "400"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Succesfully wrote framebuffer\r\n",
+      "png": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\smoke-output\\teacher_robot\\test.png",
+      "png_bytes": 501,
+      "png_sha256": "9d1b0c0ad008e309df862d8ad6ce3e833298536cd662f0935baf3eeea20cc709",
+      "png_info": {
+        "width": 400,
+        "height": 400,
+        "bit_depth": 2,
+        "color_type": 3,
+        "foreground_pixels": 10952,
+        "nonopaque_pixels": 0,
+        "validation": "all chunk CRCs, complete IDAT decode, all scanline filters and pixels"
+      }
+    },
+    {
+      "name": "my_robot",
+      "svg": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\docs\\my_robot.svg",
+      "cwd": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\smoke-output\\my_robot",
+      "command": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\bin\\draw.exe",
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\docs\\my_robot.svg",
+        "nogl",
+        "400",
+        "400"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Succesfully wrote framebuffer\r\n",
+      "png": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\smoke-output\\my_robot\\test.png",
+      "png_bytes": 1541,
+      "png_sha256": "f0bcc2dcb32b947e900155f22507fe4b895402c7e5fd4fc2f3803d1841daba5b",
+      "png_info": {
+        "width": 400,
+        "height": 400,
+        "bit_depth": 4,
+        "color_type": 3,
+        "foreground_pixels": 13873,
+        "nonopaque_pixels": 0,
+        "validation": "all chunk CRCs, complete IDAT decode, all scanline filters and pixels"
+      }
+    },
+    {
+      "name": "texture_demo",
+      "svg": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\docs\\texture_demo.svg",
+      "cwd": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\smoke-output\\texture_demo",
+      "command": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\bin\\draw.exe",
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\task1\\docs\\texture_demo.svg",
+        "nogl",
+        "400",
+        "400"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Succesfully wrote framebuffer\r\n",
+      "png": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-extracted-bonus-final\\smoke-output\\texture_demo\\test.png",
+      "png_bytes": 6773,
+      "png_sha256": "20f6ad82f9e241f6cb6ab3b7d44018a69002b824fdab19f2f125a82879c9d465",
+      "png_info": {
+        "width": 400,
+        "height": 400,
+        "bit_depth": 4,
+        "color_type": 3,
+        "foreground_pixels": 45072,
+        "nonopaque_pixels": 0,
+        "validation": "all chunk CRCs, complete IDAT decode, all scanline filters and pixels"
+      }
+    }
+  ],
+  "timezone": "Asia/Shanghai",
+  "started_at": "2026-10-02T18:11:09+08:00",
+  "zip_bytes": 25847871,
+  "zip_sha256": "bc74737d0f28fbce495c3c1cdb27d33158c15f02532645e97e42d89b29f9ec58",
+  "zip_crc": "all members passed",
+  "manifest_sha256": "ce8d559c2b6a3f58ec36059880ee8c5bde89e4d70f4eee6c1519431c20a7916c",
+  "manifest_files_checked": 444,
+  "extracted_files_checked": 444,
+  "runtime_path": "C:\\Windows\\System32",
+  "runtime_search": "System32-only PATH; DLLs next to extracted draw.exe; fresh isolated cwd",
+  "draw_sha256": "715c266ee281cd4b9190f47184359e675b3f4a9a0a7380f759fe7508b612220d",
+  "passed_tests": 4,
+  "finished_at": "2026-10-02T18:11:11+08:00"
+}

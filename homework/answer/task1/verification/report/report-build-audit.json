@@ -1,0 +1,503 @@
+{
+  "template_sha256": "cd682fbbda36cce208e9661699b5353fe4429ba343daa9787da6a6793ad24e16",
+  "output_sha256": "04f93f90466c89015595f8e7d38a2f7caeb5631b846c88c54ddab93178d3e411",
+  "reference_unchanged": true,
+  "section_count": 1,
+  "manual_page_markers": 24,
+  "paragraph_count": 161,
+  "image_occurrences": 41,
+  "images": [
+    {
+      "file": "docs\\screenshots\\triangle_default.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "a326ea4a88b747f12b56398824132a9fa193c1569abe4c8452c0bc6e02b787fe"
+    },
+    {
+      "file": "docs\\screenshots\\triangle_inspector.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "8bfa1a909cdd57ba7968e5eaf02237c5a3fa610aacc45a3073f299a8d430d47f"
+    },
+    {
+      "file": "docs\\code-screenshots\\triangle_setup.png",
+      "pixels": [
+        1194,
+        1183
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "83e3c29aeec12395a2c8292539945238c0b2a803d469d5c22464b2c13daa7fa1"
+    },
+    {
+      "file": "docs\\code-screenshots\\triangle_traversal.png",
+      "pixels": [
+        1194,
+        1013
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "5b29bfdd3121bf9f3730ae223c41b60a3ae35b4f7daa452ce9221a926bdd47fc"
+    },
+    {
+      "file": "docs\\code-screenshots\\triangle_traversal_02.png",
+      "pixels": [
+        1194,
+        979
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "2bb75897d19ced32f67bc0490e97ea193388cefd665a282431cd07b383591b6a"
+    },
+    {
+      "file": "docs\\screenshots\\simd_speedup.png",
+      "pixels": [
+        1980,
+        756
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "render",
+      "sha256": "d774d8d884249e6d364c02cfc272f6fdf602ac1e1f07a26b2f09ad9344a93f9c"
+    },
+    {
+      "file": "docs\\screenshots\\ssaa_1.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 1.8837962962962962,
+      "kind": "render",
+      "sha256": "8bfa1a909cdd57ba7968e5eaf02237c5a3fa610aacc45a3073f299a8d430d47f"
+    },
+    {
+      "file": "docs\\screenshots\\ssaa_4.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 1.8837962962962962,
+      "kind": "render",
+      "sha256": "53f73d76fe319a4959e85ffe8065a9c183b698c0c53e24dc4acdbd68e1b284e4"
+    },
+    {
+      "file": "docs\\screenshots\\ssaa_16.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 1.8837962962962962,
+      "kind": "render",
+      "sha256": "5c05740012e2b31da3c62eea1d1c67106342e650d5d437c12430ae788d26757e"
+    },
+    {
+      "file": "docs\\code-screenshots\\sample_buffer_resolve.png",
+      "pixels": [
+        1194,
+        877
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "e8b013a3ccb850e87c83cb165e2aab397cb8281f62d29cb8b01eafe45f4141b6"
+    },
+    {
+      "file": "docs\\code-screenshots\\sample_buffer_resolve_02.png",
+      "pixels": [
+        1194,
+        843
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "a1d5afc0eafdca09a483e0c0ba3681886009163e5d37961d3f732af2a28ac017"
+    },
+    {
+      "file": "docs\\code-screenshots\\analytic_clip.png",
+      "pixels": [
+        1194,
+        843
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "30ccc2a3aa685b7494c97295dc0ff101b2fd8359f112cd6c31cd7b0ed3e6ed54"
+    },
+    {
+      "file": "docs\\code-screenshots\\analytic_visibility.png",
+      "pixels": [
+        1194,
+        877
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "0df5b42f4c9259a24f4d4ecd087480f6538408668fa87320b8331a22fb626dba"
+    },
+    {
+      "file": "docs\\code-screenshots\\analytic_visibility_02.png",
+      "pixels": [
+        1194,
+        877
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "7e2741324da9d7ffcf99ff5ce45ff9c92f3f7eb0a40368ec129fdfe3f244dbf8"
+    },
+    {
+      "file": "docs\\screenshots\\aa_comparison.png",
+      "pixels": [
+        1640,
+        1810
+      ],
+      "width_inches": 5.6,
+      "kind": "render",
+      "sha256": "7cfecc308fd3734471fc8faf3c444e37dd91bea1ee73a5fc8376287241d0a833"
+    },
+    {
+      "file": "docs\\screenshots\\aa_gui_ssaa.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "b93473c8618e2dd1f7a1b436c791f3858a25937de11e46094d5ef71526a76340"
+    },
+    {
+      "file": "docs\\screenshots\\aa_gui_analytic.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "e0dcde27fc47ed160b00121ba9e038b47c3777337d05a327fae3c96f9513959f"
+    },
+    {
+      "file": "docs\\screenshots\\robot_original.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "ef1c6105944310c76f77881ce4e152858e469827edf931d666f36a0113ba70b3"
+    },
+    {
+      "file": "docs\\screenshots\\robot_custom.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "93367e3682610bf316e62932836d6bb5e17d5184e0bf6423ae966b8e02f74a96"
+    },
+    {
+      "file": "docs\\code-screenshots\\transforms.png",
+      "pixels": [
+        1194,
+        775
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "58e6787c9e7c72c20889b54f21386c885f119fb1ba6fa1668e59dbfc26283bd4"
+    },
+    {
+      "file": "docs\\code-screenshots\\viewport_rotate.png",
+      "pixels": [
+        1194,
+        741
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "437a01936ef3aedeb29681c6b19c4d2a0f0c2cf547d9075a7333dd1ed29a3812"
+    },
+    {
+      "file": "docs\\screenshots\\viewport_default.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 1.8837962962962962,
+      "kind": "render",
+      "sha256": "93367e3682610bf316e62932836d6bb5e17d5184e0bf6423ae966b8e02f74a96"
+    },
+    {
+      "file": "docs\\screenshots\\viewport_rotated_30.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 1.8837962962962962,
+      "kind": "render",
+      "sha256": "6806b3a66fdf7bf4729ed40151374920f3a1ac2c94653591a9e83b2c06efb930"
+    },
+    {
+      "file": "docs\\screenshots\\viewport_reset.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 1.8837962962962962,
+      "kind": "render",
+      "sha256": "93367e3682610bf316e62932836d6bb5e17d5184e0bf6423ae966b8e02f74a96"
+    },
+    {
+      "file": "docs\\screenshots\\colorwheel.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "f88210b4a5b6232366d931a0ad3e4fda32f977ee9ee69f920c4f86a93a17a470"
+    },
+    {
+      "file": "docs\\screenshots\\barycentric.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "1577394b116694d1e38c853b2706ec51c6d738c4758ebd222217ac39371705c5"
+    },
+    {
+      "file": "docs\\code-screenshots\\barycentric.png",
+      "pixels": [
+        1194,
+        571
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "6c115b0d8c8f8503b81d3373303c5f5590214128d3a62481b5a10f5c2c923d93"
+    },
+    {
+      "file": "docs\\screenshots\\pixel_nearest_1.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "74a0b1005ad9d8d22d6924d61a2bdb5e751e99cf61c4cfc61ef72eeb9462178a"
+    },
+    {
+      "file": "docs\\screenshots\\pixel_linear_1.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "186ae774ce2a6138ac610357d687bd68dd037a0b5c2b119eae7432b9a1c738c3"
+    },
+    {
+      "file": "docs\\screenshots\\pixel_nearest_16.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "ecc9fdf24563b2fd3396d3e253f53a13bd9b15a6fc6f6ea292a8ce0eb00b1899"
+    },
+    {
+      "file": "docs\\screenshots\\pixel_linear_16.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "0fb0327b7992b9f207e54c8bf312f95ccc9da20bd7b4647d13ed2bea3f130f56"
+    },
+    {
+      "file": "docs\\code-screenshots\\texture_pixel.png",
+      "pixels": [
+        1194,
+        707
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "9fdd7b3bb99bfccfd361d747c3305d9451a543e9fbf562cd17b568cd0d05c810"
+    },
+    {
+      "file": "docs\\code-screenshots\\texture_pixel_02.png",
+      "pixels": [
+        1194,
+        673
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "8f1636c8ecc7fe8f53f2beb7a27da7d4fb70bde621ea90f5d1719ee07fb0f5d1"
+    },
+    {
+      "file": "docs\\code-screenshots\\texture_lod.png",
+      "pixels": [
+        1194,
+        1013
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "68a4e758b7e51a1b3edf50378384c822f984a1de43c232651bf52eb17416457b"
+    },
+    {
+      "file": "docs\\code-screenshots\\texture_lod_02.png",
+      "pixels": [
+        1194,
+        1013
+      ],
+      "width_inches": 5.851388888888889,
+      "kind": "code",
+      "sha256": "2d4f72488d7424507c1f2c0e1fce2f36d56372ef00a2ffdb26ea904ba407b48d"
+    },
+    {
+      "file": "docs\\screenshots\\mipmap_zero_nearest.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.2,
+      "kind": "render",
+      "sha256": "0973ef07b8df568fb77c2b13b9e9cecc36c839c1fc943ab41475b16770a3b02e"
+    },
+    {
+      "file": "docs\\screenshots\\mipmap_zero_linear.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.2,
+      "kind": "render",
+      "sha256": "81eae0895aa89fb441bffa3a37f1b0c8cce99431f5a19a32bf5c4f8cc14a78ee"
+    },
+    {
+      "file": "docs\\screenshots\\mipmap_nearest_nearest.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.2,
+      "kind": "render",
+      "sha256": "29ce5154a4ce0a96dabe2f6b7f09f4afc56d44c809a025f51d1ee9b4ab37aa49"
+    },
+    {
+      "file": "docs\\screenshots\\mipmap_nearest_linear.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.2,
+      "kind": "render",
+      "sha256": "014f2dd017a3b26ab43772efacc9174778c0951c3884e68dd8e0e5255b36a11f"
+    },
+    {
+      "file": "docs\\screenshots\\mipmap_linear_nearest.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "98058fe8a9d6a55ded6d13fd430f7fa2677f53dbf1173e4fbd416e5a1036c579"
+    },
+    {
+      "file": "docs\\screenshots\\mipmap_linear_linear.png",
+      "pixels": [
+        800,
+        800
+      ],
+      "width_inches": 2.8756944444444446,
+      "kind": "render",
+      "sha256": "12698dbe642500b44dc56471aad866a7295e72219b96c9896641ffdde13bcb7e"
+    }
+  ],
+  "tables": [
+    {
+      "rows": 9,
+      "columns": 6,
+      "headings": [
+        "场景",
+        "分辨率",
+        "直接/ms",
+        "增量/ms",
+        "SIMD/ms",
+        "相对增量"
+      ]
+    },
+    {
+      "rows": 6,
+      "columns": 6,
+      "headings": [
+        "场景",
+        "SSAA 1 MAE",
+        "SSAA 16 MAE",
+        "解析 MAE",
+        "SSAA 16/ms",
+        "解析/ms"
+      ]
+    },
+    {
+      "rows": 5,
+      "columns": 3,
+      "headings": [
+        "模式",
+        "持久几何或样本存储",
+        "计时及精度范围"
+      ]
+    }
+  ],
+  "typography": {
+    "body": "宋体 + Times New Roman 12pt",
+    "body_line_pt": 20,
+    "first_line_indent_pt": 24,
+    "heading": "黑体 14pt bold",
+    "subheading": "黑体 12pt bold",
+    "caption_pt": 11,
+    "reference": "old/homework/作业报告1.pdf"
+  },
+  "preserve_only_parts": [
+    {
+      "part": "_rels/.rels",
+      "unchanged": true
+    },
+    {
+      "part": "word/theme/theme1.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/settings.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/fontTable.xml",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/core.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/webSettings.xml",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/custom.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/numbering.xml",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/app.xml",
+      "unchanged": true
+    }
+  ]
+}

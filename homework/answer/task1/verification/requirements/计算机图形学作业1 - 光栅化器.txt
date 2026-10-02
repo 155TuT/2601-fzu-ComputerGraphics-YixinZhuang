@@ -1,0 +1,286 @@
+===== PAGE 1 =====
+计算机图形学作业 1 - 光栅化器
+在本次作业中，你将实现⼀个简单的光栅化器，包括绘制三⻆形、超采样、层次变换和
+抗锯⻮纹理映射等功能。完成后，你将拥有⼀个实⽤的⽮量图形渲染器，相当于互联⽹
+上⼴泛使⽤的  SVG （可缩放⽮量图形）⽂件的简化版本。
+请⼤家⾃⾏完成编程，作业中遇到问题，可与其他同学进⾏技术交流，但请勿直接抄袭
+代码。
+作业结构
+本次作业包括 6 个部分，覆盖了第  2-6 讲的内容。
+1. 绘制三⻆形
+2. 基于超采样的反⾛样算法
+3. ⼏何变换
+4. 质⼼坐标
+5. 基于像素采样的纹理映射
+6. MipMap 纹理映射
+⼊⻔指南
+从作业⽂件夹中找到源代码⽂件夹   /code 。
+源代码的开发和编译⽅法⻅附件   计算机图形学作业编译说明 .pdf 。
+在实现代码的同时，请同时完成作业报告。我们提供了写作模板，⻅附件   作业报
+告 .docx ，请按照附加提示完成报告。关于截图和图像格式： GUI 保存的截图默认
+是  PNG 格式。请不要将  PNG 转换为  JPG 或其他格式，否则会产⽣压缩伪影。
+PNG 是⽆损压缩，能保证图像的质量。
+
+===== PAGE 2 =====
+代码中使⽤ CGL 库进⾏向量和矩阵运算，使⽤⽅法⻅   CGL Vectors
+Library.pdf 。
+如何运⾏可执⾏⽂件
+本作业代码编译后⽣成可执⾏⽂件 draw ，你可以运⾏如下命令启动程序：
+./draw [path to svg file/folder to render]
+运⾏时需要指定载⼊的 svg ⽂件路径。我们提供了若⼲个 svg ⽂件，例如你可运⾏ :
+./draw ../svg/basic/test1.svg
+启动后你会看到⼀个由蓝点组成的花朵，这是起始代码提供的点和线的光栅化结果。⼤
+部分  SVG ⽂件需要你完成作业后才能正确渲染。
+常⽤快捷键如下：
+键 功能
+space 返回初始视⻆
+- 降低采样率
+= 提⾼采样率
+Z 切换像素检查器
+P 切换纹理像素采样⽅法
+L 切换 mipmap 层级采样⽅法
+S 当前绘制结果保存为PNG图像
+1 - 9 切换加载⽬录中的不同 SVG ⽂件
+程序 draw 的输⼊参数可以是单个⽂件或者是⼀个⽂件夹（包含了多个svg⽂件）。
+./draw ../svg/basic/
+如果不超过 9 个⽂件，那可以使⽤数字键 1-9 来切换不同的 svg ⽂件。
+开始熟悉代码
+你的主要修改⼯作会集中在 rasterizer.cpp ,  transforms.cpp  and  texture.cpp 这
+⼏个⽂件中。
+
+===== PAGE 3 =====
+除此之外，在完成作业的过程中，你还需要理解其他⼀些源⽂件和头⽂件。例如，本次
+作业（以及后续作业）都使⽤了  CGL 库。在本次作业中，你可能需要熟悉以下⽂件中
+定义的类： vector2D.h ,  matrix3x3.h  and  color.h 。
+下⾯是运⾏ draw 程序时的简要流程 :
+1. 类 SVGParser  ( 位于 svgparser.h/cpp ) 读取输⼊的svg⽂件。
+2. 它启动 OpenGL Viewer ，该 viewer 包含了⼀个 DrawRend  渲染器 ( 位于
+ drawrend.h/cpp ），该渲染器会⽆限循环，等待来⾃⿏标和键盘的输⼊。
+3. 在 DrawRend::redraw() 函数中，⾼层的绘制⼯作由不同的 SVGElement ⼦类 ( 位于
+ svg.h/cpp ) 完成，这些⼦类随后将其底层的点、线和三⻆形光栅化数据传递
+给 Rasterizer 类的相应⽅法。
+⼀个简单示例：绘制点
+起始代码已经实现了  绘制⼆维点  的功能。要理解它的⼯作⽅式，可以先查
+看 SVG::draw() 函数（位于 svg.h ⽂件中）。
+1. SVG 对象会通过依次调⽤每个元素的 draw() 函数来绘制  SVG ⽂件中的所有元
+素。
+2. 每种元素类型都会调⽤ Rasterizer 对象中相应的绘制函数。
+以 Point 元素类型为例， Point::draw() 最终会调
+⽤ RasterizerImp::rasterize_point() （定义在 rasterizer.cpp ）⾥实现
+的具体绘制函数。 SVG ⽂件中元素的位置是⽤  局部坐标系  定义的，因
+此 Point::draw() 会先把点的位置转换到屏幕空间  (screen space) 坐标，然
+后再传递给 RasterizerImp::rasterize_point() 。
+函数 RasterizerImp::rasterize_point() 负责真正地把点绘制出来。在本作业中，屏
+幕空间的定义如下（假设输出图像⼤⼩为 (target_w, target_h) ） :
+ (0, 0) 坐标对应输出图像的左上⻆；
+ (target_w, target_h) 坐标对应输出图像的右下⻆；
+请注意屏幕采样点取值为半整数值，如左上⻆采样点坐标为（ 0.5 ， 0.5 ），右下⻆
+采样点坐标应为（ target_w-0.5, target_h-0.5 ）。
+在进⾏点的光栅化时，我们采⽤以下规则：  ⼀个点最多覆盖⼀个屏幕采样点，也就是
+距离该点最近的那个屏幕空间采样点。假设点在屏幕空间的位置是  (x, y) ，其实现⽅式
+如下：
+
+===== PAGE 4 =====
+int sx = (int) floor(x);
+int sy = (int) floor(y);
+当然，代码在访问渲染⽬标缓冲区时，不能修改  ⽆效的像素位置。因此需要进⾏边界
+检查：
+if ( sx < 0 || sx >= target_w ) return;
+if ( sy < 0 || sy >= target_h ) return;
+如果点的位置确实落在屏幕范围内，我们就⽤该点的  RGB 颜⾊值  填充对应的像素：
+  rgb_framebuffer_target[3 * (y * width + x)] = (unsigned char)(c.r * 255
+  rgb_framebuffer_target[3 * (y * width + x) + 1] = (unsigned char)(c.g *
+  rgb_framebuffer_target[3 * (y * width + x) + 2] = (unsigned char)(c.b *
+注意：在本次作业中，我们  不⽀持半透明或  alpha 混合，尽管这些是  SVG ⽂件格式本
+身⽀持的特性。
+作业任务
+任务  1 ：绘制单⾊三⻆形  (20 分 )
+相关课程讲义：第  2 讲
+在本任务中，你需要实现 rasterize_triangle 函数，其定义在 rasterizer.cpp ⽂件
+中。你的代码实现应该满⾜以下要求：
+使⽤课堂上讲解的采样⽅法来对三⻆形进⾏光栅化。
+每个像素只采样⼀次，采样点应位于像素的中⼼，⽽不是⻆落。也就是说，采样点
+的坐标应为：  ( 整数坐标  + 0.5, 整数坐标  + 0.5) 。
+在  第  2 部分中你会实现⼦像素级的超采样。但在这⾥，你只需对每个像素采样⼀
+次，并调⽤ fill_pixel() 辅助函数（可参考起始代码中的 rasterize_point 示
+例。
+你的实现应当默认：位于三⻆形边界上的采样点应被绘制。⿎励（但不强制）实现
+OpenGL 的边界规则，以处理采样点恰好落在边上的情况。确保三⻆形的边缘不会
+出现漏绘现象。
+不要简单地对整个帧缓冲区逐像素检查，如此太低效。你的实现效率⾄少应与 “ 只
+在三⻆形的包围盒  (bounding box) 内采样 ” ⼀样⾼。
+你的代码应当能正确绘制任意顶点顺序的三⻆形（顺时针或逆时针）。参
+⻅ svg/basic/test6.svg 。
+完成后，你应当能够正确渲染包含  单⾊多边形  的测试⽤  SVG ⽂件。这些多边形在传⼊
+你的函数前会被拆分为三⻆形。以下⽂件应能正确渲染： basic/test3.svg ,
+ basic/test4.svg ,  basic/test5.svg , and  basic/test6.svg 。
+需要修改的函数包括：
+1.  RasterizerImp::rasterize_triangle() ，位于 rasterizer.cpp 。
+额外加分点：如果你能让三⻆形光栅化器运⾏得更快（例如：把冗余算术运算移出循
+环、减少内存访问、避免对包围盒中的每个采样点逐⼀检查），可以获得加分。请在报
+告中写明你所使⽤的优化⽅法。可以使
+
+===== PAGE 5 =====
+⽤ clock() 或 std::chrono::high_resolution_clock 来对⽐基础实现和优化实现的
+运⾏时间。
+任务  2 ：通过超采样实现反⾛样  (20 分 )
+相关课程讲义：第  3 讲
+在本任务中，你需要使⽤  超采样  (supersampling) 来对三⻆形进⾏抗锯⻮处
+理。 DrawRend 类中的 sample_rate 参数决定了每个像素要采样多少次。（可通过键
+盘 - 和 = 调整）
+下图展示了：当每个像素采样  4 次时，结果⽐只采样⼀次要平滑得多。位于三⻆形内部
+的⼦采样点的⽐例越⾼，三⻆形边缘就会越平滑。
+超采样的实现，请在像素区域内，按照 sqrt(sample_rate) * sqrt(sample_rate) 的
+⽹格分布进⾏采样。（ sample_rate 是  RasterizerImp 类的⼀个成员变量。）
+⼀种直观的理解⽅式是：先渲染⼀个  更⾼分辨率的图像，然后再把它下采样到帧缓冲
+区的⽬标分辨率。
+在  任务  1 中的 fill_pixel 函数是直接在帧缓冲区上绘制的。但对于超采样，你应当先
+绘制到  sample_buﬀer ，即将所有⼦采样的结果填充到与输出像素对应的⼦采样单元
+⾥。
+光栅化器的整体流程回顾 :
+1. SVGParser 解析  SVG ⽂件并⽣成  SVG 类的表示。
+2. 当光栅化开始时，渲染器  ( DrawRend::redraw ) 调⽤  SVG::draw 。
+3.  SVG::draw 调⽤具体的点 / 线 / 三⻆形光栅化函数，逐个图元⽣成图像。
+4.  DrawRend::redraw 调⽤线段光栅化函数绘制边框。
+5.  DrawRend::redraw 调⽤ RasterizerImp::resolve_to_framebuffer() ，将光栅
+化器的内部缓冲区内容转换到屏幕缓冲区，以便显示并写⼊⽂件。
+实现提示：
+
+===== PAGE 6 =====
+你需要分配合适的内存来存储超采样数据。推荐使
+⽤ RasterizerImp::sample_buffer 向量（⻅ rasterizer.h ) 。采样缓冲区的⼤⼩
+取决于  帧缓冲区的尺⼨（窗⼝⼤⼩变化时会改变）和  超采样率（按键调整）。你需
+要动态更新其⼤⼩。
+在每⼀帧绘制开始时，应当清空采样缓冲区和 / 或帧缓冲区，以便擦除上⼀次的绘
+制结果。
+更新 rasterize_triangle ，使其将⼦采样结果填⼊  sample_buﬀer 。你可以⾃⾏
+设计如何组织  supersample buﬀer 中的数据。把  supersample buﬀer 理解为⼀个
+⾼分辨率帧缓冲区：
+例如，若采⽤  4x4 超采样，且⽬标帧缓冲区⼤⼩为  1000x1000 ，那么实际上
+就是在  4000x4000 的⾼分辨率图像上渲染场景。完成渲染后，再把每个  4x4
+的⼦采样结果平均，得到⽬标像素的最终颜⾊。这样需要更多内存来存储⾼分
+辨率的结果。思考⼀下：能否在不额外占⽤内存的情况下得到相同结果？这样
+会带来哪些⼯程上的权衡？
+在场景中所有元素光栅化完成后，你需要将  supersample buﬀer 的内容写⼊帧缓冲
+区。  这⼀步通常称为  resolve
+supersamples 。 RasterizerImp::resolve_to_framebuffer 就是完成这⼀⼯作的
+函数，它在in  drawrend.cpp  drawrend.cpp 的最后⼀步被调⽤。
+注意颜⾊数据类型的转换： RasterizerImp::rgb_framebuffer_target 指向最终
+显示的帧缓冲区像素数据。 rgb_framebuffer_target 其存储格式是  8 位整数数组
+（每个像素的  R/G/B ）。这是⼤多数实际图形系统要求的格式。相⽐之
+下， RasterizerImp::sample_buffer （建议⽤于  supersampling 内存）
+是 Color 对象数组，其中  R/G/B 值⽤浮点数存储。你需要在两种数据类型之间做
+转换，注意避免浮点转整数时的  舍⼊或溢出错误。
+在图形学中，颜⾊可以看作与向量数据相同的东⻄：它是  3 维向量（如果有  alpha
+通道就是  4 维）。这意味着，⼀个三维向量  (x, y, z) 不仅可以表示点或⽅向，也可
+以表示颜⾊。课程后续有时间的话会介绍颜⾊空间与⾊彩理论。
+在实现  supersampling 后，你可能会发现  点和线  ⽆法正确绘制。点和线本身不是
+supersampled ，但它们仍需要写⼊  supersample buﬀer 。如果需要，请修
+改 RasterizerImp::fill_pixel 来恢复其功能。⼀种思路是：把某个点或线对应
+的所有⼦采样位置都填充为同⼀个颜⾊，这样下采样后仍然显示为⼀个像素。注
+意：你不需要对点和线做抗锯⻮处理。
+当实现完成后，如果你使⽤⼤于  1 的采样率，三⻆形的边缘应当显著变得更加平滑！你
+可以使⽤  像素检查器  来仔细观察采样率差异（快捷键⻅前⽂）。注意：切换到较⾼采样
+率时，可能需要等待数秒。
+再次提示下，需要修改的函数包括：
+1. 管理  supersample buﬀer 内存： RasterizerImp::sample_buffer ,
+ RasterizerImp::set_sample_rate() ,
+ RasterizerImp::set_framebuffer_target() ,
+ RasterizerImp::clear_buffers() ，在⽂件 rasterizer.h/cpp 。
+2. 实现三⻆形  supersampling ： RasterizerImp::rasterize_triangle() ,
+ RasterizerImp::fill_pixel() ，在⽂件 rasterizer.cpp 。
+3. 解析  supersamples 到帧缓冲
+区： RasterizerImp::resolve_to_framebuffer() 。
+任务  3 ：⼏何变换  (10 分 )
+相关课程讲义：第  4 讲
+
+===== PAGE 7 =====
+在本任务中，你需要根据SVG 规范，在transforms.cpp⽂件中实现三种⼏何变换。这些
+矩阵是  3×3 的，因为它们在  ⻬次坐标  (homogeneous coordinates) 中运算。你可以查
+看同⼀⽂件中   * 运算符的重载⽅式，来理解这些变换矩阵是如何作⽤在 Vector2D 实
+例上的。
+完成这三种变换后，⽂件svg/transforms/robot.svg应能正确渲染，如下图所示：
+需要修改的函数在transforms.cpp⽂件中：
+1.  translate 
+2.  scale 
+3.  rotate 
+额外加分点：为  GUI 添加⼀个额外功能。例如，你可以绑定两个未使⽤的按键来旋转
+视⼝  (viewport) 。请保存⼀张示例图⽚来展示你实现的功能，并在报告中说明：你是如
+何修改  SVG →  NDC （归⼀化设备坐标）和  NDC →  屏幕空间  的矩阵堆栈，来完成这
+个功能的。
+任务  4 ：质⼼坐标  (10 分 )
+相关课程讲义：第  5 讲
+在本任务中，你需要实
+现 RasterizerImp::rasterize_interpolated_color_triangle(...) ，⽤于绘制⼀个
+三⻆形：三⻆形的三个顶点分别定义了颜⾊；在三⻆形内部区域使⽤质⼼插值
+(barycentric interpolation) 来对颜⾊进⾏插值。
+完成本部分后，你应当能够在svg/basic/test7.svg中看到⼀个⾊轮（如下图右侧所示）。
+需要修改的函数：
+1.  RasterizerImp::rasterize_interpolated_color_triangle(...) 
+任务  5 ：基于像素采样的纹理映射  (15 分 )
+相关课程讲义：第  6 讲
+
+===== PAGE 8 =====
+在本任务中，你需要实现 RasterizerImp::rasterize_textured_triangle(...) ，绘
+制⼀个带有纹理映射的三⻆形：三个顶点分别带有⼆维纹理坐标  (UV coordinates) ；使
+⽤给定的纹理图像，在三⻆形内部通过纹理采样来确定颜⾊。在本任务中，你需要在完
+整分辨率的纹理图像上实现两种采样⽅法（如课程讲义所述）：最近邻采样  (nearest
+neighbor sampling) 和双线性插值  (bilinear interpolation) 。
+在  GUI 中，可以通过按下 'P' 键切换 RasterizerImp 的 PixelSampleMethod 变
+量 psm 。当 psm == P_NEAREST 时，使⽤  最近邻采样；当 psm == P_LINEAR 时，使⽤
+双线性插值采样。你需要在以下函数中实现逻
+辑， Texture::sample_nearest 和 Texture::sample_bilinear ，并
+在 RasterizerImp::rasterize_textured_triangle(...) 中调⽤它们。这样进⾏抽
+象，你的实现也能在任务  6 （三线性  mipmap 过滤）  中复⽤。
+完成本任务后，你应当能够正确光栅化svg/texmap/⽂件夹下依赖纹理映射的svg⽂件
+了。
+注意事项：
+ Texture 结构体（定义在 texture.h ）存储了⼀个  mipmap 层级结构（如讲义中
+所述），保存在 mipmap 变量中。每个纹理图像存储为 MipLevel 类型的对象。
+ MipLevel::texels 以常⻅的  RGB 格式  存储纹理图像像素（与帧缓冲区像素存储
+⽅式相同）。
+ MipLevel::get_texel(...) 函数可能对你有帮助。
+在本作业的这⼀部分，你还  不需要实现层级采样  (mipmapping) ，因此程序应默认
+使⽤  第  0 层  (full resolution) 的纹理图像。
+需要修改的函数：
+1.  RasterizerImp::rasterize_textured_triangle 
+2.  Texture::sample_nearest 
+3.  Texture::sample_bilinear 
+任务  6 ：基于  mipmap 的纹理映射  (25 分 )
+相关课程讲义：第  6 讲
+在这⼀部分，你需要更新 RasterizerImp::rasterize_textured_triangle(...) ，使
+其⽀持从不同的  mipmap 层  ( MipLevel ) 中进⾏采样。在  GUI 中，可以通过按下L键
+来切换 RasterizerImp 的 LevelSampleMethod 变量 lsm 。你需要
+在 Texture::sample 函数中实现以下采样⽅式：
+当 lsm == L_ZERO ，从  第  0 层 MipLevel 采样（和任务  5 相同）。
+当 lsm == L_NEAREST ，计算最接近的  mipmap 层级，将该层作为参数传递给
+nearest 或  bilinear 采样函数。
+当 lsm == L_LINEAR ，计算⼀个连续的  mipmap 层级（⼩数值），对相邻的两个
+mipmap 层分别采样，并做加权平均（即讲义中介绍的线性插值⽅法）。
+你将实现 Texture::get_level 函数，来获取 mipmap 层级。这⾥⾯你将会使⽤到
+( , )和( , )来计算正确的 mipmap 层级。为此，你必须在对三⻆形内的某个顶点
+(x,y)进⾏如下计算：
+1. 计算该点及其相邻点，(x,y), (x+1,y), and (x,y+1)的uv质⼼坐标， sp.p_uv ,
+ sp.p_dx_uv , and  sp.p_dy_uv ，将这些值保存到 SampleParams 结构体 sp 中，
+并传给 Texture::get_level 。
+dxdu dxdv dydu dydv 
+
+===== PAGE 9 =====
+2. 在 Texture::get_level 内，计算差分向量 sp.p_dx_uv -
+sp.p_uv 和 sp.p_dy_uv - sp.p_uv 。
+3. 按照全分辨率纹理的宽度和⾼度  对差分向量进⾏缩放。
+有了这些步骤，你就可以按照讲义中的公式完成  mipmap 层级的计算。
+注意事项：
+变量 lsm 和 psm 是独⽴的，可以⾃由组合。例如： psm==[P_NEAREST, P_LINEAR]
+x lsm==[L_ZERO, L_NEAREST, L_LINEAR] 都是可⾏的。
+当 lsm == L_LINEAR 且 psm == P_LINEAR 时，这种⽅法称为三线性采样（既三线
+性纹理滤波）。
+你可以将 Texture::get_level 返回的值归⼀化（除以最⼤ mipmap 层数），再把它
+作为颜⾊从 Texture::sample 返回。这样缩放图像时，你能直观看到不同区域使
+⽤了哪⼀层  mipmap ，⾮常有助于调试和理解采样原理。
+注意：不要复制整个  MipLevel ！⼀定要通过指针或引⽤访问。复制整个  mipmap
+层作为参数会⾮常慢。
+需要修改的函数：
+1.  RasterizerImp::rasterize_textured_triangle 
+2.  Texture::sample 
+3.  Texture::get_level 

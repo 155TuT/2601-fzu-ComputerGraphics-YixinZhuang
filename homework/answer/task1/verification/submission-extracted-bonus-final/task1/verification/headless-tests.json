@@ -1,0 +1,197 @@
+{
+  "runtime_path": "Windows System32 only; packaged DLLs beside draw.exe",
+  "tests": [
+    {
+      "svg": "code\\svg\\basic\\test1.svg",
+      "png": "verification\\headless\\basic_test1.png",
+      "exit_code": 0,
+      "sha256": "572d76b3dcc7b4385d2a7b68662da5301abda7df9660b278f31b88fcd85abcda"
+    },
+    {
+      "svg": "code\\svg\\basic\\test2.svg",
+      "png": "verification\\headless\\basic_test2.png",
+      "exit_code": 0,
+      "sha256": "7dd044acd067da6e39c893d8ba68735be0dbe4ef46cc4c9374d3e6c534c2ad9e"
+    },
+    {
+      "svg": "code\\svg\\basic\\test3.svg",
+      "png": "verification\\headless\\basic_test3.png",
+      "exit_code": 0,
+      "sha256": "9a6759d1988beb041c5547bf6e7fb2924dd1d03785eb3fe7199cf14187634715"
+    },
+    {
+      "svg": "code\\svg\\basic\\test4.svg",
+      "png": "verification\\headless\\basic_test4.png",
+      "exit_code": 0,
+      "sha256": "a00dec710e963649ff7e0df932eadfb843f3d96e91e4338ca15343648058c5c6"
+    },
+    {
+      "svg": "code\\svg\\basic\\test5.svg",
+      "png": "verification\\headless\\basic_test5.png",
+      "exit_code": 0,
+      "sha256": "1289f65b2cdebdec769cec9e3744c2b247f059a212da3d1bc60210fd2d1a84dd"
+    },
+    {
+      "svg": "code\\svg\\basic\\test6.svg",
+      "png": "verification\\headless\\basic_test6.png",
+      "exit_code": 0,
+      "sha256": "fc88032af7d775b2f69f92c6b248c375a027522859720013346daa82c90dffad"
+    },
+    {
+      "svg": "code\\svg\\basic\\test7.svg",
+      "png": "verification\\headless\\basic_test7.png",
+      "exit_code": 0,
+      "sha256": "ea102a99d91838ed168d650ae35c9d0d5157287afe3722f7378dd937576afa76"
+    },
+    {
+      "svg": "code\\svg\\basic\\test8.svg",
+      "png": "verification\\headless\\basic_test8.png",
+      "exit_code": 0,
+      "sha256": "e0dbdfa26c5aae16b81441ef4a2cae51195afb519c85652afc70d7b5ca7c16ad"
+    },
+    {
+      "svg": "code\\svg\\hardcore\\01_degenerate_square1.svg",
+      "png": "verification\\headless\\hardcore_01_degenerate_square1.png",
+      "exit_code": 0,
+      "sha256": "31d6cb7a93813a84fb02857276f191f01665b1bdd8217b93e43bd8dcc7a7d712"
+    },
+    {
+      "svg": "code\\svg\\hardcore\\02_degenerate_square2.svg",
+      "png": "verification\\headless\\hardcore_02_degenerate_square2.png",
+      "exit_code": 0,
+      "sha256": "dea7c53adbb7aa7737633ddac3db5b310a4b94ffc2ccb4a47cb72bf17c822596"
+    },
+    {
+      "svg": "code\\svg\\illustration\\01_sketchpad.svg",
+      "png": "verification\\headless\\illustration_01_sketchpad.png",
+      "exit_code": 0,
+      "sha256": "35b86acbbaa4ff1fce4a59564013ceea549bd5537020c93b55d42bf1a3be6733"
+    },
+    {
+      "svg": "code\\svg\\illustration\\02_hexes.svg",
+      "png": "verification\\headless\\illustration_02_hexes.png",
+      "exit_code": 0,
+      "sha256": "dd74ba666a1c593b4f156bccb41492ecb0cf9ebb21b34bcbe5a47ce21fecf12f"
+    },
+    {
+      "svg": "code\\svg\\illustration\\03_circle.svg",
+      "png": "verification\\headless\\illustration_03_circle.png",
+      "exit_code": 0,
+      "sha256": "3a9825b76d4c012bf1a0ce5f813de2dc8805423af110b2eb5e5909646c969c04"
+    },
+    {
+      "svg": "code\\svg\\illustration\\04_sun.svg",
+      "png": "verification\\headless\\illustration_04_sun.png",
+      "exit_code": 0,
+      "sha256": "b8b68771e8c67668045d90432a83704bbd6bdc03132f2ca0fea9018307e563c5"
+    },
+    {
+      "svg": "code\\svg\\illustration\\05_lion.svg",
+      "png": "verification\\headless\\illustration_05_lion.png",
+      "exit_code": 0,
+      "sha256": "26f635b51dac3792b4217c3eed0136b6c51aae3329b513cf6d30af0009d44551"
+    },
+    {
+      "svg": "code\\svg\\illustration\\06_sphere.svg",
+      "png": "verification\\headless\\illustration_06_sphere.png",
+      "exit_code": 0,
+      "sha256": "3e6cabe017b2f0354e56c4e2917b148816e6205108fc6f98674a3c19dca38670"
+    },
+    {
+      "svg": "code\\svg\\illustration\\07_lines.svg",
+      "png": "verification\\headless\\illustration_07_lines.png",
+      "exit_code": 0,
+      "sha256": "e45e378154bf5de4fa013307b73afb465f7bde92a4d3c298d02bacb56f321233"
+    },
+    {
+      "svg": "code\\svg\\illustration\\08_monkeytree.svg",
+      "png": "verification\\headless\\illustration_08_monkeytree.png",
+      "exit_code": 0,
+      "sha256": "912ffe342f849cfba381b97bf9018857d8d36f0f395f9163ed57619a3ad7240c"
+    },
+    {
+      "svg": "code\\svg\\illustration\\09_kochcurve.svg",
+      "png": "verification\\headless\\illustration_09_kochcurve.png",
+      "exit_code": 0,
+      "sha256": "53b2b2824c09f49b585c1c87bbf815cd1dfbdcb9f3dfd5b00269d60d7be376e6"
+    },
+    {
+      "svg": "code\\svg\\subdiv\\triangle1.svg",
+      "png": "verification\\headless\\subdiv_triangle1.png",
+      "exit_code": 0,
+      "sha256": "b941f254deb945293820c7292f13843f642c203f0f4798018ccdeaaa7e2cc6d0"
+    },
+    {
+      "svg": "code\\svg\\subdiv\\triangle2.svg",
+      "png": "verification\\headless\\subdiv_triangle2.png",
+      "exit_code": 0,
+      "sha256": "992c5cc39418d1b5e94ceb19aff7e26a4253750eb6bbdf0ccf5eabc52bc905ec"
+    },
+    {
+      "svg": "code\\svg\\subdiv\\triangle3.svg",
+      "png": "verification\\headless\\subdiv_triangle3.png",
+      "exit_code": 0,
+      "sha256": "94ddf8ce57733fa49e90fc90b3e85fb46417831e0c5e654f220a4c9ea644fa3c"
+    },
+    {
+      "svg": "code\\svg\\subdiv\\triangle4.svg",
+      "png": "verification\\headless\\subdiv_triangle4.png",
+      "exit_code": 0,
+      "sha256": "01f5811b07df7af32d1bb605ca5c0143af33fc08addf2a86e02a4ad3f283069d"
+    },
+    {
+      "svg": "code\\svg\\subdiv\\triangle5.svg",
+      "png": "verification\\headless\\subdiv_triangle5.png",
+      "exit_code": 0,
+      "sha256": "ab28c8e4039dab94eb8b9f6e983fe5b5e557bd88fc5a0d2f64dff11129362762"
+    },
+    {
+      "svg": "code\\svg\\subdiv\\triangle6.svg",
+      "png": "verification\\headless\\subdiv_triangle6.png",
+      "exit_code": 0,
+      "sha256": "6f3b78fcfa2987ff48ab64d22db32eeb29391d85e8461c6762020800424d2628"
+    },
+    {
+      "svg": "code\\svg\\subdiv\\triangle7.svg",
+      "png": "verification\\headless\\subdiv_triangle7.png",
+      "exit_code": 0,
+      "sha256": "4513b39d42f0b5d3d66cb12727af7c4856cb01b35e48d809aa3359628a7e073f"
+    },
+    {
+      "svg": "code\\svg\\texmap\\test1.svg",
+      "png": "verification\\headless\\texmap_test1.png",
+      "exit_code": 0,
+      "sha256": "159f8c0193d3766c44c24fe46143ef448ad573149f32d101fc33c3959ffeb19e"
+    },
+    {
+      "svg": "code\\svg\\texmap\\test2.svg",
+      "png": "verification\\headless\\texmap_test2.png",
+      "exit_code": 0,
+      "sha256": "46635ae49ac4cb8ffa1029564f8a8af7974089a529c10b72ddbcf9a30bf9d0a1"
+    },
+    {
+      "svg": "code\\svg\\texmap\\test4.svg",
+      "png": "verification\\headless\\texmap_test4.png",
+      "exit_code": 0,
+      "sha256": "c3ef53788f942c2490e593bd28b62983d156c99570c38ea9e3dedd13c3ee7a22"
+    },
+    {
+      "svg": "code\\svg\\texmap\\test5.svg",
+      "png": "verification\\headless\\texmap_test5.png",
+      "exit_code": 0,
+      "sha256": "a84a4cdc6c8394c8a51159d037d64fe6f414a02279846e0bbea524a8a751986d"
+    },
+    {
+      "svg": "code\\svg\\texmap\\test6.svg",
+      "png": "verification\\headless\\texmap_test6.png",
+      "exit_code": 0,
+      "sha256": "c5d79f03f8822c04fca41975f26c23a50e43c70ba884dcf46de306b24988be08"
+    },
+    {
+      "svg": "code\\svg\\transforms\\robot.svg",
+      "png": "verification\\headless\\transforms_robot.png",
+      "exit_code": 0,
+      "sha256": "9d1b0c0ad008e309df862d8ad6ce3e833298536cd662f0935baf3eeea20cc709"
+    }
+  ]
+}

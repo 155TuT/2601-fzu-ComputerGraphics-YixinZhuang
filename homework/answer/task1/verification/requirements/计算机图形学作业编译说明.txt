@@ -1,0 +1,284 @@
+===== PAGE 1 =====
+项⽬开发环境配置和编译
+建议你使⽤ IDE 来编写本课程的作业，⽽不是使⽤ Sublime Text 或未配置的 Visual Studio
+Code 等⽂本编辑器。许多作业需要⾮常认真的调试。与⽂本编辑器相⽐， IDE 让你可以
+更轻松地进⾏调试。建议你使⽤：
+Visual Studio（适⽤于 Windows ）
+Visual Studio Code 可以按如下⽅式配置（仅限  MacOS/Linux ）将其配置为功能⻬
+全的  c++ IDE 。
+Xcode（ MacOS ）
+CLion （所有平台），Jetbrains 学⽣许可证免费
+最后，你要构建计算机图形学作业，需要执⾏以下步骤：
+1. 为你的机器设置代码环境（只需做⼀次）
+2. 编译并运⾏作业（每⼀项作业都需要完成）
+1. 在你的机器上设置  C++ 和依赖项
+注意：你只需执⾏⼀次这些步骤。
+平台：Windows、MacOS、Linux等。
+Windows
+这是在  Windows 上安装  IDE 和构建项⽬的视频演示（ youtube ）。
+1. 安装  Visual Studio 2019 或更⾼版本
+安装 Visual Studio 时选择 “ 使⽤ C++ 进⾏桌⾯开发 ”
+2. 在  Windows 上安装  Git
+3. 安装  Vcpkg
+在要安装 vcpkg 的⽂件夹中打开 PowerShell / CMD / Git Bash ，（例如 C:/ ）
+Vcpkg 是⼀个包管理软件，⽤于下载和构建所需的软件依赖项
+ git clone https://github.com/microsoft/vcpkg 
+进⼊ vcpkg ⽬录
+ .\bootstrap-vcpkg.bat 
+vcpkg 安装完成后，安装本项⽬的依赖
+在 64 位系统上（⽬前的⼤多数系统） .\vcpkg.exe install
+freetype:x64-windows 
+在 32 位系统上（可能⽆法正常⼯作） .\vcpkg.exe install freetype 
+苹果系统
+1. 打开命令⾏终端并运⾏ xcode-select --install 。如果出现提示，请接受
+XCode 许可证。如果在后续步骤中⽆法构建，请尝试通过  Mac App Store 安装
+XCode 。
+2. 现在你应该可以 g++ --version 顺利运⾏了。
+
+===== PAGE 2 =====
+3. 我们将使⽤CMake来构建作业。如果你的 Mac 上没有 CMake ，你可以先安装
+HomeBrew （适⽤于 MacOS 的第三⽅管理器），然后运⾏，轻松安装它 brew
+install cmake 。或者，你可以直接从 CMake ⽹站下载 CMake 。
+4. 你还需要安装  freetype 库。⼀种⽅便的⽅法是获取HomeBrew，然后运⾏ brew
+install freetype   。
+常⻅错误：
+“CXX 编译器识别未知 ” ：尝试运⾏ sudo xcode-select --reset; sudo
+xcodebuild -license accept 。
+Linux （ Ubuntu/Debian/apt ）
+使⽤以下命令安装 C++ 构建⼯具。假设你使⽤ Ubuntu/Debian 。以下是安装说明：
+ build-essential ：包含编译 C/C++ 项⽬所需的⼤部分组件的包
+ cmake ：⽤于创建作业的⼯具
+ xorg-dev ：包含许多与 X Window 系统相关的依赖项的源码
+ libfreetype6-dev ：图形学课程作业使⽤的依赖项
+ mesa-common-dev libgl1-mesa-dev libglu1-mesa-dev ： OpenGL 开发库
+sudo apt update
+sudo apt install build-essential cmake xorg-dev libfreetype6-dev
+sudo apt install mesa-common-dev libgl1-mesa-dev libglu1-mesa-dev
+2. 编译并运⾏作业
+注意：对于每个作业，你必须⾄少执⾏⼀次这些步骤。
+程序：Visual Studio、XCode、CLion、命令⾏和Visual Studio Code，
+Visual Studio （ Windows ）
+1. 在 VS ⾥打开项⽬，列出项⽬⽂件后，右键单击 CMakeLists.txt ，然后单击
+“CMake Settings for xxx” 。
+在左侧点击添加按钮，添加 “x64-Release” （或 32 位机器上为 “x86-Release” ）
+配置。
+然后，找到字段 “CMake toolchain ﬁle” ，输⼊ [location of
+vcpkg]/scripts/buildsystems/vcpkg.cmake 。（例
+如 C:/vcpkg/scripts/buildsystems/vcpkg.cmake ）
+2. “Build”->“Build All”
+然后，打开代码⽂件夹下的 src ⽂件夹并右键单击该项⽬的主⽂件（例如，
+main.cpp ，然后选择 “ 设置为启动项 ” 。
+3. 然后你就可以运⾏你的项⽬了
+4. 要设置可执⾏⽂件的参数（如⽂件路径等）：
+i. 选择 meshedit.exe 作为运⾏⽬标（绿⾊ “ 运⾏ ” 按钮右侧的选择框）
+5. 进⼊菜单 -> 调试 -> 调试并启动设置
+6. 然后 "name": "meshedit.exe" ，添加注释并选择⼀个新⾏：（ "args":
+["../../../svg/basic/"] 或你的任何  svg ⽂件）
+7. 你的整个调试和启动配置应如下所示：
+
+===== PAGE 3 =====
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "meshedit.exe",
+      "name": "meshedit.exe",
+      "args": ["../../../svg/basic/"]
+    }
+  ]
+}
+请参阅调试部分以了解如何在  Visual Studio 中使⽤调试器。
+XCode （ MacOS ）
+Ren Ng( 吴恩达 ) 教授制作了⼀个有⽤的  XCode 视频教程，与此处的说明类似。该视频
+还包含有关如何使⽤  Xcode 进⾏调试的更多详细信息。
+1. 确保安装了 Xcode.app
+2. 打开命令⾏终端，输⼊ cd 将⽬更改为作业⽂件夹
+3. 创建⼀个名为 xcode 的⽂件夹，然后使⽤  CD 进⼊该⽂件夹： mkdir xcode; cd
+xcode 
+4. 为 XCode 设置 cmake （在 xcode ⽂件夹内）： cmake -G Xcode .. 
+5. 打开 Finder 并导航⾄ xcode ⽂件夹
+6. 双击该 <Homework Name>.xcodeproj ⽂件可以在  XCode 中打开项⽬
+7. 点击屏幕顶部的 Product > Build 来构建项⽬
+8. 单击 ALL_BUILD ，位于  Xcode 右上⻆（有关更多详细信息，请参阅前⾯的视频）
+9. 点击 Edit Scheme 
+10. 侧⾯选择 Run 
+11. 在⻚⾯ Run 顶部栏上选择 Info 
+12. 设置 Executable 为执⾏⽂件（对于作业 2 来说，是的 meshedit ）
+13. 选择 Arguments （在 Edit Scheme > Run ⻚⾯）来指定参数（对于作业 2 来讲，
+需要设定曲⾯和曲⾯的⽂件路径）（请参⻅ Ren 的视频帮助）
+14. 选择 Options （在 Edit Scheme > Run ⻚⾯）并指定⼯作⽬录为 xcode ⽂件夹。
+15. 按执⾏（ play) 按钮编译并启动程序
+常⻅错误：
+如果运⾏ cmake （上⾯的第 4 步）时找不到 C/C++ 编译器，请尝试使⽤环境变量指
+定编译器： CC=gcc CXX=g++ cmake -G Xcode .. 
+CLion （ Windows / MacOS / Linux ）
+要在  CLion 中成功编译，需要遵循⼀组特定的说明。请务必仔细阅读这些说明。如果你
+使⽤的是  Windows ，你仍然需要遵循设置说明并安装  Visual Studio ，因为  C++ 与
+Visual Studio 捆绑在⼀起。
+1. 打开 CLion （可免费使⽤使⽤ Jetbrains 学⽣许可证可免费使⽤）
+2. 停留在 Welcome to CLion 窗⼝处。这是默认打开的窗⼝。要到达此处，请关闭所
+有  CLion 窗⼝并重新打开  CLion 。
+3. 点击 Open 
+
+===== PAGE 4 =====
+4. 在刚才弹出的⽂件资源管理器中导航到你的作业⽂件夹
+5. 选择 CMakeLists.txt 并点击打开（只有选择此特殊⽂件时才能打开）
+6. 点击 Open as Project 
+7. 找到 Build 按键开始构建
+8. 要指定程序参数，请找到 Run 菜单，然后使⽤ Edit Configurations （对于作业 2
+来说需要指定⽂件路径）
+9. 通过  CLion GUI 或命令⾏运⾏项⽬（可执⾏⽂件 / ⼆进制⽂件将位于 cmake-build-
+debug ⽂件夹内）
+命令⾏（ MacOS / Linux / Windows ）
+我们建议使⽤配置好的⽂本编辑器（例如Visual Studio Code或  neovim ）来运⾏命令⾏
+进⾏项⽬ Build ，⽂本编辑器可使⽤  clangd 等配置来启⽤语法突出显示和⾼级调试等功
+能。
+1. 打开命令⾏终端，输⼊ cd 将⽬录更改为作业⽂件夹
+2. 创建⼀个名为 build 的⽂件夹，然后使⽤  CD 进⼊该⽂件夹： mkdir build; cd
+build 
+3. 设置 cmake （在 build ⽂件夹内）： cmake ../ 
+4. 构建 / 编译项⽬（在 build ⽂件夹内）： make 
+5. 运⾏项⽬（在 build ⽂件夹内）： ./meshedit 
+ cmake ../ 和 make 之间的区别
+ cmake 和 make 做完全不同的事情：
+ cmake  从项⽬根⽂件夹中的配置⽂件（ CMakeLists.txt ）⽣成⼀个  c++ 项⽬
+ make  将项⽬中的所有 C++ 代码编译为⼆进制⽂件。
+除⾮您希望更改项⽬结构（例如，添加新库、创建新的  .cpp ⽂件或在调试和发布版本
+之间切换），否则每个项⽬ cmake ../ 只需运⾏⼀次。
+但是，每次修改代码时都需要运⾏ make ，以重新编译应⽤程序。
+使⽤  Ninja 执⾏编译（可选）
+构建⼤型 C++ 项⽬时，你可以使⽤ “Ninja” 代替 “Make” 来显着加快重建时间（超过 10
+倍！）。
+请先安装 ninja ，在 macOS 上执⾏ brew install ninja ，或在 ubuntu-linux 上运
+⾏ sudo apt install ninja 。
+要使⽤  Ninja ，应将步骤  3 的命令替换为以下命令：
+cmake -G "Ninja" ../
+对于步骤 4 ，运⾏ ninja ⽽不是 make 
+Visual Studio Code （ MacOS / Linux ）
+当配置了  LLVM Clang 后， Visual Studio Code （ VSC ）就会变成强⼤且性能卓越的
+C++ IDE 。
+
+===== PAGE 5 =====
+请注意，如果您是  Windows 或  macOS ⽤户，您可能仍需要在安装  Visual
+Studio/XCode 之后为您的机器设置代码环境。这是为了确保您的机器具有所需的  C++
+依赖项（ GDB 、 CMake 和  g++ ）。通过其他⽅式安装依赖项是可⾏的，但不建议这样
+做，因为它们更复杂。
+要实现语法⾼亮和调试等功能，请安装以下  VSC 插件：
+C/C++
+C/C++ 扩展包
+clangd
+完成后，请参考命令⾏部分来构建项⽬。
+在运⾏ cmake .. 命令⽣成项⽬⽂件后， clangd 应该提供适当的语法⾼亮。
+语法⾼亮未正确运⾏ 语法⾼亮正常显示；
+当⿏标悬停在类型上可正确显示其来源
+格式化代码
+对 c++ 代码进⾏格式化 / 规范化显示，请使⽤组合键 Ctrl + k + f (windows/linux)
+或 Cmd + k + f (macOS) 。 Clang 会⾃动对当前⽂件进⾏格式化。
+如果您不喜欢默认的缩进级别（每个缩进 2 个空格），您可以通过创建 .clang-
+format ⽂本⽂件，放置在项⽬根⽬录下，来配置⾃定义格式。例如，设
+置 IndentWidth: 8 将缩进宽度调整为更容易阅读的格式。
+
+===== PAGE 6 =====
+请随意使⽤以下模板配置：
+BasedOnStyle: LLVM
+# Sets the base style for formatting. The LLVM style is used here.
+IndentWidth: 8
+# Specifies the number of spaces used for indentation.
+ContinuationIndentWidth: 8
+# Sets the width of the continuation line indentation.
+PointerAlignment: Left
+# Aligns the pointer symbol to the left with the type (e.g., int* a).
+ColumnLimit: 120
+完整的格式配置⼿册可以在这⾥访问。
+调试
+你可能经常使⽤普通的  printf() 语句来调试代码，但是如果使⽤调试器（ debugger) ，
+你将对代码有更深的洞察和控制。设置调试器配置可能需要⼀些时间，不过值得！
+Visual Studio
+在 Visual Studio 中调试：
+1. 设置调试配置（每个作业做⼀次）：
+右键单击 CMakeLists.txt ，然后单击 “ 作业 2 的  CMake 设置 ”
+在左侧中，选择 “X64-Debug”
+然后，找到字段 “CMake toolchain ﬁle” ，输⼊ [location of
+vcpkg]/scripts/buildsystems/vcpkg.cmake 。（例
+如 C:/vcpkg/scripts/buildsystems/vcpkg.cmake ）：
+2. 转到调试配置：
+在顶部，单击如下所示的下拉菜单，然后 “X64-Debug”
+切换后， “ 启动项 ” 可能会重置。请确保输⼊正确的执⾏⽂件，在我们的例⼦中，执
+⾏⽂件是 “meshedit.exe” ：
+3. 设置断点，并通过 VS 运⾏⼆进制⽂件
+在要调试的代码部分设置断点，然后通过 Visual Studio 运⾏⼆进制运⾏⽂件。程序
+将继续执⾏，直到到达断点。然后，就可以执⾏变量检查等调试操作。
+
+===== PAGE 7 =====
+要停⽌程序，请按 shift + F5 。
+调试完成后，记得通过下拉菜单切换回 “Release” 配置。由于编译器进⾏了⼀系列积极
+的优化， “Release” 配置中的程序运⾏速度较快，但与调试器配合得不太好。
+Visual Studio 代码
+Visual Studio Code 与  GDB/LLDB 交互提供调试功能。
+1. 将项⽬ Rebuild 为可调试的⼆进制⽂件
+使⽤调试参数，重新⽣成 cmake ⽂件，具体将 DCMAKE_BUILD_TYPE 其设置
+为 debug 。通常情况下， clang 和 g++ 编译器都会优化⼤量 c++ 代码；优化使得默认
+编译的⼆进制⽂件不适合调试。将 Build 设置为调试将会禁⽌所有优化。
+cd build && cmake -DCMAKE_BUILD_TYPE=Debug ../
+2. 设置调试配置（每个项⽬只需做⼀次）。
+i. 点击左栏上的 “ 运⾏并调试 ” 符号。
+ii. 单击 create a launch.json ⽂件，将提示你进⼊新创建的 launch.json ⽂
+件，该配置⽂件⽤于  VSC 调试。
+iii. 根据你的操作系统选择以下调试配置，粘贴到⽂件中：
+MacOS ：
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/quad_test",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    }
+  ]
+}
+
+===== PAGE 8 =====
+Linux ：
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/quad_test",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
+对于不同的项⽬，配置 program 以更改⼆进制⽂件的名称；配置 args 可以像通过
+命令⾏⼀样输⼊不同的参数。
+3. 返回调试⾯板并单击新建 (gdb) launch 或 (lldb)launch 按钮，设置断点并开始
+调试。 VSC 将运⾏程序、与 gdb/lldb 交互，并让你执⾏调试操作。

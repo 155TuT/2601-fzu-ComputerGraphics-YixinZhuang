@@ -1,0 +1,401 @@
+[
+  {
+    "name": "triangle_default",
+    "svg": "code/svg/basic/test4.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 0,
+    "cursor": [
+      400,
+      400
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\triangle_default.png",
+    "sha256": "a326ea4a88b747f12b56398824132a9fa193c1569abe4c8452c0bc6e02b787fe",
+    "export_seconds": 0.3655,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-35.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "triangle_inspector",
+    "svg": "code/svg/basic/test4.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      166,
+      378
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\triangle_inspector.png",
+    "sha256": "8bfa1a909cdd57ba7968e5eaf02237c5a3fa610aacc45a3073f299a8d430d47f",
+    "export_seconds": 0.3574,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-35.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "ssaa_1",
+    "svg": "code/svg/basic/test4.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      166,
+      378
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\ssaa_1.png",
+    "sha256": "8bfa1a909cdd57ba7968e5eaf02237c5a3fa610aacc45a3073f299a8d430d47f",
+    "export_seconds": 0.337,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-36.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "ssaa_4",
+    "svg": "code/svg/basic/test4.svg",
+    "spp": 4,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      166,
+      378
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\ssaa_4.png",
+    "sha256": "53f73d76fe319a4959e85ffe8065a9c183b698c0c53e24dc4acdbd68e1b284e4",
+    "export_seconds": 0.3865,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 4 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-36.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "ssaa_16",
+    "svg": "code/svg/basic/test4.svg",
+    "spp": 16,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      166,
+      378
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\ssaa_16.png",
+    "sha256": "5c05740012e2b31da3c62eea1d1c67106342e650d5d437c12430ae788d26757e",
+    "export_seconds": 0.4456,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-36.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "robot_original",
+    "svg": "code/svg/transforms/robot.svg",
+    "spp": 16,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 0,
+    "cursor": [
+      400,
+      400
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\robot_original.png",
+    "sha256": "ef1c6105944310c76f77881ce4e152858e469827edf931d666f36a0113ba70b3",
+    "export_seconds": 0.4193,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-37.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "robot_custom",
+    "svg": "docs/my_robot.svg",
+    "spp": 16,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 0,
+    "cursor": [
+      400,
+      400
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\robot_custom.png",
+    "sha256": "93367e3682610bf316e62932836d6bb5e17d5184e0bf6423ae966b8e02f74a96",
+    "export_seconds": 0.4417,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-37.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "colorwheel",
+    "svg": "code/svg/basic/test7.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 0,
+    "cursor": [
+      400,
+      400
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\colorwheel.png",
+    "sha256": "f88210b4a5b6232366d931a0ad3e4fda32f977ee9ee69f920c4f86a93a17a470",
+    "export_seconds": 0.4217,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-38.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "barycentric",
+    "svg": "docs/barycentric.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 0,
+    "cursor": [
+      400,
+      400
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\barycentric.png",
+    "sha256": "1577394b116694d1e38c853b2706ec51c6d738c4758ebd222217ac39371705c5",
+    "export_seconds": 0.3667,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-38.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "pixel_nearest_1",
+    "svg": "code/svg/texmap/test4.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      348,
+      230
+    ],
+    "zoom": 0.4,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\pixel_nearest_1.png",
+    "sha256": "74a0b1005ad9d8d22d6924d61a2bdb5e751e99cf61c4cfc61ef72eeb9462178a",
+    "export_seconds": 0.4748,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-39.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "pixel_nearest_16",
+    "svg": "code/svg/texmap/test4.svg",
+    "spp": 16,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      348,
+      230
+    ],
+    "zoom": 0.4,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\pixel_nearest_16.png",
+    "sha256": "ecc9fdf24563b2fd3396d3e253f53a13bd9b15a6fc6f6ea292a8ce0eb00b1899",
+    "export_seconds": 0.8795,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-39.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "pixel_linear_1",
+    "svg": "code/svg/texmap/test4.svg",
+    "spp": 1,
+    "psm": 1,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      348,
+      230
+    ],
+    "zoom": 0.4,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\pixel_linear_1.png",
+    "sha256": "186ae774ce2a6138ac610357d687bd68dd037a0b5c2b119eae7432b9a1c738c3",
+    "export_seconds": 0.4841,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, bilinear pixel interpolation sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-40.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "pixel_linear_16",
+    "svg": "code/svg/texmap/test4.svg",
+    "spp": 16,
+    "psm": 1,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      348,
+      230
+    ],
+    "zoom": 0.4,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\pixel_linear_16.png",
+    "sha256": "0fb0327b7992b9f207e54c8bf312f95ccc9da20bd7b4647d13ed2bea3f130f56",
+    "export_seconds": 1.1226,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, bilinear pixel interpolation sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-41.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "mipmap_zero_nearest",
+    "svg": "docs/texture_demo.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      400,
+      230
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\mipmap_zero_nearest.png",
+    "sha256": "0973ef07b8df568fb77c2b13b9e9cecc36c839c1fc943ab41475b16770a3b02e",
+    "export_seconds": 0.4033,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-41.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "mipmap_zero_linear",
+    "svg": "docs/texture_demo.svg",
+    "spp": 1,
+    "psm": 1,
+    "lsm": 0,
+    "inspector": 1,
+    "cursor": [
+      400,
+      230
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\mipmap_zero_linear.png",
+    "sha256": "81eae0895aa89fb441bffa3a37f1b0c8cce99431f5a19a32bf5c4f8cc14a78ee",
+    "export_seconds": 0.4464,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, bilinear pixel interpolation sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-42.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "mipmap_nearest_nearest",
+    "svg": "docs/texture_demo.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 1,
+    "inspector": 1,
+    "cursor": [
+      400,
+      230
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\mipmap_nearest_nearest.png",
+    "sha256": "29ce5154a4ce0a96dabe2f6b7f09f4afc56d44c809a025f51d1ee9b4ab37aa49",
+    "export_seconds": 0.4577,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using nearest level, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-42.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "mipmap_nearest_linear",
+    "svg": "docs/texture_demo.svg",
+    "spp": 1,
+    "psm": 1,
+    "lsm": 1,
+    "inspector": 1,
+    "cursor": [
+      400,
+      230
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\mipmap_nearest_linear.png",
+    "sha256": "014f2dd017a3b26ab43772efacc9174778c0951c3884e68dd8e0e5255b36a11f",
+    "export_seconds": 0.4613,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using nearest level, bilinear pixel interpolation sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-43.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "mipmap_linear_nearest",
+    "svg": "docs/texture_demo.svg",
+    "spp": 1,
+    "psm": 0,
+    "lsm": 2,
+    "inspector": 1,
+    "cursor": [
+      400,
+      230
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\mipmap_linear_nearest.png",
+    "sha256": "98058fe8a9d6a55ded6d13fd430f7fa2677f53dbf1173e4fbd416e5a1036c579",
+    "export_seconds": 0.457,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using bilinear level interpolation, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-43.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  },
+  {
+    "name": "mipmap_linear_linear",
+    "svg": "docs/texture_demo.svg",
+    "spp": 1,
+    "psm": 1,
+    "lsm": 2,
+    "inspector": 1,
+    "cursor": [
+      400,
+      230
+    ],
+    "zoom": 1,
+    "width": 800,
+    "height": 800,
+    "png": "docs\\screenshots\\mipmap_linear_linear.png",
+    "sha256": "12698dbe642500b44dc56471aad866a7295e72219b96c9896641ffdde13bcb7e",
+    "export_seconds": 0.5088,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using bilinear level interpolation, bilinear pixel interpolation sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-51-44.png...Success!\n",
+    "stderr": "",
+    "capture": "OpenGL hidden window; real P/L/=/Z/S DrawRend keyboard callbacks"
+  }
+]

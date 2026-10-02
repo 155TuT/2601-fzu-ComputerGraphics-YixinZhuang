@@ -1,0 +1,17 @@
+Backend: AVX 4-wide double; seed=20261002; width=1024; repetitions=11
+Timing includes actual triangle setup, coverage, constant shader and sample-buffer writes; excludes clear, resolve, allocation, SVG parsing, GUI and CSV/hash work.
+Independent endpoint-cross-product oracle wrong samples: 0
+Pipeline equivalence failed comparisons: 0
+large spp=1 SIMD median=19.3601 ms, vs direct=1.51425x, vs incremental=1.63021x
+tiny spp=1 SIMD median=0.0684 ms, vs direct=0.788012x, vs incremental=0.907895x
+thin spp=1 SIMD median=25.123 ms, vs direct=1.65131x, vs incremental=1.91422x
+clipped spp=1 SIMD median=37.3478 ms, vs direct=1.45784x, vs incremental=1.59763x
+large spp=4 SIMD median=43.509 ms, vs direct=2.01609x, vs incremental=1.85102x
+tiny spp=4 SIMD median=0.147 ms, vs direct=0.880272x, vs incremental=0.936735x
+thin spp=4 SIMD median=48.8657 ms, vs direct=2.58239x, vs incremental=2.50791x
+clipped spp=4 SIMD median=86.2038 ms, vs direct=1.76413x, vs incremental=1.75678x
+large spp=16 SIMD median=123.204 ms, vs direct=2.14394x, vs incremental=1.96384x
+tiny spp=16 SIMD median=0.2933 ms, vs direct=0.921241x, vs incremental=1.02216x
+thin spp=16 SIMD median=117.366 ms, vs direct=3.33069x, vs incremental=3.067x
+clipped spp=16 SIMD median=225.801 ms, vs direct=2.05429x, vs incremental=2.03421x
+PASS: zero coverage/pixel differences; SIMD internal samples equal incremental; CSV prefix homework/answer/task1/verification/performance/1024; checksum sink=2501614935710637066

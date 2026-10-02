@@ -1,0 +1,48 @@
+{
+  "cmake_version": "3.31.10",
+  "textures": [
+    {
+      "name": "map.png",
+      "url": "https://raw.githubusercontent.com/cal-cs184/hw1-rasterizer/24ad77a7967306d349663c1a04b2da053f27e85c/img/map.png",
+      "sha256": "f3ffd9dae80484593acf45c2d60eb32f4d18dedf4bb58ba88259fcaa04d88aae",
+      "bytes": 1766835
+    },
+    {
+      "name": "parrot.png",
+      "url": "https://raw.githubusercontent.com/cal-cs184/hw1-rasterizer/24ad77a7967306d349663c1a04b2da053f27e85c/img/parrot.png",
+      "sha256": "c97ac05abd9982045eabc59eff182a8ebde001daab29bfd2259fb48490562c09",
+      "bytes": 722446
+    },
+    {
+      "name": "seal.png",
+      "url": "https://raw.githubusercontent.com/cal-cs184/hw1-rasterizer/24ad77a7967306d349663c1a04b2da053f27e85c/img/seal.png",
+      "sha256": "2c152a8ad5648edf3eb558582d7c5957cef47b49d50aab59004bc1eb6dc62a5d",
+      "bytes": 22701
+    },
+    {
+      "name": "campanile.png",
+      "url": "https://raw.githubusercontent.com/cal-cs184/hw1-rasterizer/24ad77a7967306d349663c1a04b2da053f27e85c/img/campanile.png",
+      "sha256": "b4e27e72e9463496cf66a20b31be35e5ca02fb6ed9ff36ae79c0122aee850300",
+      "bytes": 3451326
+    },
+    {
+      "name": "grid.png",
+      "url": "https://raw.githubusercontent.com/cal-cs184/hw1-rasterizer/24ad77a7967306d349663c1a04b2da053f27e85c/img/grid.png",
+      "sha256": "e2909e948997e4e95950cd164f91d67ed7f7679554ebe7cf118f0f69cff975ab",
+      "bytes": 1450
+    }
+  ],
+  "cmake": {
+    "version": "3.31.10",
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.31.10/cmake-3.31.10-windows-x86_64.zip",
+    "sha256": "13d1a463d7130df5339baedd63d8ae990aaf385062b2f42f372796143ae94086",
+    "publisher_checksum_verified": true
+  },
+  "freetype": {
+    "version": "2.14.1",
+    "url": "https://github.com/freetype/freetype/archive/refs/tags/VER-2-14-1.tar.gz",
+    "sha256": "44bd69d1f0750603410cfd4f26f1c5523c5a3a087a2dfa8639b757dc7c6677be",
+    "install": ".tools/freetype",
+    "static": true
+  }
+}

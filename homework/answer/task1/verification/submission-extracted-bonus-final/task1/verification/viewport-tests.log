@@ -1,0 +1,27 @@
+OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2
+PASS default view center maps to framebuffer center
+PASS E rotates clockwise 15 degrees around the fixed center
+PASS Q undoes E without changing scale or center
+PASS 24 E steps restore a complete 360 degree turn
+PASS rotated dragging follows the screen displacement
+PASS zoom preserves the rotated center and scales its radius
+PASS a second SVG starts with an independent unrotated view
+PASS switching SVG restores its own rotation pan and zoom
+PASS Space restores the active SVG and leaves other SVG views intact
+PASS rectangular framebuffer keeps rotation isotropic and centered
+PASS rectangular rotated drag and resized Space reset are correct
+PASS B cycles regular coverage kernels without changing the view
+PASS A switches area integration and preserves controls view and regular kernel
+VIEWPORT_RESULT 13 passed, 0 failed
+
+OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2
+Resolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). 
+Writing file screenshot_10-2_17-38-3.png...Success!
+
+OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2
+Resolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 30 degrees (Q/E). AA regular SSAA (A). 
+Writing file screenshot_10-2_17-38-4.png...Success!
+
+OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2
+Resolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). 
+Writing file screenshot_10-2_17-38-4.png...Success!

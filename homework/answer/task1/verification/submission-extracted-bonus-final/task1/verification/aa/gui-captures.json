@@ -1,0 +1,56 @@
+[
+  {
+    "png": "docs\\screenshots\\aa_gui_ssaa.png",
+    "sha256": "b93473c8618e2dd1f7a1b436c791f3858a25937de11e46094d5ef71526a76340",
+    "width": 800,
+    "height": 800,
+    "svg": "docs/analytic_demo.svg",
+    "mode": "regular SSAA 1 spp",
+    "capture": "Hidden GLFW window, automated real DrawRend A/S callbacks, GL_NO_ERROR checked",
+    "manual_gui_validation": false,
+    "command": [
+      "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\build\\screenshot_runner.exe",
+      "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\docs\\analytic_demo.svg",
+      "1",
+      "0",
+      "0",
+      "0",
+      "400",
+      "400",
+      "1",
+      "800",
+      "0",
+      "0",
+      "0"
+    ],
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 1 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-47-42.png...Success!\n",
+    "stderr": ""
+  },
+  {
+    "png": "docs\\screenshots\\aa_gui_analytic.png",
+    "sha256": "e0dcde27fc47ed160b00121ba9e038b47c3777337d05a327fae3c96f9513959f",
+    "width": 800,
+    "height": 800,
+    "svg": "docs/analytic_demo.svg",
+    "mode": "analytic",
+    "capture": "Hidden GLFW window, automated real DrawRend A/S callbacks, GL_NO_ERROR checked",
+    "manual_gui_validation": false,
+    "command": [
+      "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\build\\screenshot_runner.exe",
+      "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\docs\\analytic_demo.svg",
+      "1",
+      "0",
+      "0",
+      "0",
+      "400",
+      "400",
+      "1",
+      "800",
+      "0",
+      "0",
+      "1"
+    ],
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Analytic area integration; saved SSAA rate 1. View rotation 0 degrees (Q/E). AA analytic coverage (A). \nWriting file screenshot_10-2_17-47-42.png...Success!\n",
+    "stderr": ""
+  }
+]

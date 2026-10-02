@@ -1,0 +1,298 @@
+{
+  "scope": "Final-v2 pages 01–18: compare all PNG SHA256 against prior final round; actually reopen changed page 8; all unchanged pages covered by earlier actual visual inspection and identical PNG bytes.",
+  "render_directory": "homework\\answer\\task1\\verification\\report\\render-bonus-final-v2",
+  "viewer": "tools.view_image",
+  "overall_result": "pass",
+  "blocking_findings": [],
+  "minor_observations": [],
+  "docx_sha256": "04f93f90466c89015595f8e7d38a2f7caeb5631b846c88c54ddab93178d3e411",
+  "pdf_sha256": "431f9f46e1e063f79bf19e02eef88604344708729315a5964bb197c829c2f7b2",
+  "pages": [
+    {
+      "page": 1,
+      "actual_image_opened": true,
+      "image_sha256": "6802b3a7cb9647e2032f660e0908175ff203779434a89e0c9b7aa2f64e885d89",
+      "result": "pass",
+      "notes": "封面主副标题、待填写身份字段、黑体章节标题及宋体正文清晰，局部加粗正常。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "6802b3a7cb9647e2032f660e0908175ff203779434a89e0c9b7aa2f64e885d89",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 2,
+      "actual_image_opened": true,
+      "image_sha256": "eae3ccab626f00ffff0ee18ec7ebdd28923c6a1de1efecc18265142ab54fc3ff",
+      "result": "pass",
+      "notes": "三角形全图、检查器图及图2.1同页；正文和子标题完整。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "eae3ccab626f00ffff0ee18ec7ebdd28923c6a1de1efecc18265142ab54fc3ff",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 3,
+      "actual_image_opened": true,
+      "image_sha256": "3c9d4496b6f56e7e3a516759ba7f844022c1b8b655a329fb03d9309d3302b007",
+      "result": "pass",
+      "notes": "方案演进连续段落与SIMD重点加粗正常，边距内完整。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "3c9d4496b6f56e7e3a516759ba7f844022c1b8b655a329fb03d9309d3302b007",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 4,
+      "actual_image_opened": true,
+      "image_sha256": "1853e0545479d8729a672305309eb035c26d0d49347b137ccde70f4877e198dc",
+      "result": "pass",
+      "notes": "TriangleSetup源码图行45–76及图2.2同页，字形/行号清晰。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "1853e0545479d8729a672305309eb035c26d0d49347b137ccde70f4877e198dc",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 5,
+      "actual_image_opened": true,
+      "image_sha256": "2be5f8481be6e4012d53ad05c7eda75677163e88197111727c3f6246ff47bf4c",
+      "result": "pass",
+      "notes": "AVX片段第1/2部分与图2.3同页，无图像裁切。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "2be5f8481be6e4012d53ad05c7eda75677163e88197111727c3f6246ff47bf4c",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 6,
+      "actual_image_opened": true,
+      "image_sha256": "f137efa4a4a75c4cd61963a685994b4b7d7f047c5f9b0750734fa72160364101",
+      "result": "pass",
+      "notes": "AVX第2/2部分与续图图注同页，尾部标量处理可读。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "f137efa4a4a75c4cd61963a685994b4b7d7f047c5f9b0750734fa72160364101",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 7,
+      "actual_image_opened": true,
+      "image_sha256": "063a44f4e805910818b4f06ff70701bfd9b8255159b0f379d79ec6f6d82987b1",
+      "result": "pass",
+      "notes": "重新实际查看最终PNG。oracle说明清楚区分固定24×24窗口中864种配置、两个基准共1728次核对；下方表2.1全部六列八行完整清晰，无溢出。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "063a44f4e805910818b4f06ff70701bfd9b8255159b0f379d79ec6f6d82987b1",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 8,
+      "actual_image_opened": true,
+      "image_sha256": "adae26be2cbf44c618ccab543268a9c068dbc9dcb933c14447c7f5231e6581aa",
+      "result": "pass",
+      "notes": "重新实际查看最终v2第8页。两分辨率柱图和图2.4完整同页，最后含scripts/命令段落现左对齐，字间距恢复自然，正文与命令清晰，无裁切。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "e313f7fe06b2bfcbeeee5a3a230481b766a1b71e7053dd1ea8c74eebb87d4971",
+      "unchanged_from_prior_render": false,
+      "final_image_opened_this_round": true,
+      "inspection_basis": "actual final-v2 PNG view this round"
+    },
+    {
+      "page": 9,
+      "actual_image_opened": true,
+      "image_sha256": "16bf219e5401a9b89726861ff45b9d32d0215a05d55c5ba6981c0230265464bd",
+      "result": "pass",
+      "notes": "第三章和3.1标题加粗清晰；公式/缓冲布局正文完整。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "16bf219e5401a9b89726861ff45b9d32d0215a05d55c5ba6981c0230265464bd",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 10,
+      "actual_image_opened": true,
+      "image_sha256": "a764e2f5f13ea99b08427e8ca32acfa5d3d2bd123c3d7d510b8b936e9fde176f",
+      "result": "pass",
+      "notes": "1/4/16 spp三图及图3.1同页；3.2正文清晰，无孤立图注。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "a764e2f5f13ea99b08427e8ca32acfa5d3d2bd123c3d7d510b8b936e9fde176f",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 11,
+      "actual_image_opened": true,
+      "image_sha256": "cbbe9da94b9848660bd02dd6e1994dd2f8801558c5f10bfa2467e1a890e892b1",
+      "result": "pass",
+      "notes": "采样缓冲第1/2部分代码与图3.2同页，源码行号与空白分段正常。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "cbbe9da94b9848660bd02dd6e1994dd2f8801558c5f10bfa2467e1a890e892b1",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 12,
+      "actual_image_opened": true,
+      "image_sha256": "33d1b012939fec6aabe40edc71a4244cf271a4df4c5ca6f0d406b76f95780d26",
+      "result": "pass",
+      "notes": "采样缓冲第2/2部分及续图图注同页；resolve源码完整清晰。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "33d1b012939fec6aabe40edc71a4244cf271a4df4c5ca6f0d406b76f95780d26",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 13,
+      "actual_image_opened": true,
+      "image_sha256": "20733483696c4251d3cc43603ebc8669731563d949547e44fd624bc604bf991b",
+      "result": "pass",
+      "notes": "3.3解析覆盖率说明完整，集合交、面积与重点限制加粗正常。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "20733483696c4251d3cc43603ebc8669731563d949547e44fd624bc604bf991b",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 14,
+      "actual_image_opened": true,
+      "image_sha256": "2e2469c9962da0b653ab2b532d8194ce956d88b4c51344de932c69d1e3a9d70d",
+      "result": "pass",
+      "notes": "重新实际查看最终PNG。clip源码及图3.3同页，图注已缩为单行，原短尾行问题消除。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "2e2469c9962da0b653ab2b532d8194ce956d88b4c51344de932c69d1e3a9d70d",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 15,
+      "actual_image_opened": true,
+      "image_sha256": "86c4706fb6f6e929b03453d4666d62033ce1831760b2c0456c8faf2f1224e117",
+      "result": "pass",
+      "notes": "重新实际查看最终PNG。subtract/resolve源码及图3.4同页，图注已缩为单行，原短尾行问题消除。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "86c4706fb6f6e929b03453d4666d62033ce1831760b2c0456c8faf2f1224e117",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 16,
+      "actual_image_opened": true,
+      "image_sha256": "e216aeab91597e787f05542cbc35e8ca4dd48e401044abb09af1dd432c77f853",
+      "result": "pass",
+      "notes": "解析可见区域续图源码和图3.4续图注同页完整，行号及颜色可读。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "e216aeab91597e787f05542cbc35e8ca4dd48e401044abb09af1dd432c77f853",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 17,
+      "actual_image_opened": true,
+      "image_sha256": "cbe897b999f6d411f428c6e662472b176223a42ce5df6283418263845cec47c5",
+      "result": "pass",
+      "notes": "3.4说明、表3.1六列五行和下方分析完整；两行单元格、粗体表头均正常。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "cbe897b999f6d411f428c6e662472b176223a42ce5df6283418263845cec47c5",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    },
+    {
+      "page": 18,
+      "actual_image_opened": true,
+      "image_sha256": "afd6531181645b84941844eec92412dc5eb6cc637cc4580861a11cf66e42f0d3",
+      "result": "pass",
+      "notes": "四类几何×四种方法AA对比图与三行图3.5说明同页完整；文字清晰。",
+      "clipping": false,
+      "missing_glyphs": false,
+      "orphan_caption_on_different_page": false,
+      "prior_image_sha256": "afd6531181645b84941844eec92412dc5eb6cc637cc4580861a11cf66e42f0d3",
+      "unchanged_from_prior_render": true,
+      "final_image_opened_this_round": false,
+      "inspection_basis": "prior actual page image view, identical PNG SHA256"
+    }
+  ],
+  "changed_pages_reopened": [
+    8
+  ],
+  "prior_full_page_inspection": {
+    "render_directory": "homework\\answer\\task1\\verification\\report\\render-bonus-v1",
+    "docx_sha256": "d7b14bfa09aa980ccc5405ab7b7ef66e1504aec58c8d5c5b5b8f488d7ae78087",
+    "pdf_sha256": "a43ff67b1112dd42cdd5a5d3d966667246affb393eac4e2d649d17891ba40341"
+  },
+  "resolved_observations": [
+    {
+      "page": 14,
+      "description": "图3.3短尾行已消除，最终单行图注。"
+    },
+    {
+      "page": 15,
+      "description": "图3.4短尾行已消除，最终单行图注。"
+    },
+    {
+      "page": 8,
+      "description": "含scripts/的正文左对齐，长命令之前的过宽字间距已消除。"
+    }
+  ],
+  "comparison_history": [
+    {
+      "render_directory": "homework\\answer\\task1\\verification\\report\\render-bonus-final",
+      "changed_pages_reopened": [
+        7,
+        14,
+        15
+      ],
+      "docx_sha256": "e0720c0c0a19713567d52d8a126a6cb533936c6d95db3dd5c405f37dc41c0e89",
+      "pdf_sha256": "861a602f695d457c4db16306648555d4f1b7969a9545c37bf837b7067cd1631f"
+    }
+  ]
+}

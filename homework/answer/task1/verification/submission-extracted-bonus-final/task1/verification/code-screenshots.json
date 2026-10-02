@@ -1,0 +1,505 @@
+{
+  "generator": "scripts/capture_code.py",
+  "generator_sha256": "01e40190392a6562ef5065d6d6c8dd34ba9a71e189499c680fc76c97bfd20972",
+  "background": "#FFFFFF",
+  "font": "C:\\Windows\\Fonts\\consola.ttf",
+  "font_sha256": "cf00b507b3286870cc5064ebd0633c303f70b491a4af25eec2d32df413db0179",
+  "columns": 76,
+  "max_rows": 34,
+  "font_size_px": 25,
+  "tab_columns": 4,
+  "wrapping": "display-only; continuation rows keep original line number",
+  "excerpts": [
+    {
+      "name": "transforms",
+      "source": "code/src/transforms.cpp",
+      "source_sha256": "491920b2c8bc5d6f5f865d82bd5d44ea700c85005ae17c4a84220ea789356ad9",
+      "fragments": [
+        {
+          "function": "translate",
+          "first_line": 16,
+          "last_line": 20,
+          "text_sha256": "3f67a717095e068d2323a9bd4a180c281e602dc77fcb981a2396dcc47120d214"
+        },
+        {
+          "function": "scale",
+          "first_line": 22,
+          "last_line": 26,
+          "text_sha256": "b8b35a685f0acbff0e7d56c92852c1264a377cd0f85a2a4bbf48de50d78a9fe0"
+        },
+        {
+          "function": "rotate",
+          "first_line": 29,
+          "last_line": 36,
+          "text_sha256": "eda3db431e2f18667eef19427dcfb730ab297be7a96aedfa8887be48f784fb62"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/transforms.cpp.txt",
+      "sidecar_sha256": "36f8b5ffbfcbaa023a30276a6aea6ff2fb7e26a337c4fad07775946af5ecf421",
+      "images": [
+        {
+          "file": "docs/code-screenshots/transforms.png",
+          "pixels": [
+            1194,
+            775
+          ],
+          "sha256": "58e6787c9e7c72c20889b54f21386c885f119fb1ba6fa1668e59dbfc26283bd4",
+          "first_line": 16,
+          "last_line": 36,
+          "part": 1,
+          "display_rows": 20
+        }
+      ]
+    },
+    {
+      "name": "barycentric",
+      "source": "code/src/rasterizer.cpp",
+      "source_sha256": "c66068ab96aec394eaf8816feae953f9754298c516efa6e14fec112d709c8105",
+      "fragments": [
+        {
+          "function": "RasterizerImp::rasterize_interpolated_color_triangle",
+          "first_line": 357,
+          "last_line": 368,
+          "text_sha256": "a30514df2863874d00f18a80303c593659806b2eaf82ec0f7a08d5303c164be8"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/barycentric.cpp.txt",
+      "sidecar_sha256": "a30514df2863874d00f18a80303c593659806b2eaf82ec0f7a08d5303c164be8",
+      "images": [
+        {
+          "file": "docs/code-screenshots/barycentric.png",
+          "pixels": [
+            1194,
+            571
+          ],
+          "sha256": "6c115b0d8c8f8503b81d3373303c5f5590214128d3a62481b5a10f5c2c923d93",
+          "first_line": 357,
+          "last_line": 368,
+          "part": 1,
+          "display_rows": 14
+        }
+      ]
+    },
+    {
+      "name": "triangle_setup",
+      "source": "code/src/rasterizer.cpp",
+      "source_sha256": "c66068ab96aec394eaf8816feae953f9754298c516efa6e14fec112d709c8105",
+      "fragments": [
+        {
+          "function": "struct TriangleSetup",
+          "first_line": 45,
+          "last_line": 76,
+          "text_sha256": "85729d01c36bca0cb9008e4a135579d0832d3b9cc7a698d4f878daaf406cfbff"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/triangle_setup.cpp.txt",
+      "sidecar_sha256": "85729d01c36bca0cb9008e4a135579d0832d3b9cc7a698d4f878daaf406cfbff",
+      "images": [
+        {
+          "file": "docs/code-screenshots/triangle_setup.png",
+          "pixels": [
+            1194,
+            1183
+          ],
+          "sha256": "83e3c29aeec12395a2c8292539945238c0b2a803d469d5c22464b2c13daa7fa1",
+          "first_line": 45,
+          "last_line": 76,
+          "part": 1,
+          "display_rows": 32
+        }
+      ]
+    },
+    {
+      "name": "triangle_traversal",
+      "source": "code/src/rasterizer.cpp",
+      "source_sha256": "c66068ab96aec394eaf8816feae953f9754298c516efa6e14fec112d709c8105",
+      "fragments": [
+        {
+          "function": "simd4_samples",
+          "first_line": 204,
+          "last_line": 246,
+          "text_sha256": "e616d760bccc0886653cf3f7a2b126b80ca427de3943e42ae7120ad0b5748ff8"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/triangle_traversal.cpp.txt",
+      "sidecar_sha256": "e616d760bccc0886653cf3f7a2b126b80ca427de3943e42ae7120ad0b5748ff8",
+      "images": [
+        {
+          "file": "docs/code-screenshots/triangle_traversal.png",
+          "pixels": [
+            1194,
+            1013
+          ],
+          "sha256": "5b29bfdd3121bf9f3730ae223c41b60a3ae35b4f7daa452ce9221a926bdd47fc",
+          "first_line": 204,
+          "last_line": 227,
+          "part": 1,
+          "display_rows": 27
+        },
+        {
+          "file": "docs/code-screenshots/triangle_traversal_02.png",
+          "pixels": [
+            1194,
+            979
+          ],
+          "sha256": "2bb75897d19ced32f67bc0490e97ea193388cefd665a282431cd07b383591b6a",
+          "first_line": 228,
+          "last_line": 246,
+          "part": 2,
+          "display_rows": 26
+        }
+      ]
+    },
+    {
+      "name": "triangle_dispatch",
+      "source": "code/src/rasterizer.cpp",
+      "source_sha256": "c66068ab96aec394eaf8816feae953f9754298c516efa6e14fec112d709c8105",
+      "fragments": [
+        {
+          "function": "for_each_triangle_sample",
+          "first_line": 249,
+          "last_line": 272,
+          "text_sha256": "0b06999e98fb91ecfc2e1de95c0501b20aa273e6fa6ef5592fbe3e9ecff88ade"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/triangle_dispatch.cpp.txt",
+      "sidecar_sha256": "0b06999e98fb91ecfc2e1de95c0501b20aa273e6fa6ef5592fbe3e9ecff88ade",
+      "images": [
+        {
+          "file": "docs/code-screenshots/triangle_dispatch.png",
+          "pixels": [
+            1194,
+            1047
+          ],
+          "sha256": "afbe761b96b4c2ccd24de471eb4770701b365e19d470a1b10b2ea5d579eecab6",
+          "first_line": 249,
+          "last_line": 272,
+          "part": 1,
+          "display_rows": 28
+        }
+      ]
+    },
+    {
+      "name": "triangle_scalar",
+      "source": "code/src/rasterizer.cpp",
+      "source_sha256": "c66068ab96aec394eaf8816feae953f9754298c516efa6e14fec112d709c8105",
+      "fragments": [
+        {
+          "function": "scalar_pixel",
+          "first_line": 115,
+          "last_line": 136,
+          "text_sha256": "4caee6651ecb03eb2facc24626cb3fc10da91e7140f34f0e8694f35449e8e650"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/triangle_scalar.cpp.txt",
+      "sidecar_sha256": "4caee6651ecb03eb2facc24626cb3fc10da91e7140f34f0e8694f35449e8e650",
+      "images": [
+        {
+          "file": "docs/code-screenshots/triangle_scalar.png",
+          "pixels": [
+            1194,
+            945
+          ],
+          "sha256": "fee947ac246f774c6b1f738f2afa5038dc7f47f446e3a04a8eba7e028be3c872",
+          "first_line": 115,
+          "last_line": 136,
+          "part": 1,
+          "display_rows": 25
+        }
+      ]
+    },
+    {
+      "name": "sample_buffer_resolve",
+      "source": "code/src/rasterizer.cpp",
+      "source_sha256": "c66068ab96aec394eaf8816feae953f9754298c516efa6e14fec112d709c8105",
+      "fragments": [
+        {
+          "function": "RasterizerImp::fill_pixel",
+          "first_line": 296,
+          "last_line": 302,
+          "text_sha256": "ceb2be028d1b9d8bb484a26aa33158b354295543ba59b8389eda877bb77ee9f4"
+        },
+        {
+          "function": "RasterizerImp::set_sample_rate",
+          "first_line": 397,
+          "last_line": 403,
+          "text_sha256": "7c334bffdc0fbfc5cbe24c5ba23b1c1eaaeeddc980bda6a69c8991ce6f08a118"
+        },
+        {
+          "function": "RasterizerImp::set_framebuffer_target",
+          "first_line": 420,
+          "last_line": 428,
+          "text_sha256": "58882e925ecf406537c902faa5b5c064bcb9d1cbc4cdd7984d9e74988917a226"
+        },
+        {
+          "function": "RasterizerImp::resolve_to_framebuffer",
+          "first_line": 444,
+          "last_line": 459,
+          "text_sha256": "cfe80e0fa0bdb260cdfa27d9aef0ab4bcd9f42eecde0036fa04b7f5bc338bf08"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/sample_buffer_resolve.cpp.txt",
+      "sidecar_sha256": "2839370fc9c4cd5ae126357e87719d14e33540953a33708ca6d561ff3714330d",
+      "images": [
+        {
+          "file": "docs/code-screenshots/sample_buffer_resolve.png",
+          "pixels": [
+            1194,
+            877
+          ],
+          "sha256": "e8b013a3ccb850e87c83cb165e2aab397cb8281f62d29cb8b01eafe45f4141b6",
+          "first_line": 296,
+          "last_line": 423,
+          "part": 1,
+          "display_rows": 23
+        },
+        {
+          "file": "docs/code-screenshots/sample_buffer_resolve_02.png",
+          "pixels": [
+            1194,
+            843
+          ],
+          "sha256": "a1d5afc0eafdca09a483e0c0ba3681886009163e5d37961d3f732af2a28ac017",
+          "first_line": 424,
+          "last_line": 459,
+          "part": 2,
+          "display_rows": 22
+        }
+      ]
+    },
+    {
+      "name": "texture_mapping",
+      "source": "code/src/rasterizer.cpp",
+      "source_sha256": "c66068ab96aec394eaf8816feae953f9754298c516efa6e14fec112d709c8105",
+      "fragments": [
+        {
+          "function": "RasterizerImp::rasterize_textured_triangle",
+          "first_line": 371,
+          "last_line": 395,
+          "text_sha256": "3ec5684f95e86b6506c43f62e426ab9336a86aa17bf9636cb041a4ca6e2490b0"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/texture_mapping.cpp.txt",
+      "sidecar_sha256": "3ec5684f95e86b6506c43f62e426ab9336a86aa17bf9636cb041a4ca6e2490b0",
+      "images": [
+        {
+          "file": "docs/code-screenshots/texture_mapping.png",
+          "pixels": [
+            1194,
+            1013
+          ],
+          "sha256": "dac57f2b1fdbd08af3bc350c253d78d0a862d1cb0efed05f54bf3f8d48e5b992",
+          "first_line": 371,
+          "last_line": 395,
+          "part": 1,
+          "display_rows": 27
+        }
+      ]
+    },
+    {
+      "name": "texture_pixel",
+      "source": "code/src/texture.cpp",
+      "source_sha256": "b62f82dc85518f7f8df0a9de0c4a55ddba86c634d7ba8019628f149055e1d316",
+      "fragments": [
+        {
+          "function": "Texture::sample_nearest",
+          "first_line": 72,
+          "last_line": 84,
+          "text_sha256": "3a26d5bfd5a63ebb45d061274355e94ed2c368c746b6494800004bf000e13ed6"
+        },
+        {
+          "function": "Texture::sample_bilinear",
+          "first_line": 86,
+          "last_line": 103,
+          "text_sha256": "67fc726b12e2f31d6225bb6c970cbb066a2117dd829a9cef87a412d179cc6d9e"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/texture_pixel.cpp.txt",
+      "sidecar_sha256": "9ac2768252a6d7392920aec0e4f07a6e677f9405a6739a71e2b245eeb6228681",
+      "images": [
+        {
+          "file": "docs/code-screenshots/texture_pixel.png",
+          "pixels": [
+            1194,
+            707
+          ],
+          "sha256": "9fdd7b3bb99bfccfd361d747c3305d9451a543e9fbf562cd17b568cd0d05c810",
+          "first_line": 72,
+          "last_line": 88,
+          "part": 1,
+          "display_rows": 18
+        },
+        {
+          "file": "docs/code-screenshots/texture_pixel_02.png",
+          "pixels": [
+            1194,
+            673
+          ],
+          "sha256": "8f1636c8ecc7fe8f53f2beb7a27da7d4fb70bde621ea90f5d1719ee07fb0f5d1",
+          "first_line": 89,
+          "last_line": 103,
+          "part": 2,
+          "display_rows": 17
+        }
+      ]
+    },
+    {
+      "name": "texture_lod",
+      "source": "code/src/texture.cpp",
+      "source_sha256": "b62f82dc85518f7f8df0a9de0c4a55ddba86c634d7ba8019628f149055e1d316",
+      "fragments": [
+        {
+          "function": "Texture::sample",
+          "first_line": 21,
+          "last_line": 46,
+          "text_sha256": "c1de59d7864ee42dd0e4abffa76ad6819d3f34823e146110544e25a0a01b8fbb"
+        },
+        {
+          "function": "Texture::get_level",
+          "first_line": 48,
+          "last_line": 66,
+          "text_sha256": "f2a44417191439d4b89612eb1f39bbb2da76ca87bcf70257d60e8272ae4a97e6"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/texture_lod.cpp.txt",
+      "sidecar_sha256": "551729b89077abdcfa569790d0a56f0ed4e8f67439f4aa968860a5a1be9c7b03",
+      "images": [
+        {
+          "file": "docs/code-screenshots/texture_lod.png",
+          "pixels": [
+            1194,
+            1013
+          ],
+          "sha256": "68a4e758b7e51a1b3edf50378384c822f984a1de43c232651bf52eb17416457b",
+          "first_line": 21,
+          "last_line": 45,
+          "part": 1,
+          "display_rows": 27
+        },
+        {
+          "file": "docs/code-screenshots/texture_lod_02.png",
+          "pixels": [
+            1194,
+            1013
+          ],
+          "sha256": "2d4f72488d7424507c1f2c0e1fce2f36d56372ef00a2ffdb26ea904ba407b48d",
+          "first_line": 46,
+          "last_line": 66,
+          "part": 2,
+          "display_rows": 27
+        }
+      ]
+    },
+    {
+      "name": "viewport_rotate",
+      "source": "code/src/drawrend.cpp",
+      "source_sha256": "aa1a840c488dfb87038952dd3dd02a4389e47793b7a86ebd00ce181412d04400",
+      "fragments": [
+        {
+          "function": "DrawRend::set_view",
+          "first_line": 496,
+          "last_line": 506,
+          "text_sha256": "75b62f337ce8c56d154873244584fda30365c3a6cf0e1f33cc4047fd600d9c35"
+        },
+        {
+          "function": "DrawRend::rotate_view",
+          "first_line": 518,
+          "last_line": 523,
+          "text_sha256": "f17b37f4046b23891c6769a2f89e0eccb430c1e530508ea08804e132c7f21b37"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/viewport_rotate.cpp.txt",
+      "sidecar_sha256": "5ce0a7f48e95ff8f237b547f895f333a599f5cb49695f3b1ee0f8d371548cfe7",
+      "images": [
+        {
+          "file": "docs/code-screenshots/viewport_rotate.png",
+          "pixels": [
+            1194,
+            741
+          ],
+          "sha256": "437a01936ef3aedeb29681c6b19c4d2a0f0c2cf547d9075a7333dd1ed29a3812",
+          "first_line": 496,
+          "last_line": 523,
+          "part": 1,
+          "display_rows": 19
+        }
+      ]
+    },
+    {
+      "name": "analytic_clip",
+      "source": "code/src/analytic_rasterizer.cpp",
+      "source_sha256": "6501e2f6497293e49b18962173c4ab0f70452c3d6d218ffe446d4ff288201aab",
+      "fragments": [
+        {
+          "function": "clip",
+          "first_line": 16,
+          "last_line": 36,
+          "text_sha256": "54c0bb067b99526fc63977910a90056b8d18334ce8befe961bb02b3acc077284"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/analytic_clip.cpp.txt",
+      "sidecar_sha256": "54c0bb067b99526fc63977910a90056b8d18334ce8befe961bb02b3acc077284",
+      "images": [
+        {
+          "file": "docs/code-screenshots/analytic_clip.png",
+          "pixels": [
+            1194,
+            843
+          ],
+          "sha256": "30ccc2a3aa685b7494c97295dc0ff101b2fd8359f112cd6c31cd7b0ed3e6ed54",
+          "first_line": 16,
+          "last_line": 36,
+          "part": 1,
+          "display_rows": 22
+        }
+      ]
+    },
+    {
+      "name": "analytic_visibility",
+      "source": "code/src/analytic_rasterizer.cpp",
+      "source_sha256": "6501e2f6497293e49b18962173c4ab0f70452c3d6d218ffe446d4ff288201aab",
+      "fragments": [
+        {
+          "function": "subtract",
+          "first_line": 67,
+          "last_line": 75,
+          "text_sha256": "63ee4c75e516a192be0c13d3dfc3381d5451cdafff6c1b085b1082d54cffd66a"
+        },
+        {
+          "function": "AnalyticRasterizer::resolve_to_framebuffer",
+          "first_line": 194,
+          "last_line": 226,
+          "text_sha256": "b84ecf10d1f5d42c6f4d99ef387d461f3006fdd70d22a31f8b8747f74cdb64e1"
+        }
+      ],
+      "sidecar": "docs/code-screenshots/analytic_visibility.cpp.txt",
+      "sidecar_sha256": "1fec2a1da4618b8f78e19e78e04a36e7ffd52adad17b10cc8d808a2623e94614",
+      "images": [
+        {
+          "file": "docs/code-screenshots/analytic_visibility.png",
+          "pixels": [
+            1194,
+            877
+          ],
+          "sha256": "0df5b42f4c9259a24f4d4ecd087480f6538408668fa87320b8331a22fb626dba",
+          "first_line": 67,
+          "last_line": 204,
+          "part": 1,
+          "display_rows": 23
+        },
+        {
+          "file": "docs/code-screenshots/analytic_visibility_02.png",
+          "pixels": [
+            1194,
+            877
+          ],
+          "sha256": "7e2741324da9d7ffcf99ff5ce45ff9c92f3f7eb0a40368ec129fdfe3f244dbf8",
+          "first_line": 205,
+          "last_line": 226,
+          "part": 2,
+          "display_rows": 23
+        }
+      ]
+    }
+  ]
+}

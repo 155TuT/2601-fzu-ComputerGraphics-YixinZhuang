@@ -1,0 +1,218 @@
+[
+  {
+    "page": 1,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('ZGJMVU+ArialUnicodeMS', 24.0)": 6,
+      "('ZGJMVU+ArialUnicodeMS', 18.0)": 10,
+      "('ZGJMVU+ArialUnicodeMS', 14.05)": 19,
+      "('XEKKFX+SimHei', 14.05)": 37,
+      "('LNUHNF+SimSun', 12.0)": 247,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 268
+    },
+    "bounds": [
+      72.0,
+      120.62599999999998,
+      499.8,
+      682.3700000000001
+    ]
+  },
+  {
+    "page": 2,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('XEKKFX+SimHei', 14.05)": 30,
+      "('LNUHNF+SimSun', 12.0)": 462,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 245,
+      "('ZGJMVU+ArialUnicodeMS', 14.05)": 7,
+      "('VMBCQV+ArialMT', 12.0)": 1,
+      "('TYEPLS+TimesNewRomanPS-ItalicMT', 12.0)": 3,
+      "('TYEPLS+TimesNewRomanPS-ItalicMT', 8.5)": 1
+    },
+    "bounds": [
+      72.0,
+      92.23180000000002,
+      492.0,
+      672.53
+    ]
+  },
+  {
+    "page": 3,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('LNUHNF+SimSun', 12.0)": 8,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 4
+    },
+    "bounds": [
+      219.959,
+      676.73,
+      345.359,
+      690.722
+    ]
+  },
+  {
+    "page": 5,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('XEKKFX+SimHei', 14.05)": 4,
+      "('LNUHNF+SimSun', 12.0)": 713,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 146
+    },
+    "bounds": [
+      72.0,
+      90.31179999999995,
+      493.08,
+      650.3299999999999
+    ]
+  },
+  {
+    "page": 6,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('LNUHNF+SimSun', 12.0)": 15,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 3
+    },
+    "bounds": [
+      183.6,
+      669.77,
+      381.6,
+      683.7620000000001
+    ]
+  },
+  {
+    "page": 20,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('LNUHNF+SimSun', 12.0)": 36,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 33,
+      "('XEKKFX+SimHei', 14.05)": 4
+    },
+    "bounds": [
+      72.0,
+      331.73,
+      408.0,
+      690.962
+    ]
+  },
+  {
+    "page": 21,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('ZGJMVU+ArialUnicodeMS', 14.05)": 6,
+      "('LNUHNF+SimSun', 12.0)": 251,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 35,
+      "('TYEPLS+TimesNewRomanPS-ItalicMT', 12.0)": 19,
+      "('AUWCNV+TimesNewRomanPSMT', 8.5)": 3
+    },
+    "bounds": [
+      72.0,
+      96.34244999999999,
+      494.04,
+      688.73
+    ]
+  },
+  {
+    "page": 29,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('LNUHNF+SimSun', 12.0)": 748,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 81,
+      "('ZGJMVU+ArialUnicodeMS', 14.05)": 12
+    },
+    "bounds": [
+      72.0,
+      93.76999999999998,
+      492.0,
+      693.8889999999999
+    ]
+  },
+  {
+    "page": 30,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('LNUHNF+SimSun', 12.0)": 516,
+      "('CSKSUK+Wingdings-Regular', 12.0)": 3,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 255,
+      "('KMIZYY+SegoeUISymbol', 12.0)": 4,
+      "('TYEPLS+TimesNewRomanPS-ItalicMT', 12.0)": 11,
+      "('ESHXQI+TimesNewRomanPS-BoldMT', 12.0)": 6,
+      "('ESHXQI+TimesNewRomanPS-BoldMT', 8.5)": 10,
+      "('ESHXQI+TimesNewRomanPS-BoldMT', 6.95)": 8,
+      "('DCWGQU+CambriaMath', 8.5)": 2,
+      "('TYEPLS+TimesNewRomanPS-ItalicMT', 8.5)": 2,
+      "('AUWCNV+TimesNewRomanPSMT', 8.5)": 1
+    },
+    "bounds": [
+      72.0,
+      93.76999999999998,
+      497.07305,
+      589.681
+    ]
+  },
+  {
+    "page": 37,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('ZGJMVU+ArialUnicodeMS', 14.05)": 7,
+      "('ESHXQI+TimesNewRomanPS-BoldMT', 13.45)": 6,
+      "('LNUHNF+SimSun', 13.45)": 16,
+      "('LNUHNF+SimSun', 12.0)": 556,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 95
+    },
+    "bounds": [
+      72.0,
+      96.34244999999999,
+      504.0,
+      668.5699999999999
+    ]
+  },
+  {
+    "page": 38,
+    "size": [
+      595.3,
+      841.9
+    ],
+    "font_sizes": {
+      "('LNUHNF+SimSun', 12.0)": 556,
+      "('AUWCNV+TimesNewRomanPSMT', 12.0)": 95,
+      "('ESHXQI+TimesNewRomanPS-BoldMT', 13.45)": 6,
+      "('LNUHNF+SimSun', 13.45)": 16
+    },
+    "bounds": [
+      72.0,
+      93.76999999999998,
+      493.70310000000006,
+      686.6890000000001
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+  template <typename ShadeSample>
+  CGL_AVX_FUNCTION void simd4_samples(const TriangleSetup& t, const SampleBounds& box,
+                                     size_t width, unsigned int rate, const ShadeSample& shade) {
+    const __m256d sign = _mm256_set1_pd(t.orientation);
+    const __m256d threshold = _mm256_set1_pd(-t.edge_tolerance);
+    __m256d a[3], c[3], step[3];
+    for (int i = 0; i < 3; ++i) {
+      a[i] = _mm256_set1_pd(t.a[i]); c[i] = _mm256_set1_pd(t.c[i]);
+      step[i] = _mm256_set1_pd(t.a[i] * box.spacing);
+    }
+    for (size_t y = box.yb; y < box.ye; ++y) {
+      size_t x = box.xb;
+      for (; box.xe - x >= 4; x += 4) {
+        const double offset = .5 * box.spacing;
+        const __m256d px = _mm256_setr_pd(x + offset, x + 1 + offset,
+                                         x + 2 + offset, x + 3 + offset);
+        for (unsigned int sy = 0; sy < box.side; ++sy) {
+          const double py = y + (sy + .5) * box.spacing;
+          __m256d edge[3];
+          for (int i = 0; i < 3; ++i)
+            edge[i] = _mm256_add_pd(_mm256_add_pd(_mm256_mul_pd(a[i], px),
+                            _mm256_set1_pd(t.b[i] * py)), c[i]);
+          for (unsigned int sx = 0; sx < box.side; ++sx) {
+            __m256d inside = _mm256_cmp_pd(_mm256_mul_pd(sign, edge[0]), threshold, _CMP_GE_OQ);
+            inside = _mm256_and_pd(inside, _mm256_cmp_pd(_mm256_mul_pd(sign, edge[1]), threshold, _CMP_GE_OQ));
+            inside = _mm256_and_pd(inside, _mm256_cmp_pd(_mm256_mul_pd(sign, edge[2]), threshold, _CMP_GE_OQ));
+            const int mask = _mm256_movemask_pd(inside);
+            if (mask) {
+              double values[3][4];
+              for (int i = 0; i < 3; ++i) _mm256_storeu_pd(values[i], edge[i]);
+              for (int lane = 0; lane < 4; ++lane) if (mask & (1 << lane)) {
+                const double e[3] = {values[0][lane], values[1][lane], values[2][lane]};
+                const size_t index = (y * width + x + lane) * rate + sy * box.side + sx;
+                shade_edges(t, index, e, shade);
+              }
+            }
+            for (int i = 0; i < 3; ++i) edge[i] = _mm256_add_pd(edge[i], step[i]);
+          }
+        }
+      }
+      for (; x < box.xe; ++x) scalar_pixel<false>(t, box, width, rate, x, y, shade);
+    }
+  }

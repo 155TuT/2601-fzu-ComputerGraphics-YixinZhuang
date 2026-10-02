@@ -1,0 +1,21 @@
+ClipPolygon clip(const ClipPolygon& polygon, const Vector2D& a, const Vector2D& b,
+             double orientation, bool inside) {
+  ClipPolygon result;
+  if (polygon.empty()) return result;
+  result.reserve(polygon.size()+1);
+  Vector2D previous = polygon.back();
+  double ep = orientation * cross(a,b,previous);
+  bool previous_in = inside ? ep >= 0 : ep <= 0;
+  for (const Vector2D& current : polygon) {
+    const double ec = orientation * cross(a,b,current);
+    const bool current_in = inside ? ec >= 0 : ec <= 0;
+    if (current_in != previous_in) {
+      const double t = ep / (ep-ec);
+      result.emplace_back(previous.x + t*(current.x-previous.x),
+                          previous.y + t*(current.y-previous.y));
+    }
+    if (current_in) result.push_back(current);
+    previous=current; ep=ec; previous_in=current_in;
+  }
+  return result;
+}

@@ -1,0 +1,46 @@
+  Color Texture::sample(const SampleParams& sp) {
+    if (mipmap.empty()) return Color(1, 0, 1);
+
+    // Pixel filtering and level filtering are independent choices.
+    const auto sample_level = [&](int level) -> Color {
+      if (sp.psm == P_NEAREST) return sample_nearest(sp.p_uv, level);
+      if (sp.psm == P_LINEAR) return sample_bilinear(sp.p_uv, level);
+      return Color(1, 0, 1);
+    };
+
+    if (sp.lsm == L_ZERO) return sample_level(0);
+
+    const float level = get_level(sp);
+    if (sp.lsm == L_NEAREST) {
+      return sample_level(static_cast<int>(std::floor(level + 0.5f)));
+    }
+    if (sp.lsm == L_LINEAR) {
+      const int lower = static_cast<int>(std::floor(level));
+      const int upper = std::min(lower + 1, static_cast<int>(mipmap.size()) - 1);
+      const float weight = level - lower;
+      return sample_level(lower) * (1.0f - weight) + sample_level(upper) * weight;
+    }
+
+    // Magenta makes an invalid sampling method or texture visible.
+    return Color(1, 0, 1);
+  }
+
+  float Texture::get_level(const SampleParams& sp) {
+    if (mipmap.empty() || !valid_mip(mipmap[0])) return 0.0f;
+
+    // Derivatives are measured one SCREEN pixel away even with supersampling.
+    // Scale UV differences into texels of the original, full-resolution image.
+    const Vector2D dx = sp.p_dx_uv - sp.p_uv;
+    const Vector2D dy = sp.p_dy_uv - sp.p_uv;
+    const double w = static_cast<double>(mipmap[0].width);
+    const double h = static_cast<double>(mipmap[0].height);
+    const double dx_length_squared = dx.x * dx.x * w * w + dx.y * dx.y * h * h;
+    const double dy_length_squared = dy.x * dy.x * w * w + dy.y * dy.y * h * h;
+    const double footprint = std::sqrt(std::max(dx_length_squared, dy_length_squared));
+    const float max_level = static_cast<float>(mipmap.size() - 1);
+
+    // Magnification and a constant UV field use the original image.
+    if (std::isnan(footprint) || footprint <= 1.0) return 0.0f;
+    if (!std::isfinite(footprint)) return max_level;
+    return static_cast<float>(std::min(static_cast<double>(max_level), std::log2(footprint)));
+  }

@@ -1,0 +1,46 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at CGL/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Using Win32 for window creation
+-- Configuring done (0.3s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+[  5%] Built target glew
+[ 25%] Built target glfw
+[ 46%] Built target CGL
+[ 48%] Building CXX object CMakeFiles/rasterizer_benchmark.dir/verification/rasterizer_benchmark.cpp.obj
+[ 54%] Built target algorithm_tests
+[ 61%] Built target analytic_tests
+[ 75%] Built target draw
+[ 81%] Built target aa_benchmark
+[ 96%] Built target screenshot_runner
+[ 97%] Building CXX object CMakeFiles/rasterizer_benchmark.dir/src/rasterizer.cpp.obj
+[ 98%] Building CXX object CMakeFiles/rasterizer_benchmark.dir/src/texture.cpp.obj
+[100%] Linking CXX executable rasterizer_benchmark.exe
+[100%] Built target rasterizer_benchmark
+Internal ctest changing into directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+Test project C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+    Start 1: rasterizer_algorithms
+1/2 Test #1: rasterizer_algorithms ............   Passed    0.02 sec
+    Start 2: analytic_coverage
+2/2 Test #2: analytic_coverage ................   Passed    0.02 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.04 sec
+Ready: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\bin\draw.exe

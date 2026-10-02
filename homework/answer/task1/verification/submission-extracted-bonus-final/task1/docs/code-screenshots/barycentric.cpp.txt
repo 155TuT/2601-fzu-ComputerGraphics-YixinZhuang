@@ -1,0 +1,12 @@
+  void RasterizerImp::rasterize_interpolated_color_triangle(float x0, float y0, Color c0,
+    float x1, float y1, Color c1,
+    float x2, float y2, Color c2)
+  {
+    const TriangleSetup triangle(x0, y0, x1, y1, x2, y2);
+    for_each_triangle_sample(triangle, width, height, sample_rate, rasterization_method,
+      [&](size_t sample, double w0, double w1, double w2) {
+        sample_buffer[sample] = c0 * static_cast<float>(w0)
+                              + c1 * static_cast<float>(w1)
+                              + c2 * static_cast<float>(w2);
+      });
+  }

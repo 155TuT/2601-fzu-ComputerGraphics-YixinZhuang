@@ -1,0 +1,20 @@
+triangle_default OK 0.366s
+triangle_inspector OK 0.357s
+ssaa_1 OK 0.337s
+ssaa_4 OK 0.387s
+ssaa_16 OK 0.446s
+robot_original OK 0.419s
+robot_custom OK 0.442s
+colorwheel OK 0.422s
+barycentric OK 0.367s
+pixel_nearest_1 OK 0.475s
+pixel_nearest_16 OK 0.879s
+pixel_linear_1 OK 0.484s
+pixel_linear_16 OK 1.123s
+mipmap_zero_nearest OK 0.403s
+mipmap_zero_linear OK 0.446s
+mipmap_nearest_nearest OK 0.458s
+mipmap_nearest_linear OK 0.461s
+mipmap_linear_nearest OK 0.457s
+mipmap_linear_linear OK 0.509s
+Generated 19 original PNG screenshots

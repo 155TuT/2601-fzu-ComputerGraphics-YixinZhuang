@@ -1,0 +1,110 @@
+{
+  "requirement": "Task PDF page 7: additional GUI function, example PNG, SVG-to-NDC-to-screen stack explanation",
+  "keys": {
+    "Q": "counterclockwise 15 degrees",
+    "E": "clockwise 15 degrees",
+    "Space": "reset active SVG center, span and angle"
+  },
+  "matrix_stack": "ndc_to_screen * T(.5,.5) * R(angle) * T(-.5,-.5) * svg_to_ndc_base * element_transform",
+  "svg_state": "Independent center, span, angle retained for each loaded SVG",
+  "test_summary": {
+    "passed": 13,
+    "failed": 0,
+    "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nPASS default view center maps to framebuffer center\nPASS E rotates clockwise 15 degrees around the fixed center\nPASS Q undoes E without changing scale or center\nPASS 24 E steps restore a complete 360 degree turn\nPASS rotated dragging follows the screen displacement\nPASS zoom preserves the rotated center and scales its radius\nPASS a second SVG starts with an independent unrotated view\nPASS switching SVG restores its own rotation pan and zoom\nPASS Space restores the active SVG and leaves other SVG views intact\nPASS rectangular framebuffer keeps rotation isotropic and centered\nPASS rectangular rotated drag and resized Space reset are correct\nPASS B cycles regular coverage kernels without changing the view\nPASS A switches area integration and preserves controls view and regular kernel\nVIEWPORT_RESULT 13 passed, 0 failed\n",
+    "stderr": ""
+  },
+  "rotation_changes_pixels": true,
+  "space_restores_identical_pixels": true,
+  "retained_png_count": 19,
+  "retained_pngs_unchanged": true,
+  "manual_gui_validation": false,
+  "captures": [
+    {
+      "png": "docs\\screenshots\\viewport_default.png",
+      "sha256": "93367e3682610bf316e62932836d6bb5e17d5184e0bf6423ae966b8e02f74a96",
+      "svg": "docs/my_robot.svg",
+      "width": 800,
+      "height": 800,
+      "spp": 16,
+      "psm": "P_NEAREST",
+      "lsm": "L_ZERO",
+      "rotation_steps": 0,
+      "angle_degrees_clockwise": 0,
+      "space_reset": false,
+      "command_args": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\docs\\my_robot.svg",
+        "16",
+        "0",
+        "0",
+        "0",
+        "400",
+        "400",
+        "1",
+        "800",
+        "0",
+        "0"
+      ],
+      "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-38-3.png...Success!\n",
+      "stderr": "",
+      "capture": "Hidden GLFW window; automated real DrawRend E/Space/S callbacks"
+    },
+    {
+      "png": "docs\\screenshots\\viewport_rotated_30.png",
+      "sha256": "6806b3a66fdf7bf4729ed40151374920f3a1ac2c94653591a9e83b2c06efb930",
+      "svg": "docs/my_robot.svg",
+      "width": 800,
+      "height": 800,
+      "spp": 16,
+      "psm": "P_NEAREST",
+      "lsm": "L_ZERO",
+      "rotation_steps": 2,
+      "angle_degrees_clockwise": 30,
+      "space_reset": false,
+      "command_args": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\docs\\my_robot.svg",
+        "16",
+        "0",
+        "0",
+        "0",
+        "400",
+        "400",
+        "1",
+        "800",
+        "2",
+        "0"
+      ],
+      "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 30 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-38-4.png...Success!\n",
+      "stderr": "",
+      "capture": "Hidden GLFW window; automated real DrawRend E/Space/S callbacks"
+    },
+    {
+      "png": "docs\\screenshots\\viewport_reset.png",
+      "sha256": "93367e3682610bf316e62932836d6bb5e17d5184e0bf6423ae966b8e02f74a96",
+      "svg": "docs/my_robot.svg",
+      "width": 800,
+      "height": 800,
+      "spp": 16,
+      "psm": "P_NEAREST",
+      "lsm": "L_ZERO",
+      "rotation_steps": 2,
+      "angle_degrees_clockwise": 0,
+      "space_reset": true,
+      "command_args": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\docs\\my_robot.svg",
+        "16",
+        "0",
+        "0",
+        "0",
+        "400",
+        "400",
+        "1",
+        "800",
+        "2",
+        "1"
+      ],
+      "stdout": "OpenGL 4.6.0 NVIDIA 616.56 / NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2\nResolution 800 x 800. Using level zero, nearest pixel sampling. Supersample rate 16 per pixel. Kernel SIMD / AVX 4-wide double (B). View rotation 0 degrees (Q/E). AA regular SSAA (A). \nWriting file screenshot_10-2_17-38-4.png...Success!\n",
+      "stderr": "",
+      "capture": "Hidden GLFW window; automated real DrawRend E/Space/S callbacks"
+    }
+  ]
+}

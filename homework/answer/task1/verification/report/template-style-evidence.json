@@ -1,0 +1,48 @@
+{
+  "input": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\teacher\\task1\\\u4f5c\u4e1a\u62a5\u544a.docx",
+  "fonts_by_char_count": {
+    "Kaiti TC": 1356
+  },
+  "direct_run_formatting_runs": 179,
+  "direct_paragraph_formatting_paragraphs": 0,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 2,
+      "text": "\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 2,
+        "run_text": "\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "\u8bfe\u7a0b\u4f5c\u4e1a",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "1",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "\uff1a",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "\u5149\u6805\u5316\u5668",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

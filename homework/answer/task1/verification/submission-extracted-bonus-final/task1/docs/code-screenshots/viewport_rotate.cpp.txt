@@ -1,0 +1,18 @@
+void DrawRend::set_view(float x, float y, float span) {
+  if (!std::isfinite(x) || !std::isfinite(y) ||
+      !std::isfinite(span) || span <= 0) return;
+  ViewState& view = view_states[current_svg];
+  view.x = x; view.y = y; view.span = span;
+  // The original SVG->NDC transform maps the view center to (0.5,0.5).
+  // Rotate around that point before the unchanged, isotropic NDC->screen map.
+  const Matrix3x3 base(1, 0, -x + span, 0, 1, -y + span, 0, 0, 2 * span);
+  svg_to_ndc[current_svg] = translate(.5f, .5f) * rotate(view.angle)
+                        * translate(-.5f, -.5f) * base;
+}
+
+void DrawRend::rotate_view(float degrees) {
+  if (!std::isfinite(degrees)) return;
+  ViewState& view = view_states[current_svg];
+  view.angle = std::remainder(view.angle + degrees, 360.0f);
+  set_view(view.x, view.y, view.span);
+}

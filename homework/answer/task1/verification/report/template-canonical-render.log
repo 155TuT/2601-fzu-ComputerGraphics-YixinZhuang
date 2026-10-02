@@ -1,0 +1,6 @@
+[render_docx] $ C:\Program Files\LibreOffice\program\soffice.exe -env:UserInstallation=file:///C:/Users/17169/AppData/Local/Temp/soffice_profile_krovwc6a --invisible --headless --norestore --convert-to pdf --outdir C:\Users\17169\AppData\Local\Temp\soffice_convert_hys3klws C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\teacher\task1\��ҵ����.docx
+convert C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\teacher\task1\��ҵ����.docx as a Writer document -> C:\Users\17169\AppData\Local\Temp\soffice_convert_hys3klws\��ҵ����.pdf using filter : writer_pdf_Export
+
+Could not find platform independent libraries <prefix>
+
+Pages rendered to C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\verification\report\template-canonical-render

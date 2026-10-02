@@ -1,0 +1,75 @@
+{
+  "input": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\docs\\\u4f5c\u4e1a\u62a5\u544a.docx",
+  "fonts_by_char_count": {
+    "Kaiti TC": 6319
+  },
+  "direct_run_formatting_runs": 65,
+  "direct_paragraph_formatting_paragraphs": 73,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66",
+      "style": "Title"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66",
+        "style": "Title"
+      },
+      {
+        "para_index": 2,
+        "run_text": "\u8bfe\u7a0b\u4f5c\u4e1a 1 \u5149\u6805\u5316\u5668",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "[\u59d3\u540d\u5f85\u586b\u5199-\u5b66\u53f7\u5f85\u586b\u5199]",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": "\u4e00\u3001\u6982\u8ff0",
+        "style": "ReportHeading"
+      },
+      {
+        "para_index": 5,
+        "run_text": "\u672c\u4f5c\u4e1a\u5728\u6559\u5e08\u63d0\u4f9b\u7684 C++ \u6e32\u67d3\u6846\u67b6\u4e2d\u5b8c\u6210\u5355\u8272\u4e09\u89d2\u5f62\u3001\u89c4\u5219\u7f51\u683c\u8d85\u91c7\u6837\u3001\u4e8c\u7ef4\u51e0\u4f55\u53d8\u6362\u3001\u8d28\u5fc3\u989c\u8272\u63d2\u503c\u3001\u50cf\u7d20\u7eb9\u7406\u91c7\u6837\u548c MipMap \u5c42\u7ea7\u91c7\u6837\u3002\u516d\u9879\u529f\u80fd\u5171\u7528\u4e09\u89d2\u5f62\u8986\u76d6",
+        "style": "Normal"
+      }
+    ],
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 2,
+        "text": "\u8bfe\u7a0b\u4f5c\u4e1a 1 \u5149\u6805\u5316\u5668",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "[\u59d3\u540d\u5f85\u586b\u5199-\u5b66\u53f7\u5f85\u586b\u5199]",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "\u4e00\u3001\u6982\u8ff0",
+        "style": "ReportHeading"
+      },
+      {
+        "para_index": 5,
+        "text": "\u672c\u4f5c\u4e1a\u5728\u6559\u5e08\u63d0\u4f9b\u7684 C++ \u6e32\u67d3\u6846\u67b6\u4e2d\u5b8c\u6210\u5355\u8272\u4e09\u89d2\u5f62\u3001\u89c4\u5219\u7f51\u683c\u8d85\u91c7\u6837\u3001\u4e8c\u7ef4\u51e0\u4f55\u53d8\u6362\u3001\u8d28\u5fc3\u989c\u8272\u63d2\u503c\u3001\u50cf\u7d20\u7eb9\u7406\u91c7\u6837\u548c MipMap \u5c42\u7ea7\u91c7\u6837\u3002\u516d\u9879\u529f\u80fd\u5171\u7528\u4e09\u89d2\u5f62\u8986\u76d6\u5224\u5b9a\u548c\u91c7\u6837\u7f13\u51b2\uff1aSVG \u4e2d\u7684\u5c40\u90e8\u9876\u70b9\u5148\u8f6c\u6362\u5230\u5c4f\u5e55\u5750\u6807\uff0c\u8986\u76d6\u7684\u5b50\u6837\u672c\u518d\u6309\u56fe\u5143\u7c7b\u578b\u5199",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "text": "\u4e3b\u8981\u5b9e\u73b0\u4f4d\u4e8e rasterizer.cpp\u3001transforms.cpp \u548c texture.cpp\u3002\u7eb9\u7406\u50cf\u7d20\u91c7\u6837\u652f\u6301\u6700\u8fd1\u90bb\u4e0e\u53cc\u7ebf\u6027\uff0c\u5c42\u7ea7\u91c7\u6837\u652f\u6301\u7b2c 0 \u5c42\u3001\u6700\u8fd1\u5c42\u548c\u76f8\u90bb\u5c42\u7ebf\u6027\u6df7\u5408\uff1bP \u4e0e L \u53ef\u72ec\u7acb\u7ec4\u5408\u3002L_LINEAR \u662f\u672c\u6b21\u4efb\u52a1 6 ",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "docx_sha256": "04f93f90466c89015595f8e7d38a2f7caeb5631b846c88c54ddab93178d3e411",
+  "pdf_sha256": "431f9f46e1e063f79bf19e02eef88604344708729315a5964bb197c829c2f7b2",
+  "status": "passed",
+  "pdf_pages": 35,
+  "docx_xml_parts_parsed": 13,
+  "tables": 3,
+  "image_occurrences": 41,
+  "unique_media_sha256": 38,
+  "code_pngs": 18,
+  "all_embedded_images_match_sources": true,
+  "code_source_and_sidecar_hashes_match": true,
+  "section_count": 1,
+  "all_eight_sections_present": true,
+  "identity": "姓名待填写-学号待填写",
+  "styles": {
+    "ReportBody": {
+      "cjk_font": "宋体",
+      "latin_font": "Times New Roman",
+      "pt": 12,
+      "bold": false
+    },
+    "ReportHeading": {
+      "cjk_font": "黑体",
+      "latin_font": "Times New Roman",
+      "pt": 14,
+      "bold": true
+    },
+    "ReportSubheading": {
+      "cjk_font": "黑体",
+      "latin_font": "Times New Roman",
+      "pt": 12,
+      "bold": true
+    }
+  },
+  "bold_runs": 43,
+  "template_unchanged": true,
+  "template_sha256": "cd682fbbda36cce208e9661699b5353fe4429ba343daa9787da6a6793ad24e16",
+  "audited_utc": "2026-10-02T10:08:55.552427+00:00"
+}

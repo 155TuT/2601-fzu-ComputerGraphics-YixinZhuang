@@ -1,0 +1,43 @@
+void subtract(ClipPolygon region, const Vector2D v[3], double orientation,
+              std::vector<ClipPolygon>& outside) {
+  for (int e=0; e<3 && !region.empty(); ++e) {
+    ClipPolygon piece=clip(region,v[e],v[(e+1)%3],orientation,false);
+    Vector2D ignored;
+    if (measure(piece,ignored)>1e-15) outside.push_back(std::move(piece));
+    region=clip(region,v[e],v[(e+1)%3],orientation,true);
+  }
+}
+
+void AnalyticRasterizer::resolve_to_framebuffer() {
+  if(!framebuffer)return;
+  for(size_t y=0;y<height;++y)for(size_t x=0;x<width;++x) {
+    const auto& bin=tile_bins[(y/tile_side)*tiles_x+x/tile_side];
+    if(bin.empty())continue;
+    std::vector<ClipPolygon> uncovered{pixel_square(x,y)};
+    double rgb[3]={0,0,0};
+    // Traverse from last drawn to first. Earlier layers only contribute where
+    // later opaque geometry is absent. This avoids seams along tessellation.
+    for(auto it=bin.rbegin();it!=bin.rend()&&!uncovered.empty();++it) {
+      const Primitive& p=primitives[*it];
+      if(int(x)<p.x0||int(x)>=p.x1||int(y)<p.y0||int(y)>=p.y1)continue;
+      const double orientation=p.area>0?1:-1;
+      std::vector<ClipPolygon> next;
+      for(const ClipPolygon& region:uncovered) {
+        ClipPolygon visible=intersection(region,p.v,orientation);
+        Vector2D centroid;const double area=measure(visible,centroid);
+        if(area<=1e-15){next.push_back(region);continue;}
+        const Color c=shade(p,centroid);
+        rgb[0]+=area*c.r;rgb[1]+=area*c.g;rgb[2]+=area*c.b;
+        subtract(region,p.v,orientation,next);
+      }
+      uncovered.swap(next);
+    }
+    // The remaining exact area shows the white background.
+    for(const ClipPolygon& region:uncovered) {
+      Vector2D centroid;const double area=measure(region,centroid);
+      for(double& v:rgb)v+=area;
+    }
+    const size_t i=3*(y*width+x);
+    framebuffer[i]=byte(rgb[0]);framebuffer[i+1]=byte(rgb[1]);framebuffer[i+2]=byte(rgb[2]);
+  }
+}

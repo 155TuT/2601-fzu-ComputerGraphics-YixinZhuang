@@ -1,0 +1,42 @@
+  void RasterizerImp::fill_pixel(size_t x, size_t y, Color c) {
+    // Points and lines cover the entire pixel, so broadcast to every sample.
+    if (x >= width || y >= height) return;
+    const size_t base = (y * width + x) * sample_rate;
+    std::fill(sample_buffer.begin() + base,
+              sample_buffer.begin() + base + sample_rate, c);
+  }
+
+  void RasterizerImp::set_sample_rate(unsigned int rate) {
+    rate = validate_sample_rate(rate);
+    // Allocate first to keep the previous state consistent on failure.
+    std::vector<Color> replacement(sample_count(width, height, rate), Color::White);
+    sample_buffer.swap(replacement);
+    sample_rate = rate;
+  }
+
+  void RasterizerImp::set_framebuffer_target(unsigned char* rgb_framebuffer,
+    size_t width, size_t height)
+  {
+    std::vector<Color> replacement(sample_count(width, height, sample_rate), Color::White);
+    sample_buffer.swap(replacement);
+    this->width = width;
+    this->height = height;
+    this->rgb_framebuffer_target = rgb_framebuffer;
+  }
+
+  void RasterizerImp::resolve_to_framebuffer() {
+    if (!rgb_framebuffer_target) return;
+    const float weight = 1.0f / sample_rate;
+    for (size_t pixel = 0; pixel < width * height; ++pixel) {
+      Color col;
+      const size_t base = pixel * sample_rate;
+      for (unsigned int sample = 0; sample < sample_rate; ++sample) {
+        col += sample_buffer[base + sample];
+      }
+      col *= weight;
+      rgb_framebuffer_target[3 * pixel] = encode_channel(col.r);
+      rgb_framebuffer_target[3 * pixel + 1] = encode_channel(col.g);
+      rgb_framebuffer_target[3 * pixel + 2] = encode_channel(col.b);
+    }
+
+  }

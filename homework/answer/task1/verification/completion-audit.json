@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "user_selections": [
+    "task1 SIMD edge functions with runtime fallback",
+    "task2 analytic coverage extra experiment retaining SSAA",
+    "task3 viewport rotation GUI"
+  ],
+  "base_algorithm_checks": 41,
+  "analytic_checks": 20,
+  "viewport_checks": 13,
+  "simd_pipeline_comparisons": 384,
+  "oracle_unique_configurations": 864,
+  "oracle_runs": 2,
+  "oracle_comparisons": 1728,
+  "teacher_svg_smoke_tests": 32,
+  "opengl_native_captures": 24,
+  "code_pngs": 18,
+  "report_pages": 35,
+  "report_word_open_verified": true,
+  "report_all_pages_visually_checked": true,
+  "zip_clean_path_smoke_tests": 4,
+  "zip_manifest_files": 444,
+  "checksums": [
+    "bc74737d0f28fbce495c3c1cdb27d33158c15f02532645e97e42d89b29f9ec58  submission/task1-submit.zip",
+    "04f93f90466c89015595f8e7d38a2f7caeb5631b846c88c54ddab93178d3e411  docs/作业报告.docx",
+    "431f9f46e1e063f79bf19e02eef88604344708729315a5964bb197c829c2f7b2  docs/作业报告.pdf",
+    "715c266ee281cd4b9190f47184359e675b3f4a9a0a7380f759fe7508b612220d  bin/draw.exe"
+  ],
+  "identity": "姓名与学号待填写",
+  "development_environment": "VS Code + existing MinGW; no Visual Studio setup",
+  "installed_dependency_directories": [
+    ".tools/cmake-3.31.10-windows-x86_64",
+    ".tools/freetype",
+    ".tools/python-packages"
+  ]
+}

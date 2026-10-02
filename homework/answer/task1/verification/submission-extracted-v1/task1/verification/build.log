@@ -1,0 +1,41 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at CGL/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Using Win32 for window creation
+-- Configuring done (0.3s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+[  6%] Built target glew
+[ 32%] Built target glfw
+[ 59%] Built target CGL
+[ 60%] Building CXX object CMakeFiles/draw.dir/src/drawrend.cpp.obj
+[ 68%] Built target algorithm_tests
+[ 70%] Building CXX object CMakeFiles/screenshot_runner.dir/src/drawrend.cpp.obj
+[ 72%] Linking CXX executable screenshot_runner.exe
+[ 73%] Linking CXX executable draw.exe
+[ 86%] Built target screenshot_runner
+[100%] Built target draw
+Internal ctest changing into directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+Test project C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+    Start 1: rasterizer_algorithms
+1/1 Test #1: rasterizer_algorithms ............   Passed    0.02 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.03 sec
+Ready: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\bin\draw.exe

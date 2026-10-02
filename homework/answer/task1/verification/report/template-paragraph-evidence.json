@@ -1,0 +1,3123 @@
+[
+  {
+    "i": 0,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 1,
+    "text": "计算机图形学",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "计算机图形学",
+        "font": "Kaiti TC",
+        "size": 24.0,
+        "bold": true,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:b/",
+          "<w:bCs/",
+          "<w:sz w:val=\"48\"/",
+          "<w:szCs w:val=\"48\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "text": "课程作业1：光栅化器",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "课程作业",
+        "font": "Kaiti TC",
+        "size": 18.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"36\"/",
+          "<w:szCs w:val=\"36\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "1",
+        "font": "Kaiti TC",
+        "size": 18.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:sz w:val=\"36\"/",
+          "<w:szCs w:val=\"36\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "：",
+        "font": "Kaiti TC",
+        "size": 18.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"36\"/",
+          "<w:szCs w:val=\"36\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "光栅化器",
+        "font": "Kaiti TC",
+        "size": 18.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"36\"/",
+          "<w:szCs w:val=\"36\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "text": "[姓名-学号]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "姓名",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "-",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "学号",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 5,
+    "text": "一、概述",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "一、概述",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "text": "简要介绍作业实现的主要内容。",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "简要介绍作业实现的主要内容。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 7,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 8,
+    "text": "二、绘制三角形",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "二",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "、绘制三角形",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 9,
+    "text": "讲解如何光栅化三角形。",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "讲解如何光栅化三角形。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 10,
+    "text": "[提供一张 basic/test4.svg 的截图（png 格式），分别是默认视角下和像素检查器聚焦在场景某个有趣部分时的画面。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "提供一张",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " basic/test4.svg ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "的截图（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "png ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "格式），分别是默认视角下和像素检查器聚焦在场景某个有趣部分时的画面。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 11,
+    "text": "[加分：解释你是否做了边界框光栅化之外的优化]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "加分：解释你是否做了边界框光栅化之外的优化",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 12,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 13,
+    "text": "三、基于超采样的反走样算法",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "三",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "、基于超采样的反走样算法",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 14,
+    "text": "解释下你的超采样算法和数据结构。为什么超采样有用？在此过程中你对光栅化管线做了哪些修改？",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "解释下你的超采样算法和数据结构。为什么超",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "采样有用？在此过程中你对光栅化管线做了哪些修改？",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 15,
+    "text": "[提供 basic/test4.svg 的截图（png 格式），在默认视角下，采样率分别为 1、4、16，并进行并排比较。将像素检查器放在能明显展示效果的区域（例如一个很细的三角形角落）。解释为什么会观察到这些结果。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "提供",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " basic/test4.svg ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "的截图（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "png ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "格式），在默认视角下，采样率分别为",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " 1",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "、",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "4",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "、",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "16",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "，并进行并排比较。将像素检查器放在能明显展示效果的区域（例如一个很细的三角形角落）。解释为什么会观察到这些结果。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 16,
+    "text": "[加分：如果你实现了其他抗锯齿方法，请描述它们，并附上对比图展示你的方法与基于网格的超采样的差异。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "加分：如果你实现了其他抗锯齿方法，请描述它们，并附上对比图展示你的方法与基于网格的超",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "采样的差异。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 17,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 18,
+    "text": "四、几何变换",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "四",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "、几何变换",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 19,
+    "text": "用文字解释你让小人模型做了什么。",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "用文字解释你让小人模型",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "做了什么。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 20,
+    "text": "[将修改后的文件保存为 my_robot.svg 放在 docs/ 目录中，并在报告中附上渲染结果的截图（png 格式）。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "将修改后的文件保存为",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " my_robot.svg ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "放在",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " docs/ ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "目录中，并在报告中附上渲染结果的截图（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "png ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "格式）。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 21,
+    "text": "[加分：修改 svg/transforms/robot.svg，让小人做一些更有趣的动作，比如挥手或跑步。你可以自由更改颜色或比例，展现创造力。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "加分：",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "修改",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " svg/transforms/robot.svg",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "，让小人做一些更有趣的动作，比如挥手或跑步。你可以自由更改颜色或比例，展现创造力。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 22,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 23,
+    "text": "五、质心坐标",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "五",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "、质心坐标",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 24,
+    "text": "解释下重心坐标（barycentric coordinates），并配合图片辅助说明，如绘制一个三角形，其中三个顶点分别是红、绿、蓝，这样可以生成一个平滑渐变的彩色三角形。",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "解",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "释下",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "重心坐标（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "barycentric coordinates",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "），并配合图片辅助说明，",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "如",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "绘制一个三角形，其中三个顶点分别是红、绿、蓝，这样可以生成一个平滑渐变的彩色三角形。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 25,
+    "text": "[提供 svg/basic/test7.svg 在默认视角、采样率为 1 时的截图（png 格式）。如果你制作了其他渐变色图片，请一并包含。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "提供",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "svg/basic/test7.svg ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "在默认视角、采样率为",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " 1 ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "时的截图（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "png ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "格式）。如果你制作了其他渐变色图片，请一并包含。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 26,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 27,
+    "text": "六、基于像素采样的纹理映射",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "六",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "、",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "基于像素采样的纹理映射",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 28,
+    "text": "解释什么是像素采样（pixel sampling），并说明你是如何实现它来进行纹理映射的。简要讨论两种像素采样方法：最近邻（nearest） 和 双线性插值（bilinear）。",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "解释什么是",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "像素采样（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "pixel sampling",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "），并说明你是如何实现它来进行纹理映射的。简要讨论两种像素采样方法：最近邻（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "nearest",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "）",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "和",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "双线性插值（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "bilinear",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "）。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 29,
+    "text": "[使用 svg/texmap/ 文件夹中的示例，找到一个能明显体现双线性优于最近邻的例子。提供四张截图对比：",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "使用",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "svg",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "texmap",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/ ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "文件夹中的示例，找到一个能明显体现双线性优于最近邻的例子。提供四张截图对比：",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 30,
+    "text": "最近邻采样，1 像素/采样;",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "最近邻采样，",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "1 ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "像素",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "采样",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": ";",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 31,
+    "text": "最近邻采样，16 像素/采样;",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "最近邻采样，",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "16 ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "像素",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "采样",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": ";",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 32,
+    "text": "双线性采样，1 像素/采样;",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "双线性采样，",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "1 ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "像素",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "采样",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": ";",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 33,
+    "text": "双线性采样，16 像素/采样。",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "双线性采样，",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "16 ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "像素",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "采样。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 34,
+    "text": "评论这些差异。讨论在什么情况下这两种方法差异最大，以及原因。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "评论这些差异。讨论在什么情况下这两种方法差异最大，以及原因。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 35,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 36,
+    "text": "MipMap纹理映射",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "MipMap",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "纹理映射",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 37,
+    "text": "解释层级采样（level sampling），并说明你是如何在纹理映射中实现它的。",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "解释层级采样（",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "level sampling",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "），并说明你是如何在纹理映射中实现它的。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 38,
+    "text": "[现在你可以选择像素采样、层级采样以及每像素采样数。比较三者在速度、内存使用和抗锯齿能力上的权衡。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "现在你可以选择像素采样、层级采样以及每像素采样数。比较三者在速度、内存使用和抗锯齿能力上的权衡。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 39,
+    "text": "[使用你自己准备的一张 png 图片，展示以下四种组合的渲染结果：",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "使用你自己准备的一张",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "png",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "图片，展示以下四种组合的渲染结果：",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 40,
+    "text": "L_ZERO + P_NEAREST",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "L_ZERO + P_NEAREST",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 41,
+    "text": "L_ZERO + P_LINEAR",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "L_ZERO + ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "P_LINEAR",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 42,
+    "text": "L_NEAREST + P_NEAREST",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "L_NEAREST + P_NEAREST",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 43,
+    "text": "L_NEAREST + P_LINEAR",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "L_NEAREST + P_LINEAR",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 44,
+    "text": "（方法：复制一个 svg/texmap/ 文件夹里的 svg 文件或自己建一个，修改其中的纹理文件路径为你准备的 png，再运行 ./draw 并保存截图。）",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "（方法：复制一个",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "svg",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "texmap",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/ ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "文件夹里的",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "svg",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "文件或自己建一个，修改其中的纹理文件路径为你准备的",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "png",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "，再运行",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ./draw ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "并保存截图。）",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 45,
+    "text": "注意：选择一张能很好展示不同采样效果的 png。你可能需要放大/缩小，或使用像素检查器来演示差异。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "注意：选择一张能很好展示不同采样效果的",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": " ",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "png",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "。你可能需要放大",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "/",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "缩小，或使用像素检查器来演示差异。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 46,
+    "text": "[加分：如果你实现了额外的过滤方法，请描述并展示它们与上述方法的对比效果。]",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "[",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "加分：如果你实现了额外的过滤方法，请描述并展示它们与上述方法的对比效果。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      },
+      {
+        "text": "]",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "<w:lang w:val=\"en-US\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 47,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  },
+  {
+    "i": 48,
+    "text": "实践与思考",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "实践与思考",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": null,
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 49,
+    "text": "简要介绍编程调试经历，观察算法实验效果的优点和存在的问题，若有，则如何进行改进的思路和效果。",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": [
+      {
+        "text": "简要介绍编程调试经历，观察算法实验效果的优点和存在的问题，若有，则如何进行改进的思路和效果。",
+        "font": "Kaiti TC",
+        "size": 14.0,
+        "bold": null,
+        "color": "808080",
+        "rPr": [
+          "<w:rFonts w:ascii=\"Kaiti TC\" w:eastAsia=\"Kaiti TC\" w:hAnsi=\"Kaiti TC\" w:hint=\"eastAsia\"/",
+          "<w:color w:val=\"808080\" w:themeColor=\"background1\" w:themeShade=\"80\"/",
+          "<w:sz w:val=\"28\"/",
+          "<w:szCs w:val=\"28\"/",
+          "</w:rPr",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "i": 50,
+    "text": "",
+    "pPr": "schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\"",
+    "runs": []
+  }
+]
