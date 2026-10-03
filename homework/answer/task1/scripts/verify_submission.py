@@ -1,8 +1,11 @@
-"""Verify the final ZIP, extract once, and smoke-test its own draw.exe.
+"""Verify a strict-subset submission ZIP and smoke-test its own draw.exe.
 
 Usage: python scripts/verify_submission.py [--zip path/to/task1-submit.zip]
-Uses only the Python standard library. Never deletes or overwrites an existing
-extraction directory, and never modifies the source tree, reports or archive.
+       [--manifest path/to/package-manifest.json]
+Uses only the Python standard library. Compares the external manifest with the
+task1 originals, live submission directory, ZIP and fresh extracted files.
+Every run preserves older extraction directories and timestamped audit files.
+Windows is required for the four draw.exe headless runtime tests.
 """
 from pathlib import Path, PurePosixPath
 from zipfile import ZipFile
@@ -17,13 +20,14 @@ import stat
 import struct
 import subprocess
 import sys
+import uuid
 import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
-VERIFY = ROOT / "verification"
-DESTINATION = VERIFY / "submission-extracted-bonus-final"
-JSON_PATH = VERIFY / "submission-smoke.json"
-LOG_PATH = VERIFY / "submission-smoke.log"
+VERIFY = ROOT / "verification/submission-layout"
+SUBMISSION = ROOT / "submission/task1-submit"
+MANIFEST = VERIFY / "package-manifest.json"
+PACKAGE_ROOT = "task1-submit"
 
 
 def timestamp():
@@ -43,62 +47,112 @@ def safe_relative(name):
     if not isinstance(name, str) or not name or "\\" in name or ":" in name or "\0" in name:
         raise ValueError(f"Unsafe archive path: {name!r}")
     path = PurePosixPath(name)
-    if path.is_absolute() or any(part in (".", "..") for part in name.split("/")):
+    if path.is_absolute() or any(part in ("", ".", "..") for part in name.split("/")):
         raise ValueError(f"Unsafe archive path: {name!r}")
+    for part in path.parts:
+        reserved = part.split(".", 1)[0].upper()
+        if part.endswith((" ", ".")) or reserved in {"CON", "PRN", "AUX", "NUL"} or reserved in {
+                *(f"COM{i}" for i in range(1, 10)), *(f"LPT{i}" for i in range(1, 10))}:
+            raise ValueError(f"Unsafe Windows archive path: {name!r}")
     return path
 
 
-def unpack_checked(archive, audit, log):
+def unpack_checked(archive, manifest_path, destination, audit, log):
+    manifest_data = manifest_path.read_bytes()
+    manifest = json.loads(manifest_data.decode("utf-8-sig"))
+    if manifest.get("schema") != 1 or manifest.get("package_root") != PACKAGE_ROOT:
+        raise ValueError("Manifest must use schema 1 and package_root task1-submit")
+    if manifest.get("archive_sha256", "").lower() != audit["zip_sha256"]:
+        raise ValueError("External manifest archive SHA256 differs from ZIP")
+    if manifest.get("archive_bytes") != audit["zip_bytes"]:
+        raise ValueError("External manifest archive size differs from ZIP")
+    records = manifest.get("files")
+    if not isinstance(records, list) or not records:
+        raise ValueError("Manifest has no file records")
+    record_paths, file_integrity = [], []
+    for record in records:
+        path = safe_relative(record["path"])
+        if path.as_posix() != record["path"] or path.parts[0].lower() == "submission":
+            raise ValueError(f"Noncanonical or recursive manifest path: {record['path']}")
+        size, digest = record["bytes"], record["sha256"]
+        if not isinstance(size, int) or isinstance(size, bool) or size < 0:
+            raise ValueError(f"Invalid manifest size: {record['path']}")
+        if not isinstance(digest, str) or len(digest) != 64 or any(c not in "0123456789abcdefABCDEF" for c in digest):
+            raise ValueError(f"Invalid manifest SHA256: {record['path']}")
+        record_paths.append(record["path"])
+        source = ROOT.joinpath(*path.parts)
+        packaged = SUBMISSION.joinpath(*path.parts)
+        for label, candidate, base in (("source", source, ROOT), ("submission", packaged, SUBMISSION)):
+            if candidate.is_symlink() or not candidate.resolve().is_relative_to(base.resolve()):
+                raise ValueError(f"{label} file escaped its root or is a symlink: {candidate}")
+            if not candidate.is_file():
+                raise FileNotFoundError(f"Missing {label} file: {candidate}")
+            if candidate.stat().st_size != size or sha256(candidate) != digest.lower():
+                raise ValueError(f"{label} differs from manifest: {candidate}")
+        file_integrity.append({"path": record["path"], "bytes": size, "sha256": digest.lower(),
+                               "source": str(source.resolve()), "submission": str(packaged.resolve())})
+    if len(record_paths) != len({name.casefold() for name in record_paths}):
+        raise ValueError("Manifest lists duplicate or Windows case-colliding paths")
+    actual_submission_files = set()
+    for item in SUBMISSION.rglob("*"):
+        if item.is_symlink() or not item.resolve().is_relative_to(SUBMISSION.resolve()):
+            raise ValueError(f"Submission directory contains an escaping path or symlink: {item}")
+        if item.is_file():
+            actual_submission_files.add(item.relative_to(SUBMISSION).as_posix())
+        elif not item.is_dir():
+            raise ValueError(f"Submission directory contains a special file: {item}")
+    if actual_submission_files != set(record_paths):
+        missing = sorted(set(record_paths) - actual_submission_files)
+        extra = sorted(actual_submission_files - set(record_paths))
+        raise ValueError(f"Submission file set differs from manifest: missing={missing!r}, extra={extra!r}")
+    audit.update(manifest_sha256=hashlib.sha256(manifest_data).hexdigest(),
+                 manifest_files_checked=len(records), source_files_checked=len(records),
+                 submission_files_checked=len(records), file_integrity=file_integrity)
+    log(f"External manifest and {len(records)} source/submission file hashes and sizes passed")
+
+    extraction_root = destination / "独立运行 验证"
     with ZipFile(archive) as package:
         entries = package.infolist()
-        names = [entry.filename for entry in entries]
+        names = [entry.filename.rstrip("/").casefold() for entry in entries]
         if len(names) != len(set(names)):
-            raise ValueError("ZIP contains duplicate member names")
+            raise ValueError("ZIP contains duplicate or Windows case-colliding member names")
         for entry in entries:
             relative = safe_relative(entry.filename.rstrip("/"))
-            if relative.parts[0] != "task1":
-                raise ValueError(f"ZIP member outside task1/: {entry.filename}")
+            if relative.parts[0] != PACKAGE_ROOT:
+                raise ValueError(f"ZIP member outside {PACKAGE_ROOT}/: {entry.filename}")
             if stat.S_ISLNK(entry.external_attr >> 16):
                 raise ValueError(f"ZIP symlink is not permitted: {entry.filename}")
-            target = DESTINATION.joinpath(*relative.parts).resolve()
-            if not target.is_relative_to(DESTINATION.resolve()):
+            target = extraction_root.joinpath(*relative.parts).resolve()
+            if not target.is_relative_to(extraction_root.resolve()):
                 raise ValueError(f"ZIP target escaped extraction directory: {entry.filename}")
+        actual_files = {entry.filename for entry in entries if not entry.is_dir()}
+        expected_files = {PACKAGE_ROOT + "/" + name for name in record_paths}
+        if actual_files != expected_files:
+            missing = sorted(expected_files - actual_files)
+            extra = sorted(actual_files - expected_files)
+            raise ValueError(f"ZIP file set differs from external manifest: missing={missing!r}, extra={extra!r}")
         damaged = package.testzip()
         if damaged is not None:
             raise ValueError(f"ZIP CRC failure: {damaged}")
         audit["zip_crc"] = "all members passed"
-        manifest_data = package.read("task1/manifest.json")
-        manifest = json.loads(manifest_data.decode("utf8"))
-        records = manifest.get("files")
-        if not isinstance(records, list) or not records:
-            raise ValueError("Manifest has no file records")
-        record_paths = []
         for record in records:
-            path = safe_relative(record["path"])
-            if path.as_posix() != record["path"]:
-                raise ValueError(f"Noncanonical manifest path: {record['path']}")
-            record_paths.append(record["path"])
-            data = package.read("task1/" + record["path"])
-            if len(data) != int(record["bytes"]):
+            digest, total = hashlib.sha256(), 0
+            with package.open(PACKAGE_ROOT + "/" + record["path"]) as source:
+                for block in iter(lambda: source.read(1024 * 1024), b""):
+                    digest.update(block)
+                    total += len(block)
+            if total != record["bytes"]:
                 raise ValueError(f"Manifest size mismatch: {record['path']}")
-            if hashlib.sha256(data).hexdigest() != record["sha256"].lower():
+            if digest.hexdigest() != record["sha256"].lower():
                 raise ValueError(f"Manifest SHA256 mismatch: {record['path']}")
-        if len(record_paths) != len(set(record_paths)):
-            raise ValueError("Manifest lists duplicate paths")
-        actual_files = {entry.filename for entry in entries if not entry.is_dir()}
-        expected_files = {"task1/" + name for name in record_paths} | {"task1/manifest.json"}
-        if actual_files != expected_files:
-            raise ValueError("ZIP file set differs from manifest plus manifest.json")
-        audit["manifest_sha256"] = hashlib.sha256(manifest_data).hexdigest()
-        audit["manifest_files_checked"] = len(records)
         log(f"ZIP CRC and {len(records)} manifest hashes/sizes passed")
 
         # Fail atomically if anything already occupies this exact destination.
         # No recursive deletion, overwriting or recovery-by-cleanup is attempted.
-        DESTINATION.mkdir(parents=False, exist_ok=False)
+        destination.mkdir(parents=True, exist_ok=False)
         for entry in entries:
             relative = safe_relative(entry.filename.rstrip("/"))
-            target = DESTINATION.joinpath(*relative.parts)
+            target = extraction_root.joinpath(*relative.parts)
             if entry.is_dir():
                 target.mkdir(parents=True, exist_ok=True)
             else:
@@ -106,12 +160,12 @@ def unpack_checked(archive, audit, log):
                 with package.open(entry) as source, target.open("xb") as output:
                     shutil.copyfileobj(source, output)
         for record in records:
-            path = DESTINATION / "task1" / record["path"]
+            path = extraction_root / PACKAGE_ROOT / record["path"]
             if path.stat().st_size != int(record["bytes"]) or sha256(path) != record["sha256"].lower():
                 raise ValueError(f"Extracted manifest mismatch: {record['path']}")
         audit["extracted_files_checked"] = len(records)
         log(f"Extracted {len(records)} manifest files and verified them again")
-    return DESTINATION / "task1"
+    return extraction_root / PACKAGE_ROOT
 
 
 def paeth(a, b, c):
@@ -228,42 +282,48 @@ def verify_png(path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--zip", type=Path, default=ROOT / "submission/task1-submit.zip")
+    parser.add_argument("--manifest", type=Path, default=MANIFEST)
     args = parser.parse_args()
-    if DESTINATION.exists():
-        # Preserve both the previous extraction and its existing smoke evidence.
-        print(f"REFUSED: extraction directory already exists: {DESTINATION}", file=sys.stderr)
-        return 2
     if os.name != "nt":
-        print("This validation specifically requires Windows/System32", file=sys.stderr)
+        print("Cannot verify the packaged Windows draw.exe on this platform; Windows/System32 is required",
+              file=sys.stderr)
         return 2
-    VERIFY.mkdir(exist_ok=True)
+    VERIFY.mkdir(parents=True, exist_ok=True)
+    run_id = datetime.now(timezone(timedelta(hours=8))).strftime("%Y%m%d-%H%M%S-%f") + "-" + uuid.uuid4().hex[:8]
+    destination = ROOT / "submission" / ("verification-" + run_id)
+    json_path = VERIFY / ("submission-verify-" + run_id + ".json")
+    log_path = VERIFY / ("submission-verify-" + run_id + ".log")
+    # Exclusive creation guarantees that a collision cannot replace older evidence.
+    for path in (json_path, log_path):
+        with path.open("x", encoding="utf8"):
+            pass
     audit = {"status": "running", "zip": str(args.zip.resolve()),
-             "extraction": str(DESTINATION.resolve()), "tests": [],
+             "manifest": str(args.manifest.resolve()), "source_root": str(ROOT),
+             "submission": str(SUBMISSION.resolve()), "package_root": PACKAGE_ROOT,
+             "extraction": str(destination.resolve()), "tests": [],
+             "audit_json": str(json_path.resolve()), "audit_log": str(log_path.resolve()),
              "timezone": "Asia/Shanghai", "started_at": timestamp()}
     logs = []
 
     def log(message):
         logs.append(message)
         print(message, flush=True)
-        LOG_PATH.write_text("\n".join(logs) + "\n", encoding="utf8")
+        log_path.write_text("\n".join(logs) + "\n", encoding="utf8")
 
     def save():
-        JSON_PATH.write_text(json.dumps(audit, ensure_ascii=False, indent=2), encoding="utf8")
+        json_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
 
     try:
         archive = args.zip.resolve(strict=True)
         audit["zip_bytes"], audit["zip_sha256"] = archive.stat().st_size, sha256(archive)
         log(f"Archive: {archive}\nSHA256: {audit['zip_sha256']}")
-        extracted = unpack_checked(archive, audit, log)
+        manifest_path = args.manifest.resolve(strict=True)
+        extracted = unpack_checked(archive, manifest_path, destination, audit, log)
+        audit["extracted_package"] = str(extracted.resolve())
         executable = extracted / "bin/draw.exe"
         if not executable.is_file():
             raise FileNotFoundError(executable)
         robot = extracted / "code/svg/transforms/robot.svg"
-        if not robot.is_file():
-            alternatives = sorted((extracted / "code/svg").rglob("*robot*.svg"))
-            if not alternatives:
-                raise FileNotFoundError("No packaged robot SVG")
-            robot = alternatives[0]
         scenes = [("basic_test4", extracted / "code/svg/basic/test4.svg"),
                   ("teacher_robot", robot), ("my_robot", extracted / "docs/my_robot.svg"),
                   ("texture_demo", extracted / "docs/texture_demo.svg")]
@@ -277,11 +337,13 @@ def main():
         for name, svg in scenes:
             if not svg.is_file():
                 raise FileNotFoundError(svg)
-            cwd = DESTINATION / "smoke-output" / name
+            cwd = destination / "smoke-output" / name
             cwd.mkdir(parents=True, exist_ok=False)
             command = [str(executable), str(svg), "nogl", "400", "400"]
             log(f"RUN {name}: {command!r}\nCWD: {cwd}\nPATH: {env['PATH']}")
             test = {"name": name, "svg": str(svg), "cwd": str(cwd), "command": command,
+                    "svg_sha256": sha256(svg), "executable": str(executable),
+                    "executable_sha256": audit["draw_sha256"],
                     "status": "running"}
             audit["tests"].append(test)
             save()
@@ -305,7 +367,8 @@ def main():
             save()
         audit["status"] = "passed"
         audit["passed_tests"] = len(audit["tests"])
-        log(f"PASS: ZIP CRC, all manifest hashes before/after extraction, {len(scenes)} clean-PATH smoke tests")
+        log(f"PASS: strict source/submission/ZIP subset, ZIP CRC, all extracted hashes, "
+            f"{len(scenes)} clean-PATH smoke tests")
         return 0
     except Exception as error:
         audit["status"], audit["error"] = "failed", repr(error)
@@ -316,6 +379,8 @@ def main():
     finally:
         audit["finished_at"] = timestamp()
         save()
+        (VERIFY / "submission-verify-latest.json").write_text(
+            json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
 
 
 if __name__ == "__main__":

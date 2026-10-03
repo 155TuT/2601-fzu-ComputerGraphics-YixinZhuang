@@ -1,0 +1,92 @@
+-- Found PkgConfig: C:/msys64/mingw64/bin/pkg-config.exe (found version "2.5.1")
+-- Using Win32 for window creation
+-- Configuring done (0.3s)
+-- Generating done (0.4s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+[  1%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj
+[  4%] Built target glew
+[  5%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftbase.c.obj
+[  6%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj
+[ 19%] Built target glfw
+[ 20%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj
+[ 20%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj
+[ 21%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftcid.c.obj
+[ 22%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj
+[ 23%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj
+[ 24%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj
+[ 24%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj
+[ 25%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftinit.c.obj
+[ 26%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftmm.c.obj
+[ 27%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftotval.c.obj
+[ 28%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj
+[ 29%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj
+[ 29%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj
+[ 30%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj
+[ 31%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/fttype1.c.obj
+[ 32%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj
+[ 33%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj
+[ 34%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj
+[ 34%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj
+[ 35%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/cff/cff.c.obj
+[ 36%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj
+[ 37%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj
+[ 38%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj
+[ 39%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj
+[ 39%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj
+[ 40%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj
+[ 41%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj
+[ 42%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj
+[ 43%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/raster/raster.c.obj
+[ 43%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj
+[ 44%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj
+[ 45%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj
+[ 46%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/svg/svg.c.obj
+[ 47%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj
+[ 48%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/type1/type1.c.obj
+[ 48%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/type42/type42.c.obj
+[ 49%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj
+[ 50%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj
+[ 51%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj
+[ 52%] Building RC object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftver.rc.obj
+[ 53%] Linking C static library libfreetype.a
+[ 53%] Built target freetype
+[ 53%] Building CXX object CGL/CMakeFiles/CGL.dir/src/vector2D.cpp.obj
+[ 54%] Building CXX object CGL/CMakeFiles/CGL.dir/src/vector3D.cpp.obj
+[ 55%] Building CXX object CGL/CMakeFiles/CGL.dir/src/vector4D.cpp.obj
+[ 56%] Building CXX object CGL/CMakeFiles/CGL.dir/src/matrix3x3.cpp.obj
+[ 57%] Building CXX object CGL/CMakeFiles/CGL.dir/src/matrix4x4.cpp.obj
+[ 57%] Building CXX object CGL/CMakeFiles/CGL.dir/src/quaternion.cpp.obj
+[ 58%] Building CXX object CGL/CMakeFiles/CGL.dir/src/complex.cpp.obj
+[ 59%] Building CXX object CGL/CMakeFiles/CGL.dir/src/color.cpp.obj
+[ 60%] Building CXX object CGL/CMakeFiles/CGL.dir/src/osdtext.cpp.obj
+[ 61%] Building CXX object CGL/CMakeFiles/CGL.dir/src/osdfont.cpp.obj
+[ 62%] Building CXX object CGL/CMakeFiles/CGL.dir/src/viewer.cpp.obj
+[ 62%] Building CXX object CGL/CMakeFiles/CGL.dir/src/base64.cpp.obj
+[ 63%] Building CXX object CGL/CMakeFiles/CGL.dir/src/lodepng.cpp.obj
+[ 64%] Building CXX object CGL/CMakeFiles/CGL.dir/src/tinyxml2.cpp.obj
+[ 65%] Building CXX object CGL/CMakeFiles/CGL.dir/src/path.cpp.obj
+[ 66%] Linking CXX static library libCGL.a
+[ 66%] Built target CGL
+[ 67%] Linking CXX executable draw.exe
+[ 68%] Linking CXX executable algorithm_tests.exe
+[ 68%] Linking CXX executable rasterizer_benchmark.exe
+[ 69%] Linking CXX executable aa_benchmark.exe
+[ 70%] Linking CXX executable analytic_tests.exe
+[ 71%] Linking CXX executable screenshot_runner.exe
+[ 74%] Built target algorithm_tests
+[ 77%] Built target rasterizer_benchmark
+[ 80%] Built target analytic_tests
+[ 83%] Built target aa_benchmark
+[ 92%] Built target screenshot_runner
+[100%] Built target draw
+Internal ctest changing into directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+Test project C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/build
+    Start 1: rasterizer_algorithms
+1/2 Test #1: rasterizer_algorithms ............   Passed    0.02 sec
+    Start 2: analytic_coverage
+2/2 Test #2: analytic_coverage ................   Passed    0.02 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.05 sec
+Ready: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\bin\draw.exe

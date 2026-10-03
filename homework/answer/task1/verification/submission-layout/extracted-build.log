@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 15.1.0
+-- The CXX compiler identification is GNU 15.1.0
+-- Detecting C compiler ABI info
+CMake Warning in C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/submission/verification-20261003-161825-830383-c789283e/独立运行 验证/task1-submit/build/CMakeFiles/CMakeScratch/TryCompile-pbv51s/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/submission/verification-20261003-161825-830383-c789283e/独立运行 验证/task1-submit/build/CMakeFiles/CMakeScratch/TryCompile-pbv51s/CMakeFiles/cmTC_41a78.dir/
+
+  has 278 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCCompilerABI.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe
+CMake Warning in C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/submission/verification-20261003-161825-830383-c789283e/独立运行 验证/task1-submit/build/CMakeFiles/CMakeScratch/TryCompile-dxutjm/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/submission/verification-20261003-161825-830383-c789283e/独立运行 验证/task1-submit/build/CMakeFiles/CMakeScratch/TryCompile-dxutjm/CMakeFiles/cmTC_f40fc.dir/
+
+  has 278 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    testCCompiler.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe - broken
+CMake Error at C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/.tools/cmake-3.31.10-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/msys64/mingw64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: 'C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/submission/verification-20261003-161825-830383-c789283e/独立运行 验证/task1-submit/build/CMakeFiles/CMakeScratch/TryCompile-dxutjm'
+    
+    Run Build Command(s): C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/.tools/cmake-3.31.10-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:\msys64\mingw64\bin\mingw32-make.exe -f Makefile cmTC_f40fc/fast
+    C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f40fc.dir\build.make CMakeFiles/cmTC_f40fc.dir/build
+    mingw32-make[1]: Entering directory 'C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/submission/verification-20261003-161825-830383-c789283e/独立运行 验证/task1-submit/build/CMakeFiles/CMakeScratch/TryCompile-dxutjm'
+    mingw32-make[1]: CMakeFiles\cmTC_f40fc.dir\build.make: No such file or directory
+    mingw32-make[1]: *** No rule to make target 'CMakeFiles\cmTC_f40fc.dir\build.make'.  Stop.
+    mingw32-make[1]: Leaving directory 'C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task1/submission/verification-20261003-161825-830383-c789283e/独立运行 验证/task1-submit/build/CMakeFiles/CMakeScratch/TryCompile-dxutjm'
+    mingw32-make: *** [Makefile:133: cmTC_f40fc/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+CMake configure failed.
+At C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\s
+ubmission\verification-20261003-161825-830383-c789283e\独立运行 验证\task1-submit\build.ps1:74 char:32
++     if ($LASTEXITCODE -ne 0) { throw 'CMake configure failed.' }
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (CMake configure failed.:String) [], RuntimeException
+    + FullyQualifiedErrorId : CMake configure failed.
+ 

@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "task1: draw (MinGW GDB)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/draw.exe",
+      "args": [
+        "${input:task1Svg}"
+      ],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable GDB pretty printing",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "task1: build"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "task1Svg",
+      "type": "promptString",
+      "description": "SVG 文件或目录：相对当前作业文件夹，也可填写绝对路径",
+      "default": "code/svg/basic/test4.svg"
+    }
+  ]
+}

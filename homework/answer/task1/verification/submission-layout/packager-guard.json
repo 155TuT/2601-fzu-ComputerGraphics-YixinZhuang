@@ -1,0 +1,4 @@
+{
+  "status": "passed",
+  "check": "submission-only input is preserved; existing archive is retained when packaging is refused"
+}

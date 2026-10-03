@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.12...3.31)
 project(Assignment1)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 #-------------------------------------------------------------------------------
@@ -89,7 +89,7 @@ endif()
 set(CMAKE_INSTALL_PREFIX "${Assignment1_SOURCE_DIR}/")
 
 # Reproducible algorithm and GUI screenshot verification for the report.
-option(BUILD_VERIFICATION "Build assignment verification programs" ON)
+option(BUILD_VERIFICATION "Build assignment verification programs" OFF)
 if(BUILD_VERIFICATION)
   enable_testing()
   add_executable(algorithm_tests verification/algorithm_tests.cpp

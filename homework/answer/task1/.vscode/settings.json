@@ -1,0 +1,15 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/code",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.cmakePath": "cmake",
+  "cmake.generator": "MinGW Makefiles",
+  "cmake.configureOnOpen": false,
+  "cmake.configureSettings": {
+    "CMAKE_C_COMPILER": "gcc.exe",
+    "CMAKE_CXX_COMPILER": "g++.exe",
+    "CMAKE_MAKE_PROGRAM": "mingw32-make.exe",
+    "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+    "GLFW_BUILD_DOCS": "OFF",
+    "BUILD_VERIFICATION": "OFF"
+  }
+}

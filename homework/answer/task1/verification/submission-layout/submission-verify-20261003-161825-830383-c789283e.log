@@ -1,0 +1,46 @@
+Archive: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\submission\task1-submit.zip
+SHA256: 7b3a98f6fe4fce9ae4eb94d33757bbebfdfb1ff60decc919a537f046ef27eb25
+External manifest and 1027 source/submission file hashes and sizes passed
+ZIP CRC and 1027 manifest hashes/sizes passed
+Extracted 1027 manifest files and verified them again
+RUN basic_test4: ['C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\verification-20261003-161825-830383-c789283e\\独立运行 验证\\task1-submit\\bin\\draw.exe', 'C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\verification-20261003-161825-830383-c789283e\\独立运行 验证\\task1-submit\\code\\svg\\basic\\test4.svg', 'nogl', '400', '400']
+CWD: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\submission\verification-20261003-161825-830383-c789283e\smoke-output\basic_test4
+PATH: C:\Windows\System32
+EXIT 0
+STDOUT:
+
+STDERR:
+Succesfully wrote framebuffer
+
+PASS basic_test4: 400x400 PNG fully decoded, SHA256 a00dec710e963649ff7e0df932eadfb843f3d96e91e4338ca15343648058c5c6
+RUN teacher_robot: ['C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\verification-20261003-161825-830383-c789283e\\独立运行 验证\\task1-submit\\bin\\draw.exe', 'C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\verification-20261003-161825-830383-c789283e\\独立运行 验证\\task1-submit\\code\\svg\\transforms\\robot.svg', 'nogl', '400', '400']
+CWD: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\submission\verification-20261003-161825-830383-c789283e\smoke-output\teacher_robot
+PATH: C:\Windows\System32
+EXIT 0
+STDOUT:
+
+STDERR:
+Succesfully wrote framebuffer
+
+PASS teacher_robot: 400x400 PNG fully decoded, SHA256 9d1b0c0ad008e309df862d8ad6ce3e833298536cd662f0935baf3eeea20cc709
+RUN my_robot: ['C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\verification-20261003-161825-830383-c789283e\\独立运行 验证\\task1-submit\\bin\\draw.exe', 'C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\verification-20261003-161825-830383-c789283e\\独立运行 验证\\task1-submit\\docs\\my_robot.svg', 'nogl', '400', '400']
+CWD: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\submission\verification-20261003-161825-830383-c789283e\smoke-output\my_robot
+PATH: C:\Windows\System32
+EXIT 0
+STDOUT:
+
+STDERR:
+Succesfully wrote framebuffer
+
+PASS my_robot: 400x400 PNG fully decoded, SHA256 f0bcc2dcb32b947e900155f22507fe4b895402c7e5fd4fc2f3803d1841daba5b
+RUN texture_demo: ['C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\verification-20261003-161825-830383-c789283e\\独立运行 验证\\task1-submit\\bin\\draw.exe', 'C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\submission\\verification-20261003-161825-830383-c789283e\\独立运行 验证\\task1-submit\\docs\\texture_demo.svg', 'nogl', '400', '400']
+CWD: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task1\submission\verification-20261003-161825-830383-c789283e\smoke-output\texture_demo
+PATH: C:\Windows\System32
+EXIT 0
+STDOUT:
+
+STDERR:
+Succesfully wrote framebuffer
+
+PASS texture_demo: 400x400 PNG fully decoded, SHA256 20f6ad82f9e241f6cb6ab3b7d44018a69002b824fdab19f2f125a82879c9d465
+PASS: strict source/submission/ZIP subset, ZIP CRC, all extracted hashes, 4 clean-PATH smoke tests

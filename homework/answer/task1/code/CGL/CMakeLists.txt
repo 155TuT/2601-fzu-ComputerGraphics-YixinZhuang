@@ -1,7 +1,7 @@
 # Original file Copyright CMU462 Fall 2015: 
 # Kayvon Fatahalian, Keenan Crane,
 # Sky Gao, Bryce Summers, Michael Choquette.
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.12...3.31)
 
 project(CGL LANGUAGES C CXX VERSION 2020.0)
 
@@ -100,10 +100,17 @@ find_package(Threads REQUIRED)
 set(OpenGL_GL_PREFERENCE LEGACY)
 find_package(OpenGL REQUIRED)
 
-# Freetype
-find_package(Freetype REQUIRED)
-target_include_directories(CGL PRIVATE ${FREETYPE_INCLUDE_DIRS})
-target_link_libraries(CGL PRIVATE ${FREETYPE_LIBRARIES})
+# Build the supplied FreeType source. No separately installed library is needed.
+# The embedded UI font does not need the optional external font dependencies.
+set(BUILD_SHARED_LIBS OFF CACHE BOOL "Build bundled libraries statically" FORCE)
+set(FT_DISABLE_ZLIB ON CACHE BOOL "Use FreeType's internal zlib" FORCE)
+set(FT_DISABLE_BZIP2 ON CACHE BOOL "No external BZip2" FORCE)
+set(FT_DISABLE_PNG ON CACHE BOOL "No external PNG library" FORCE)
+set(FT_DISABLE_HARFBUZZ ON CACHE BOOL "No external HarfBuzz" FORCE)
+set(FT_DISABLE_BROTLI ON CACHE BOOL "No external Brotli" FORCE)
+set(SKIP_INSTALL_ALL ON CACHE BOOL "FreeType is only used by draw" FORCE)
+add_subdirectory(deps/freetype)
+target_link_libraries(CGL PRIVATE freetype)
 
 # GLEW
 add_definitions(-DGLEW_STATIC)

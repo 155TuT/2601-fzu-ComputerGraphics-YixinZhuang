@@ -4,4 +4,8 @@ bin/
 verification/report/*-render/
 verification/report/*-pages/
 docs/screenshots/.capture/
-/submission
+submission/
+
+/test.png
+/screenshot_*.png
+__pycache__/

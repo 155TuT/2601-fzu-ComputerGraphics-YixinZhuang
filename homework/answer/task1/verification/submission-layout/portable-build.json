@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "source": "only files extracted from the submission ZIP",
+  "package_directory": "C:\\Users\\17169\\.codex\\visualizations\\2026\\10\\03\\01a100c8-fa0e-7c71-bf3d-8c5b2941ff62\\portable-build\\task1-submit",
+  "toolchain": "CMake 3.31.10 + MinGW GCC 15.1.0",
+  "compile_log": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task1\\verification\\submission-layout\\portable-build.log",
+  "runtime_path": "C:\\Windows\\System32",
+  "tests": [
+    {
+      "name": "basic_test4",
+      "status": "passed",
+      "exit_code": 0,
+      "png_info": {
+        "width": 400,
+        "height": 400,
+        "bit_depth": 4,
+        "color_type": 3,
+        "foreground_pixels": 18671,
+        "nonopaque_pixels": 0,
+        "validation": "all chunk CRCs, complete IDAT decode, all scanline filters and pixels"
+      },
+      "same_render_as_packaged_program": true
+    },
+    {
+      "name": "teacher_robot",
+      "status": "passed",
+      "exit_code": 0,
+      "png_info": {
+        "width": 400,
+        "height": 400,
+        "bit_depth": 2,
+        "color_type": 3,
+        "foreground_pixels": 10952,
+        "nonopaque_pixels": 0,
+        "validation": "all chunk CRCs, complete IDAT decode, all scanline filters and pixels"
+      },
+      "same_render_as_packaged_program": true
+    },
+    {
+      "name": "my_robot",
+      "status": "passed",
+      "exit_code": 0,
+      "png_info": {
+        "width": 400,
+        "height": 400,
+        "bit_depth": 4,
+        "color_type": 3,
+        "foreground_pixels": 13873,
+        "nonopaque_pixels": 0,
+        "validation": "all chunk CRCs, complete IDAT decode, all scanline filters and pixels"
+      },
+      "same_render_as_packaged_program": true
+    },
+    {
+      "name": "texture_demo",
+      "status": "passed",
+      "exit_code": 0,
+      "png_info": {
+        "width": 400,
+        "height": 400,
+        "bit_depth": 4,
+        "color_type": 3,
+        "foreground_pixels": 45072,
+        "nonopaque_pixels": 0,
+        "validation": "all chunk CRCs, complete IDAT decode, all scanline filters and pixels"
+      },
+      "same_render_as_packaged_program": true
+    }
+  ],
+  "path_note": "Very long nested MinGW build paths failed; the fresh shorter independent path built successfully."
+}
