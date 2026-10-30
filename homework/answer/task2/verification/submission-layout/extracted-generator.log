@@ -1,0 +1,31 @@
+{
+  "occupied_voxels": 300,
+  "exterior_quads": 530,
+  "vertices": 1062,
+  "edges": 3180,
+  "faces": 2120,
+  "connected_components": 1,
+  "boundary_edges": 0,
+  "euler_characteristic": 2,
+  "vertex_links": "single cycles",
+  "signed_volume": 1.012500000000015,
+  "loop_expected": [
+    {
+      "iterations": 1,
+      "vertices": 4242,
+      "edges": 12720,
+      "faces": 8480
+    },
+    {
+      "iterations": 2,
+      "vertices": 16962,
+      "edges": 50880,
+      "faces": 33920
+    }
+  ],
+  "sha256": {
+    "docs/models/humanoid.json": "6827f19d7bfabd5d91d65490ed102f03e5f96e0c6934dcf07b066f68f950738d",
+    "docs/models/humanoid.obj": "c3da57bd02dd5707998957b86b444605aee9d258bc569f3c9ca0f5c889909bd3",
+    "code/dae/custom/humanoid.dae": "8df3a9f602689dc50bae543c97601a5d00317f153809ae33c166a2dc3f3d8c01"
+  }
+}

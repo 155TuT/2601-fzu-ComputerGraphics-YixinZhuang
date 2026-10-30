@@ -1,0 +1,24 @@
+{
+  "name": "Waving Humanoid",
+  "unit_scale": 0.15,
+  "boxes": [
+    {"part": "torso", "min": [-3, -1, 6], "max": [3, 1, 11]},
+    {"part": "neck", "min": [-1, -1, 11], "max": [1, 1, 13]},
+    {"part": "head", "min": [-3, -2, 13], "max": [3, 2, 17]},
+    {"part": "nose", "min": [-1, 2, 14], "max": [1, 3, 15]},
+    {"part": "left_leg", "min": [-3, -1, 0], "max": [-1, 1, 6]},
+    {"part": "right_leg", "min": [1, -1, 0], "max": [3, 1, 6]},
+    {"part": "left_foot", "min": [-3, -1, 0], "max": [-1, 3, 2]},
+    {"part": "right_foot", "min": [1, -1, 0], "max": [3, 3, 2]},
+    {"part": "left_shoulder", "min": [-5, -1, 9], "max": [-3, 1, 11]},
+    {"part": "left_arm", "min": [-6, -1, 5], "max": [-4, 1, 10]},
+    {"part": "left_hand", "min": [-6, -1, 4], "max": [-4, 2, 6]},
+    {"part": "right_shoulder", "min": [3, -1, 9], "max": [6, 1, 11]},
+    {"part": "right_arm", "min": [5, -1, 10], "max": [7, 1, 14]},
+    {"part": "right_hand", "min": [5, -1, 14], "max": [7, 2, 16]}
+  ],
+  "cutouts": [
+    {"part": "left_eye", "min": [-2, 1, 15], "max": [-1, 2, 16]},
+    {"part": "right_eye", "min": [1, 1, 15], "max": [2, 2, 16]}
+  ]
+}

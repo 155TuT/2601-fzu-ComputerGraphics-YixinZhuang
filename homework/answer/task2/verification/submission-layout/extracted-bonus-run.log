@@ -1,0 +1,7 @@
+MeshEdit: loading scene:
+operation=hud-off vertices=1062 edges=3180 faces=2120 boundaries=0
+operation=loop vertices=4242 edges=12720 faces=8480 boundaries=0
+operation=loop vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=smooth vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=env vertices=16962 edges=50880 faces=33920 boundaries=0
+Saved C:\Users\17169\AppData\Local\Temp\task2-check-fad63451\task2-submit\results\humanoid-env.png (960x640)

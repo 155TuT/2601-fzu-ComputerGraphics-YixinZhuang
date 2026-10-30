@@ -1,0 +1,29 @@
+-- Using Win32 for window creation
+-- Using WGL for context creation
+-- Configuring done (0.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/17169/AppData/Local/Temp/task2-check-e72c166e/task2-submit/build
+[  4%] Built target glew
+[ 18%] Built target glfw
+[ 64%] Built target freetype
+[ 79%] Built target CGL
+[ 95%] Built target mesh_core
+[ 97%] Built target meshedit
+[100%] Built target geometry_tests
+Internal ctest changing into directory: C:/Users/17169/AppData/Local/Temp/task2-check-e72c166e/task2-submit/build
+Test project C:/Users/17169/AppData/Local/Temp/task2-check-e72c166e/task2-submit/build
+    Start 1: geometry_algorithms
+1/5 Test #1: geometry_algorithms ..............   Passed    0.08 sec
+    Start 2: geometry_cube
+2/5 Test #2: geometry_cube ....................   Passed    0.09 sec
+    Start 3: geometry_teapot
+3/5 Test #3: geometry_teapot ..................   Passed    0.19 sec
+    Start 4: geometry_open-square
+4/5 Test #4: geometry_open-square .............   Passed    0.08 sec
+    Start 5: geometry_humanoid
+5/5 Test #5: geometry_humanoid ................   Passed    0.17 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =   0.62 sec
+Ready: C:\Users\17169\AppData\Local\Temp\task2-check-e72c166e\task2-submit\bin\meshedit.exe

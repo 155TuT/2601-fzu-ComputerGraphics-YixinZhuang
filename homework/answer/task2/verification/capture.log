@@ -1,0 +1,131 @@
+Saved ../docs/screenshots/bezier-curve.png (960x640)
+Saved ../docs/screenshots/bezier-curve2.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=8258 edges=24512 faces=16256 boundaries=6
+operation=smooth vertices=8258 edges=24512 faces=16256 boundaries=6
+operation=phong vertices=8258 edges=24512 faces=16256 boundaries=6
+Saved ../docs/screenshots/bezier-teapot.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=phong vertices=1232 edges=3696 faces=2464 boundaries=0
+Saved ../docs/screenshots/teapot-flat.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=smooth vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=phong vertices=1232 edges=3696 faces=2464 boundaries=0
+Saved ../docs/screenshots/teapot-smooth.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=focus:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=select:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+Saved ../docs/screenshots/flip-before.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=focus:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=flip:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+Saved ../docs/screenshots/flip-after.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=focus:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=select:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+Saved ../docs/screenshots/split-before.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=focus:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=split:100 vertices=1233 edges=3699 faces=2466 boundaries=0
+Saved ../docs/screenshots/split-after.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=focus:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=select:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+Saved ../docs/screenshots/mix-before.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=focus:100 vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=split:100 vertices=1233 edges=3699 faces=2466 boundaries=0
+operation=flip:100 vertices=1233 edges=3699 faces=2466 boundaries=0
+Saved ../docs/screenshots/mix-after.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=4 edges=5 faces=2 boundaries=1
+operation=select:1 vertices=4 edges=5 faces=2 boundaries=1
+Saved ../docs/screenshots/boundary-before.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=4 edges=5 faces=2 boundaries=1
+operation=split:1 vertices=5 edges=7 faces=3 boundaries=1
+Saved ../docs/screenshots/boundary-after.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=4 edges=5 faces=2 boundaries=1
+operation=loop vertices=9 edges=16 faces=8 boundaries=1
+Saved ../docs/screenshots/boundary-loop1.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=4 edges=5 faces=2 boundaries=1
+operation=loop vertices=9 edges=16 faces=8 boundaries=1
+operation=loop vertices=25 edges=56 faces=32 boundaries=1
+operation=loop vertices=81 edges=208 faces=128 boundaries=1
+Saved ../docs/screenshots/boundary-loop3.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=8 edges=18 faces=12 boundaries=0
+Saved ../docs/screenshots/cube-raw.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=8 edges=18 faces=12 boundaries=0
+operation=loop vertices=26 edges=72 faces=48 boundaries=0
+Saved ../docs/screenshots/cube-loop1.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=8 edges=18 faces=12 boundaries=0
+operation=loop vertices=26 edges=72 faces=48 boundaries=0
+operation=loop vertices=98 edges=288 faces=192 boundaries=0
+operation=smooth vertices=98 edges=288 faces=192 boundaries=0
+Saved ../docs/screenshots/cube-loop2.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=8 edges=18 faces=12 boundaries=0
+operation=loop vertices=26 edges=72 faces=48 boundaries=0
+operation=loop vertices=98 edges=288 faces=192 boundaries=0
+operation=loop vertices=386 edges=1152 faces=768 boundaries=0
+operation=smooth vertices=386 edges=1152 faces=768 boundaries=0
+Saved ../docs/screenshots/cube-loop3.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=8 edges=18 faces=12 boundaries=0
+operation=symmetric vertices=14 edges=36 faces=24 boundaries=0
+Saved ../docs/screenshots/cube-preprocessed.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=8 edges=18 faces=12 boundaries=0
+operation=symmetric vertices=14 edges=36 faces=24 boundaries=0
+operation=loop vertices=50 edges=144 faces=96 boundaries=0
+operation=loop vertices=194 edges=576 faces=384 boundaries=0
+operation=smooth vertices=194 edges=576 faces=384 boundaries=0
+Saved ../docs/screenshots/cube-symmetric-loop2.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=8 edges=18 faces=12 boundaries=0
+operation=symmetric vertices=14 edges=36 faces=24 boundaries=0
+operation=loop vertices=50 edges=144 faces=96 boundaries=0
+operation=loop vertices=194 edges=576 faces=384 boundaries=0
+operation=loop vertices=770 edges=2304 faces=1536 boundaries=0
+operation=smooth vertices=770 edges=2304 faces=1536 boundaries=0
+Saved ../docs/screenshots/cube-symmetric-loop3.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1232 edges=3696 faces=2464 boundaries=0
+operation=loop vertices=4928 edges=14784 faces=9856 boundaries=0
+operation=smooth vertices=4928 edges=14784 faces=9856 boundaries=0
+operation=phong vertices=4928 edges=14784 faces=9856 boundaries=0
+Saved ../docs/screenshots/teapot-loop1.png (960x640)

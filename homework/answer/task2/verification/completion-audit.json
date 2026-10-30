@@ -1,0 +1,18 @@
+{
+  "mandatory_implementation": "complete",
+  "bonus_implementation": [
+    "boundary split and Loop",
+    "custom humanoid mesh",
+    "environment reflection"
+  ],
+  "canonical_ctest_groups_passed": 5,
+  "report_word_opened": true,
+  "report_pages_visually_reviewed": 13,
+  "submission_files": 1310,
+  "submission_build": "passed",
+  "submission_runtime": "passed",
+  "submission_verification_files": "excluded",
+  "identity": "name and student id placeholders preserved",
+  "submission_record": "verification/submission-layout/submission-verify.json",
+  "report_record": "verification/report/visual-qa.json"
+}

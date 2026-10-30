@@ -1,0 +1,12 @@
+-- Using Win32 for window creation
+-- Using WGL for context creation
+-- Configuring done (0.4s)
+-- Generating done (0.5s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+[  4%] Built target glew
+[ 18%] Built target glfw
+[ 66%] Built target freetype
+[ 81%] Built target CGL
+[ 97%] Built target mesh_core
+[100%] Built target meshedit
+Ready: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task2\bin\meshedit.exe

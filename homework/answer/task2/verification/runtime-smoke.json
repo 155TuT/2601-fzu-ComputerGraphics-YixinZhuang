@@ -1,0 +1,17 @@
+[
+  {
+    "scene": "bzc/curve1.bzc",
+    "exit_code": 0,
+    "output": "Saved ../verification/smoke-curve.png (960x640)"
+  },
+  {
+    "scene": "bez/teapot.bez",
+    "exit_code": 0,
+    "output": "MeshEdit: loading scene:\nDone loading scene. Mesh Ready for Editing!\noperation=smooth vertices=8258 edges=24512 faces=16256 boundaries=6\noperation=phong vertices=8258 edges=24512 faces=16256 boundaries=6\nSaved ../verification/smoke-patch.png (960x640)"
+  },
+  {
+    "scene": "dae/cube.dae",
+    "exit_code": 0,
+    "output": "MeshEdit: loading scene:\nDone loading scene. Mesh Ready for Editing!\noperation=symmetric vertices=14 edges=36 faces=24 boundaries=0\noperation=loop vertices=50 edges=144 faces=96 boundaries=0\noperation=loop vertices=194 edges=576 faces=384 boundaries=0\nSaved ../verification/smoke-loop.png (960x640)"
+  }
+]

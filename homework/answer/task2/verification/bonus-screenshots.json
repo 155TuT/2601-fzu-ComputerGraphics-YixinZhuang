@@ -1,0 +1,62 @@
+[
+  {
+    "view": [
+      0.35,
+      0.15,
+      1.05
+    ],
+    "name": "humanoid-raw",
+    "ops": "hud-off",
+    "scene": "dae/custom/humanoid.dae"
+  },
+  {
+    "view": [
+      0.35,
+      0.15,
+      1.05
+    ],
+    "name": "humanoid-loop1",
+    "ops": "hud-off,loop,smooth",
+    "scene": "dae/custom/humanoid.dae"
+  },
+  {
+    "view": [
+      0.35,
+      0.15,
+      1.05
+    ],
+    "name": "humanoid-loop2",
+    "ops": "hud-off,loop,loop,smooth",
+    "scene": "dae/custom/humanoid.dae"
+  },
+  {
+    "view": [
+      0.35,
+      0.15,
+      1.05
+    ],
+    "name": "humanoid-phong",
+    "ops": "hud-off,loop,loop,smooth,phong",
+    "scene": "dae/custom/humanoid.dae"
+  },
+  {
+    "view": [
+      0.35,
+      0.15,
+      1.05
+    ],
+    "name": "humanoid-env",
+    "ops": "hud-off,loop,loop,smooth,env",
+    "scene": "dae/custom/humanoid.dae"
+  },
+  {
+    "view": [
+      0.9,
+      0.25,
+      1.05
+    ],
+    "name": "humanoid-env-side",
+    "ops": "hud-off,loop,loop,smooth,env",
+    "scene": "dae/custom/humanoid.dae"
+  }
+]

@@ -1,0 +1,54 @@
+CMake Deprecation Warning at CGL/deps/glfw/CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at CGL/deps/glfw/CMakeLists.txt:8 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Using Win32 for window creation
+-- Using WGL for context creation
+-- Configuring done (0.3s)
+-- Generating done (0.4s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+[  1%] Linking C static library libglew.a
+[  2%] Linking C static library libglfw3.a
+[  3%] Linking C static library libfreetype.a
+[  6%] Built target glew
+[ 19%] Built target glfw
+[ 64%] Built target freetype
+[ 65%] Linking CXX static library libCGL.a
+[ 79%] Built target CGL
+[ 80%] Linking CXX static library libmesh_core.a
+[ 95%] Built target mesh_core
+[ 96%] Building CXX object CMakeFiles/geometry_tests.dir/verification/geometry_tests.cpp.obj
+[ 97%] Linking CXX executable meshedit.exe
+[ 98%] Built target meshedit
+[100%] Linking CXX executable geometry_tests.exe
+[100%] Built target geometry_tests
+Internal ctest changing into directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+Test project C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+    Start 1: geometry_algorithms
+1/4 Test #1: geometry_algorithms ..............   Passed    0.27 sec
+    Start 2: geometry_cube
+2/4 Test #2: geometry_cube ....................   Passed    0.08 sec
+    Start 3: geometry_teapot
+3/4 Test #3: geometry_teapot ..................   Passed    0.20 sec
+    Start 4: geometry_open-square
+4/4 Test #4: geometry_open-square .............   Passed    0.08 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.64 sec
+Ready: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task2\bin\meshedit.exe

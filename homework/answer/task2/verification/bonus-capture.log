@@ -1,0 +1,41 @@
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1062 edges=3180 faces=2120 boundaries=0
+Saved ../docs/screenshots/humanoid-raw.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1062 edges=3180 faces=2120 boundaries=0
+operation=loop vertices=4242 edges=12720 faces=8480 boundaries=0
+operation=smooth vertices=4242 edges=12720 faces=8480 boundaries=0
+Saved ../docs/screenshots/humanoid-loop1.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1062 edges=3180 faces=2120 boundaries=0
+operation=loop vertices=4242 edges=12720 faces=8480 boundaries=0
+operation=loop vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=smooth vertices=16962 edges=50880 faces=33920 boundaries=0
+Saved ../docs/screenshots/humanoid-loop2.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1062 edges=3180 faces=2120 boundaries=0
+operation=loop vertices=4242 edges=12720 faces=8480 boundaries=0
+operation=loop vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=smooth vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=phong vertices=16962 edges=50880 faces=33920 boundaries=0
+Saved ../docs/screenshots/humanoid-phong.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1062 edges=3180 faces=2120 boundaries=0
+operation=loop vertices=4242 edges=12720 faces=8480 boundaries=0
+operation=loop vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=smooth vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=env vertices=16962 edges=50880 faces=33920 boundaries=0
+Saved ../docs/screenshots/humanoid-env.png (960x640)
+MeshEdit: loading scene:
+Done loading scene. Mesh Ready for Editing!
+operation=hud-off vertices=1062 edges=3180 faces=2120 boundaries=0
+operation=loop vertices=4242 edges=12720 faces=8480 boundaries=0
+operation=loop vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=smooth vertices=16962 edges=50880 faces=33920 boundaries=0
+operation=env vertices=16962 edges=50880 faces=33920 boundaries=0
+Saved ../docs/screenshots/humanoid-env-side.png (960x640)

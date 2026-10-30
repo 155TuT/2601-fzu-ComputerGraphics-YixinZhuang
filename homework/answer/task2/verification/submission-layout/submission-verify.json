@@ -1,0 +1,21 @@
+{
+  "package": "task2-submit",
+  "archive_sha256": "02690992a60562f61f78d5791d8cad0834a8c845871582ed6f21958b49dcacca",
+  "extracted_path": "C:\\Users\\17169\\AppData\\Local\\Temp\\task2-check-fad63451\\task2-submit",
+  "files_compared": 1310,
+  "build": "passed",
+  "build_shell": "Windows PowerShell 5.1",
+  "verification_files": "excluded",
+  "runtime_path": "Windows System32 only",
+  "runtime": "passed",
+  "images": [
+    "cube.png",
+    "humanoid-env.png"
+  ],
+  "exit_codes": [
+    0,
+    0
+  ],
+  "visual_review": "passed",
+  "runtime_capture": "Start-Process with separate stdout and stderr logs"
+}

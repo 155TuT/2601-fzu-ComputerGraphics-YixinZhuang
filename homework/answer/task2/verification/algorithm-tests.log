@@ -1,0 +1,49 @@
+Internal ctest changing into directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+UpdateCTestConfiguration  from :C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build/DartConfiguration.tcl
+Test project C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: geometry_algorithms
+
+1: Test command: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task2\build\geometry_tests.exe
+1: Working Directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+1: Test timeout computed to be: 10000000
+1: PASS 4452 checks: de Casteljau, weighted normals, flip, interior/boundary split, open/closed Loop, connectivity
+1/4 Test #1: geometry_algorithms ..............   Passed    0.09 sec
+test 2
+    Start 2: geometry_cube
+
+2: Test command: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task2\build\geometry_tests.exe "C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/code/dae/cube.dae"
+2: Working Directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+2: Test timeout computed to be: 10000000
+2: scene=C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/code/dae/cube.dae final V/E/F=98/288/192
+2: PASS 11527 checks: de Casteljau, weighted normals, flip, interior/boundary split, open/closed Loop, connectivity
+2/4 Test #2: geometry_cube ....................   Passed    0.10 sec
+test 3
+    Start 3: geometry_teapot
+
+3: Test command: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task2\build\geometry_tests.exe "C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/code/dae/teapot.dae"
+3: Working Directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+3: Test timeout computed to be: 10000000
+3: scene=C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/code/dae/teapot.dae final V/E/F=19712/59136/39424
+3: PASS 1453297 checks: de Casteljau, weighted normals, flip, interior/boundary split, open/closed Loop, connectivity
+3/4 Test #3: geometry_teapot ..................   Passed    0.22 sec
+test 4
+    Start 4: geometry_open-square
+
+4: Test command: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task2\build\geometry_tests.exe "C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/code/dae/open-square.dae"
+4: Working Directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/build
+4: Test timeout computed to be: 10000000
+4: scene=C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task2/code/dae/open-square.dae final V/E/F=25/56/32
+4: PASS 5952 checks: de Casteljau, weighted normals, flip, interior/boundary split, open/closed Loop, connectivity
+4/4 Test #4: geometry_open-square .............   Passed    0.09 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.52 sec

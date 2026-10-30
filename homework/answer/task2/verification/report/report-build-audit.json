@@ -1,0 +1,326 @@
+{
+  "template_sha256": "4dcd9e375b0a19e4d15648fb750dbb90d2607a82c8e50a96ebfa95e9b3a7df15",
+  "output_sha256": "727e95eaf3e1d8fddf7c605a1b5b3614d42b5d7682d82d0350e115b49dc86340",
+  "reference_unchanged": true,
+  "section_count": 1,
+  "manual_page_markers": 3,
+  "paragraph_count": 83,
+  "image_occurrences": 29,
+  "images": [
+    {
+      "file": "docs\\screenshots\\bezier-curve.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "00e60ed48dfa33fc00d79110e4846b1c112f759169e84d779d5e405e69dec2c2"
+    },
+    {
+      "file": "docs\\screenshots\\bezier-curve2.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "8ca438c042f4345700764a9ef642d9a771b20ff9aeaa39a349143a776c7549bc"
+    },
+    {
+      "file": "docs\\screenshots\\bezier-teapot.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 4.8,
+      "sha256": "86f455ba358db3436a2bacaf454a9714fd4dd079ad8b45e79cb453162e5ed924"
+    },
+    {
+      "file": "docs\\screenshots\\teapot-flat.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "a8b3bd21c3554197c6643f128d4a055e431aa369d7c35736c2c9f9a0c92cce9e"
+    },
+    {
+      "file": "docs\\screenshots\\teapot-smooth.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "6bb1c1255647290029a68dee211317d356121133c243c66418f8ecc4ac55354f"
+    },
+    {
+      "file": "docs\\screenshots\\flip-before.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "1dc5f9e09f498b988352b412017dc064223732665a7f6d8073769566deafc1a0"
+    },
+    {
+      "file": "docs\\screenshots\\flip-after.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "560366daf8aa1300afb320862de958a1976cc9d07ec0870230e88b809b782439"
+    },
+    {
+      "file": "docs\\screenshots\\split-before.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "1dc5f9e09f498b988352b412017dc064223732665a7f6d8073769566deafc1a0"
+    },
+    {
+      "file": "docs\\screenshots\\split-after.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "d1b246a2b4f94a23f47e78b2605b7101aa69be4172857a5f7f2a4badddd268fb"
+    },
+    {
+      "file": "docs\\screenshots\\mix-before.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "1dc5f9e09f498b988352b412017dc064223732665a7f6d8073769566deafc1a0"
+    },
+    {
+      "file": "docs\\screenshots\\mix-after.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "8ea6c44ba3ce1ae8e864f4fda07fad67b6bc577cbb692d1611c64e2aa2c91df7"
+    },
+    {
+      "file": "docs\\screenshots\\boundary-before.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "7b655ef281d7687be706aaa271420c85837815a5b8450a828722f3f8e9fce414"
+    },
+    {
+      "file": "docs\\screenshots\\boundary-after.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "cc74743960a4ce435ff61c9feff1b447933c3cfe77a3b4818dbede2d7e80d583"
+    },
+    {
+      "file": "docs\\screenshots\\cube-raw.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "d94245a1d341bd6b92f113dadd1811150c60c973aa32a4b4798838ed146c0f87"
+    },
+    {
+      "file": "docs\\screenshots\\cube-loop1.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "9ba879fea0602930d5fb871222f26a8a1499754bf36002e6aec2ea5ed3486259"
+    },
+    {
+      "file": "docs\\screenshots\\cube-loop2.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "420935eb9a8e53c695dd09a0c0fc252fd28a98eeb701a74562f7bf4ed4a9d741"
+    },
+    {
+      "file": "docs\\screenshots\\cube-loop3.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "6c88c106d74480d0bdceb622df6a6526ef9361d476ce7e05b03044cf10f67503"
+    },
+    {
+      "file": "docs\\screenshots\\cube-raw.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "d94245a1d341bd6b92f113dadd1811150c60c973aa32a4b4798838ed146c0f87"
+    },
+    {
+      "file": "docs\\screenshots\\cube-preprocessed.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "73bcf3c911dd43cd16d9f106150d820f18dc9ad38ac2d77b44c554affedbe3f5"
+    },
+    {
+      "file": "docs\\screenshots\\cube-loop3.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "6c88c106d74480d0bdceb622df6a6526ef9361d476ce7e05b03044cf10f67503"
+    },
+    {
+      "file": "docs\\screenshots\\cube-symmetric-loop3.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "ea5a153342106e2d7c516bbf1a764aedea91c1fcbbeec05d6406a4c2c7a9bb5e"
+    },
+    {
+      "file": "docs\\screenshots\\boundary-loop1.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "548ba53b274abdf0b4690dfe3ba690860c6d7a052b955b715e633c5af6404493"
+    },
+    {
+      "file": "docs\\screenshots\\boundary-loop3.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "bbae283b8c52b1666d42b4f967cc6d3242da960d13ca8d27cdea6281ff95bd95"
+    },
+    {
+      "file": "docs\\screenshots\\humanoid-raw.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "3edcb831f870bec6b2681ab93037535e4dbd2be477c9fe68b6792517d232b4cb"
+    },
+    {
+      "file": "docs\\screenshots\\humanoid-loop1.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "0fd0310f5362ffe8077c9611c714b5f61376108eb3a642e57c98230b881615bd"
+    },
+    {
+      "file": "docs\\screenshots\\humanoid-loop2.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "7dca493c3bbb4ad4d264a8f62221ead3ffde4f5dab5e216cc616c5d2e0de8d0f"
+    },
+    {
+      "file": "docs\\screenshots\\humanoid-phong.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "f4cac31892427524c3d2118fa8c2f30c16d351e8e4f16f32ab57a1cae0fd8e26"
+    },
+    {
+      "file": "docs\\screenshots\\humanoid-env.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "29413010ed33b92fa625a0269f9a2b1cd7633471197652fb94556f3e53fad13d"
+    },
+    {
+      "file": "docs\\screenshots\\humanoid-env-side.png",
+      "pixels": [
+        960,
+        640
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "20998d5d7a1d58ce5f3d90212a72a77624a769b63d61ab353162659028728d9e"
+    }
+  ],
+  "tables": [
+    {
+      "rows": 4,
+      "columns": 4,
+      "headers": [
+        "细分次数",
+        "顶点",
+        "边",
+        "三角面"
+      ]
+    }
+  ],
+  "added_styles": [
+    "Title"
+  ],
+  "typography": {
+    "source": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\teacher\\task2\\作业报告.docx",
+    "declared_font": "Kaiti TC",
+    "body_pt": 14,
+    "title_pt": 24,
+    "subtitle_pt": 18,
+    "body_color": "000000",
+    "inline_code": "Consolas 10.5pt"
+  },
+  "preserve_only_parts": [
+    {
+      "part": "_rels/.rels",
+      "unchanged": true
+    },
+    {
+      "part": "word/theme/theme1.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/settings.xml",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/core.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/fontTable.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/webSettings.xml",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/app.xml",
+      "unchanged": true
+    }
+  ]
+}

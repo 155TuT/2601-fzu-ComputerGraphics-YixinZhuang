@@ -1,0 +1,33 @@
+{
+  "renderer": "Word 16.0 PDF + document skill render_docx.rasterize 120 dpi",
+  "pages": 13,
+  "inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "result": "passed",
+  "checks": [
+    "all text legible",
+    "figures preserve aspect ratio",
+    "captions remain adjacent to figures",
+    "no clipping or overlapping",
+    "identity placeholders retained",
+    "source template page geometry preserved"
+  ],
+  "docx_sha256": "727e95eaf3e1d8fddf7c605a1b5b3614d42b5d7682d82d0350e115b49dc86340",
+  "pdf_sha256": "49dc60a891c025568d69c4d255955554a05827aa88b955b0d9f8c2a3ef1985f8",
+  "final_revision": "All 13 Word-exported pages re-inspected after the full-project path note was added.",
+  "status": "passed",
+  "review": "All 13 Word-exported pages inspected at 120 dpi after adding humanoid, Loop and environment reflection results."
+}

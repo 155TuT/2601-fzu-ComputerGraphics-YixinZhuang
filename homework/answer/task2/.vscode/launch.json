@@ -1,0 +1,1 @@
+{"version":"0.2.0","configurations":[{"name":"task2: meshedit (MinGW GDB)","type":"cppdbg","request":"launch","program":"${workspaceFolder}/bin/meshedit.exe","args":["${workspaceFolder}/code/dae/teapot.dae"],"cwd":"${workspaceFolder}/code","stopAtEntry":false,"externalConsole":false,"MIMode":"gdb","miDebuggerPath":"gdb.exe","preLaunchTask":"task2: build"}]}
