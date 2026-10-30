@@ -1,0 +1,12 @@
+-- Using Win32 for window creation
+-- Configuring done (0.3s)
+-- Generating done (0.4s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build
+[  3%] Built target glew
+[ 16%] Built target glfw
+[ 51%] Built target freetype
+[ 63%] Built target CGL
+[ 77%] Built target pt31
+[ 98%] Built target pathtracer_support
+[100%] Built target pathtracer
+Ready: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task3\bin\pathtracer.exe

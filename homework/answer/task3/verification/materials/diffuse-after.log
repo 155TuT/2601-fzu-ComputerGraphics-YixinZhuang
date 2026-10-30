@@ -1,0 +1,15 @@
+[PathTracer] Input scene file: homework/answer/task3/code/dae/sky/CBspheres_lambertian.dae
+[PathTracer] Rendering using 4 threads
+[PathTracer] Collecting primitives... Done! (0.0000 sec)
+[PathTracer] Building BVH from 14 primitives... Done! (0.0000 sec)
+[PathTracer] Rendering... 
+[PathTracer] Rendering... 25%
+[PathTracer] Rendering... 50%
+[PathTracer] Rendering... 75%
+[PathTracer] Rendering... 100%
+[PathTracer] Saving to file: homework/answer/task3/verification/materials/diffuse-after.png... Done!
+[PathTracer] Rendering... 100%! (0.0094s)
+[PathTracer] BVH traced 69093 rays.
+[PathTracer] Average speed 7.3613 million rays per second.
+[PathTracer] Averaged 7.361889 intersection tests per ray.
+[PathTracer] Job completed.

@@ -1,0 +1,10 @@
+[PathTracer] Collecting primitives... Done! (0.0000 sec)
+[PathTracer] Building BVH from 12 primitives... Done! (0.0000 sec)
+[PathTracer] Rendering... [PathTracer] Rendering... 2%[PathTracer] Rendering... 4%[PathTracer] Rendering... 6%[PathTracer] Rendering... 8%[PathTracer] Rendering... 10%[PathTracer] Rendering... 12%[PathTracer] Rendering... 14%[PathTracer] Rendering... 16%[PathTracer] Rendering... 18%[PathTracer] Rendering... 20%[PathTracer] Rendering... 22%[PathTracer] Rendering... 25%[PathTracer] Rendering... 27%[PathTracer] Rendering... 29%[PathTracer] Rendering... 31%[PathTracer] Rendering... 33%[PathTracer] Rendering... 35%[PathTracer] Rendering... 37%[PathTracer] Rendering... 39%[PathTracer] Rendering... 41%[PathTracer] Rendering... 43%[PathTracer] Rendering... 45%[PathTracer] Rendering... 47%[PathTracer] Rendering... 50%[PathTracer] Rendering... 52%[PathTracer] Rendering... 54%[PathTracer] Rendering... 56%[PathTracer] Rendering... 58%[PathTracer] Rendering... 60%[PathTracer] Rendering... 62%[PathTracer] Rendering... 64%[PathTracer] Rendering... 66%[PathTracer] Rendering... 68%[PathTracer] Rendering... 70%[PathTracer] Rendering... 72%[PathTracer] Rendering... 75%[PathTracer] Rendering... 77%[PathTracer] Rendering... 79%[PathTracer] Rendering... 81%[PathTracer] Rendering... 83%[PathTracer] Rendering... 85%[PathTracer] Rendering... 87%[PathTracer] Rendering... 89%[PathTracer] Rendering... 91%[PathTracer] Rendering... 93%[PathTracer] Rendering... 95%[PathTracer] Rendering... 97%[PathTracer] Rendering... 100%[PathTracer] Rendering... 100%! (0.5087s)
+[PathTracer] BVH traced 5264595 rays.
+[PathTracer] Average speed 10.3497 million rays per second.
+[PathTracer] Averaged 6.260536 intersection tests per ray.
+[PathTracer] Job completed.
+[PathTracer] Input scene file: code/dae/sky/CBempty.dae
+[PathTracer] Rendering using 4 threads
+[PathTracer] Saving to file: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task3\docs\screenshots\empty_o1_m2.png... Done!

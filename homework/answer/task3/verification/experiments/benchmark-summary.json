@@ -1,0 +1,14 @@
+{
+  "bvh": {
+    "median_render_seconds": 0.0257,
+    "median_wall_seconds": 0.15145879999909084,
+    "tests_per_ray": 1.586406
+  },
+  "brute": {
+    "median_render_seconds": 0.5212,
+    "median_wall_seconds": 0.6364011999976356,
+    "tests_per_ray": 2464.0
+  },
+  "image_equality": true,
+  "render_speedup": 20.280155642023345
+}

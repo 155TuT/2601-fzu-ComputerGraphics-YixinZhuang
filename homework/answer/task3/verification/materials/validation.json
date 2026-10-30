@@ -1,0 +1,57 @@
+{
+  "original_algorithm_checks": 42435,
+  "material_checks": 400031,
+  "ctest_groups": 2,
+  "diffuse_pixels_unchanged": true,
+  "images": [
+    {
+      "path": "docs/screenshots/materials-mirror-glass.png",
+      "size": [
+        480,
+        360
+      ],
+      "readable": true
+    },
+    {
+      "path": "docs/screenshots/materials-mirror.png",
+      "size": [
+        480,
+        360
+      ],
+      "readable": true
+    },
+    {
+      "path": "docs/screenshots/materials-glass.png",
+      "size": [
+        480,
+        360
+      ],
+      "readable": true
+    },
+    {
+      "path": "docs/screenshots/materials-metal-a008.png",
+      "size": [
+        480,
+        360
+      ],
+      "readable": true
+    },
+    {
+      "path": "docs/screenshots/materials-metal-a025.png",
+      "size": [
+        480,
+        360
+      ],
+      "readable": true
+    },
+    {
+      "path": "docs/screenshots/materials-metal-a060.png",
+      "size": [
+        480,
+        360
+      ],
+      "readable": true
+    }
+  ],
+  "visual_review": "Six rendered images inspected: mirror reflected room and light; glass transmitted room with Fresnel highlights; increasing Beckmann alpha broadened highlights and blurred reflected features."
+}

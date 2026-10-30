@@ -1,0 +1,85 @@
+{
+  "executable_sha256": "24339d5f5b9272fa9f2e30c17a90304e46d2693e02d3b6643a080215b330d05b",
+  "experiments": [
+    {
+      "name": "fzu-direct",
+      "scene": "fzu/FZU-gallery.dae",
+      "spp": 128,
+      "light_samples": 8,
+      "max_depth": 1,
+      "flags": [],
+      "size": [
+        640,
+        480
+      ],
+      "threads": 4,
+      "seed": 20261025,
+      "command": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\bin\\pathtracer.exe",
+        "-t",
+        "4",
+        "-s",
+        "128",
+        "-l",
+        "8",
+        "-m",
+        "1",
+        "-q",
+        "20261025",
+        "-r",
+        "640",
+        "480",
+        "-f",
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\docs\\screenshots\\fzu-direct.png",
+        "code/dae/fzu/FZU-gallery.dae"
+      ],
+      "wall_seconds": 40.606232900005125,
+      "render_seconds": 40.4049,
+      "tests_per_ray": 10.388231,
+      "rays": 237648447,
+      "primitives": 3732,
+      "image": "docs/screenshots/fzu-direct.png",
+      "sha256": "587579e4bdad4b1257eb80cb853f9e52dcc8c82acd204056e3538e7285072553"
+    },
+    {
+      "name": "fzu-gi",
+      "scene": "fzu/FZU-gallery.dae",
+      "spp": 128,
+      "light_samples": 8,
+      "max_depth": 8,
+      "flags": [],
+      "size": [
+        640,
+        480
+      ],
+      "threads": 4,
+      "seed": 20261025,
+      "command": [
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\bin\\pathtracer.exe",
+        "-t",
+        "4",
+        "-s",
+        "128",
+        "-l",
+        "8",
+        "-m",
+        "8",
+        "-q",
+        "20261025",
+        "-r",
+        "640",
+        "480",
+        "-f",
+        "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\docs\\screenshots\\fzu-gi.png",
+        "code/dae/fzu/FZU-gallery.dae"
+      ],
+      "wall_seconds": 148.5876061999952,
+      "render_seconds": 148.4105,
+      "tests_per_ray": 11.341523,
+      "rays": 632001666,
+      "primitives": 3732,
+      "image": "docs/screenshots/fzu-gi.png",
+      "sha256": "cbbba4b92e9d4850777c261b50c7c27cd508b0d98e6224e499793fec02743987"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+CMake Deprecation Warning at CGL/deps/glfw/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Using Win32 for window creation
+-- Configuring done (0.3s)
+-- Generating done (0.6s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build
+[  3%] Built target glew
+[ 16%] Built target glfw
+[ 50%] Built target freetype
+[ 62%] Built target CGL
+[ 76%] Built target pt31
+[ 96%] Built target pathtracer_support
+[ 97%] Built target algorithm_tests
+[ 99%] Built target pathtracer
+[100%] Built target material_tests
+Internal ctest changing into directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build
+Test project C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build
+    Start 1: pathtracer_algorithms
+1/2 Test #1: pathtracer_algorithms ............   Passed    0.10 sec
+    Start 2: pathtracer_materials
+2/2 Test #2: pathtracer_materials .............   Passed    0.10 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.21 sec
+Ready: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task3\bin\pathtracer.exe

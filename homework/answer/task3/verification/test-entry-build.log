@@ -1,0 +1,178 @@
+-- The C compiler identification is GNU 15.1.0
+-- The CXX compiler identification is GNU 15.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/msys64/mingw64/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found OpenGL: opengl32
+-- Found PkgConfig: C:/msys64/mingw64/bin/pkg-config.exe (found version "2.5.1")
+-- Using Win32 for window creation
+-- Looking for dinput.h
+-- Looking for dinput.h - found
+-- Looking for xinput.h
+-- Looking for xinput.h - found
+-- Configuring done (6.5s)
+-- Generating done (0.6s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build-test
+[  1%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/context.c.obj
+[  2%] Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.obj
+[  3%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj
+[  4%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/init.c.obj
+[  5%] Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.obj
+[  6%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftbase.c.obj
+[  7%] Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.obj
+[  8%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/input.c.obj
+[  9%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj
+[  9%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
+[  9%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj
+[ 10%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
+[ 11%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/window.c.obj
+[ 12%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj
+[ 13%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftcid.c.obj
+[ 14%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
+[ 15%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj
+[ 15%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
+[ 16%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj
+[ 16%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj
+[ 17%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
+[ 18%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
+[ 19%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj
+[ 20%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftinit.c.obj
+[ 21%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj
+[ 22%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftmm.c.obj
+[ 23%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
+[ 23%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftotval.c.obj
+[ 23%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+[ 24%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
+[ 25%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj
+[ 26%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj
+[ 27%] Building C object CGL/deps/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
+[ 28%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj
+[ 28%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj
+[ 29%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/fttype1.c.obj
+[ 30%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj
+[ 31%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj
+[ 32%] Linking C static library libglfw3.a
+[ 34%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj
+[ 34%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj
+[ 35%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/cff/cff.c.obj
+[ 36%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj
+[ 36%] Built target glfw
+[ 36%] Linking C static library libglew.a
+[ 37%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj
+[ 37%] Built target glew
+[ 37%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj
+[ 38%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj
+[ 39%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj
+[ 40%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj
+[ 40%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj
+[ 41%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj
+[ 42%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/raster/raster.c.obj
+[ 43%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj
+[ 44%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj
+[ 44%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj
+[ 45%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/svg/svg.c.obj
+[ 46%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj
+[ 47%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/type1/type1.c.obj
+[ 47%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/type42/type42.c.obj
+[ 48%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj
+[ 49%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj
+[ 50%] Building C object CGL/deps/freetype/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj
+[ 50%] Building RC object CGL/deps/freetype/CMakeFiles/freetype.dir/src/base/ftver.rc.obj
+[ 51%] Linking C static library libfreetype.a
+[ 51%] Built target freetype
+[ 51%] Building CXX object CGL/CMakeFiles/CGL.dir/src/vector2D.cpp.obj
+[ 52%] Building CXX object CGL/CMakeFiles/CGL.dir/src/vector3D.cpp.obj
+[ 53%] Building CXX object CGL/CMakeFiles/CGL.dir/src/vector4D.cpp.obj
+[ 54%] Building CXX object CGL/CMakeFiles/CGL.dir/src/matrix3x3.cpp.obj
+[ 54%] Building CXX object CGL/CMakeFiles/CGL.dir/src/matrix4x4.cpp.obj
+[ 55%] Building CXX object CGL/CMakeFiles/CGL.dir/src/quaternion.cpp.obj
+[ 56%] Building CXX object CGL/CMakeFiles/CGL.dir/src/complex.cpp.obj
+[ 57%] Building CXX object CGL/CMakeFiles/CGL.dir/src/color.cpp.obj
+[ 57%] Building CXX object CGL/CMakeFiles/CGL.dir/src/osdtext.cpp.obj
+[ 58%] Building CXX object CGL/CMakeFiles/CGL.dir/src/osdfont.cpp.obj
+[ 59%] Building CXX object CGL/CMakeFiles/CGL.dir/src/viewer.cpp.obj
+[ 60%] Building CXX object CGL/CMakeFiles/CGL.dir/src/base64.cpp.obj
+[ 61%] Building CXX object CGL/CMakeFiles/CGL.dir/src/lodepng.cpp.obj
+[ 61%] Building CXX object CGL/CMakeFiles/CGL.dir/src/tinyxml2.cpp.obj
+[ 62%] Building CXX object CGL/CMakeFiles/CGL.dir/src/path.cpp.obj
+[ 63%] Linking CXX static library libCGL.a
+[ 63%] Built target CGL
+[ 64%] Building CXX object CMakeFiles/pt31.dir/src/scene/sphere.cpp.obj
+[ 65%] Building CXX object CMakeFiles/pt31.dir/src/scene/triangle.cpp.obj
+[ 67%] Building CXX object CMakeFiles/pt31.dir/src/scene/light.cpp.obj
+[ 68%] Building CXX object CMakeFiles/pt31.dir/src/scene/bvh.cpp.obj
+[ 68%] Building CXX object CMakeFiles/pt31.dir/src/scene/bbox.cpp.obj
+[ 69%] Building CXX object CMakeFiles/pt31.dir/src/pathtracer/camera.cpp.obj
+[ 70%] Building CXX object CMakeFiles/pt31.dir/src/pathtracer/bsdf.cpp.obj
+[ 71%] Building CXX object CMakeFiles/pt31.dir/src/pathtracer/pathtracer.cpp.obj
+[ 71%] Building CXX object CMakeFiles/pt31.dir/src/imgui/imgui.cpp.obj
+[ 72%] Building CXX object CMakeFiles/pt31.dir/src/imgui/imgui_widgets.cpp.obj
+[ 73%] Building CXX object CMakeFiles/pt31.dir/src/imgui/imgui_draw.cpp.obj
+[ 74%] Building CXX object CMakeFiles/pt31.dir/src/imgui/imgui_tables.cpp.obj
+[ 74%] Building CXX object CMakeFiles/pt31.dir/src/imgui/backends/imgui_impl_glfw.cpp.obj
+[ 75%] Building CXX object CMakeFiles/pt31.dir/src/imgui/backends/imgui_impl_opengl2.cpp.obj
+[ 76%] Building CXX object CMakeFiles/pt31.dir/src/application/pathtracer_launcher_gui.cpp.obj
+[ 77%] Building C object CMakeFiles/pt31.dir/src/util/win32/getopt.c.obj
+[ 78%] Linking CXX static library libpt31.a
+[ 78%] Built target pt31
+[ 78%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/object.cpp.obj
+[ 79%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/collada/collada.cpp.obj
+[ 80%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/collada/camera_info.cpp.obj
+[ 81%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/collada/light_info.cpp.obj
+[ 82%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/collada/sphere_info.cpp.obj
+[ 82%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/collada/polymesh_info.cpp.obj
+[ 83%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/collada/material_info.cpp.obj
+[ 84%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/gl_scene/mesh.cpp.obj
+[ 85%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/gl_scene/scene.cpp.obj
+[ 85%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/gl_scene/sphere.cpp.obj
+[ 86%] Building CXX object CMakeFiles/pathtracer_support.dir/src/util/halfEdgeMesh.cpp.obj
+[ 87%] Building CXX object CMakeFiles/pathtracer_support.dir/src/application/meshEdit.cpp.obj
+[ 88%] Building CXX object CMakeFiles/pathtracer_support.dir/src/pathtracer/sampler.cpp.obj
+[ 88%] Building CXX object CMakeFiles/pathtracer_support.dir/src/pathtracer/advanced_bsdf.cpp.obj
+[ 89%] Building CXX object CMakeFiles/pathtracer_support.dir/src/scene/environment_light.cpp.obj
+[ 90%] Building CXX object CMakeFiles/pathtracer_support.dir/src/pathtracer/camera_lens.cpp.obj
+[ 91%] Building CXX object CMakeFiles/pathtracer_support.dir/src/pathtracer/raytraced_renderer.cpp.obj
+[ 92%] Building CXX object CMakeFiles/pathtracer_support.dir/src/util/sphere_drawing.cpp.obj
+[ 92%] Building CXX object CMakeFiles/pathtracer_support.dir/src/util/lodepng.cpp.obj
+[ 93%] Building CXX object CMakeFiles/pathtracer_support.dir/src/application/application.cpp.obj
+[ 94%] Building CXX object CMakeFiles/pathtracer_support.dir/src/application/visual_debugger.cpp.obj
+[ 95%] Building CXX object CMakeFiles/pathtracer_support.dir/src/imgui/imgui.cpp.obj
+[ 95%] Building CXX object CMakeFiles/pathtracer_support.dir/src/imgui/imgui_widgets.cpp.obj
+[ 96%] Building CXX object CMakeFiles/pathtracer_support.dir/src/imgui/imgui_draw.cpp.obj
+[ 97%] Building CXX object CMakeFiles/pathtracer_support.dir/src/imgui/imgui_tables.cpp.obj
+[ 98%] Building CXX object CMakeFiles/pathtracer_support.dir/src/imgui/backends/imgui_impl_glfw.cpp.obj
+[ 98%] Building CXX object CMakeFiles/pathtracer_support.dir/src/imgui/backends/imgui_impl_opengl2.cpp.obj
+[ 98%] Built target pathtracer_support
+[100%] Building CXX object CMakeFiles/algorithm_tests.dir/verification/algorithm_tests.cpp.obj
+[100%] Linking CXX executable algorithm_tests.exe
+[100%] Built target algorithm_tests
+[  3%] Built target glew
+[ 16%] Built target glfw
+[ 51%] Built target freetype
+[ 63%] Built target CGL
+[ 78%] Built target pt31
+[ 98%] Built target pathtracer_support
+[ 98%] Building CXX object CMakeFiles/material_tests.dir/verification/material_tests.cpp.obj
+[100%] Linking CXX executable material_tests.exe
+[100%] Built target material_tests
+Internal ctest changing into directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build-test
+Test project C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build-test
+    Start 1: pathtracer_algorithms
+1/2 Test #1: pathtracer_algorithms ............   Passed    0.13 sec
+    Start 2: pathtracer_materials
+2/2 Test #2: pathtracer_materials .............   Passed    0.50 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.65 sec
+Algorithm and material verification passed.

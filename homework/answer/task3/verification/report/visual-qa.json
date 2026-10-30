@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-25T18:40:46.0796618+08:00",
+  "task": "task3",
+  "reviewer": "requirements_audit",
+  "renderer": "Microsoft Word 16 PDF export, rasterized with documents render_docx.rasterize",
+  "page_count": 19,
+  "inspection": "All 19 final pages viewed individually at original 993 x 1404 pixel resolution after adding the material and FZU extensions and clarifying the full-source paths.",
+  "document": {
+    "path": "docs/作业报告.docx",
+    "sha256": "307f9e8c05d72962c9d959d5b92a157edd051741ebbbaa12a77ee928fab154a4"
+  },
+  "pdf": {
+    "path": "docs/作业报告.pdf",
+    "sha256": "6525233765def9bc1ea29a53c1c60a5bc964688a7df0f443c2df4439dbe72cda"
+  },
+  "checks": {
+    "text_and_glyphs": "pass",
+    "horizontal_and_vertical_overflow": "pass",
+    "images_and_table": "pass",
+    "captions_kept_with_figures": "pass",
+    "headings_with_following_content": "pass",
+    "identity_placeholder": "pass",
+    "page_breaks_and_whitespace": "pass",
+    "material_figures_and_parameters": "pass",
+    "fzu_final_figures_and_metrics": "pass",
+    "full_source_path_clarification": "pass"
+  },
+  "notes": [
+    "The added material comparisons and the final FZU renders are visible, with their parameters and captions on the same page.",
+    "The report retains automatic pagination. Remaining lower-page whitespace accommodates complete figure groups; the final page contains two complete closing paragraphs.",
+    "The source template identity placeholder remains [姓名待填写-学号待填写].",
+    "No further document edits were required after inspecting this export."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "final-pages/page-1.png",
+      "sha256": "2dbd7e7d78f5fd628b5dc53994dd70b473dd7c1693a1600a664246ad7254abbf",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 2,
+      "image": "final-pages/page-2.png",
+      "sha256": "64f39cfd943736f067ebcd44b459f131be3849e6244b57279e1e9815b44aa056",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 3,
+      "image": "final-pages/page-3.png",
+      "sha256": "757b7821cb6cc886efeaaa087527b1acbbdd79b919da704c77c7a58cae22c695",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 4,
+      "image": "final-pages/page-4.png",
+      "sha256": "e7dd0090c0b53a92f61dfc49b301387de7089bebc2230c7481b7acb34de4bc93",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 5,
+      "image": "final-pages/page-5.png",
+      "sha256": "e497ae5dba714c53451c242e293a4f9d29dbfaf09df354700c417e2251343dd4",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 6,
+      "image": "final-pages/page-6.png",
+      "sha256": "023eeac066af1e5060fd72de0f70d582e5510f6a8824a434d43c42d06dd3c88a",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 7,
+      "image": "final-pages/page-7.png",
+      "sha256": "9ca32e86a512222f63cf5040448b806c6e53231b4c39dbdcac1b667bc9fca283",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 8,
+      "image": "final-pages/page-8.png",
+      "sha256": "61e02af30c8c91e5401b54526e02ad59f3ddac31a50afb47193b9a9242c4673b",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 9,
+      "image": "final-pages/page-9.png",
+      "sha256": "0ccf8862c5cf906cd3c3cb6e0156e9e00ef7d37eab80730ac69176fdd17d147b",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 10,
+      "image": "final-pages/page-10.png",
+      "sha256": "4f78e0c721597b27ef27dd2b05e3ab195c045b76eba9350612554e21e74e4ae0",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 11,
+      "image": "final-pages/page-11.png",
+      "sha256": "62e0997c2b4855f10ab80148fb80e8860dba0493dcc7577f9e4199691489d3a9",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 12,
+      "image": "final-pages/page-12.png",
+      "sha256": "f808064f1d328f9b858b4847633f7fde811fc5afd3a82b68167362a97e196f46",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 13,
+      "image": "final-pages/page-13.png",
+      "sha256": "1306be09765ef9eaf49bf8ad063bd8e52043152dae7d25054d971be7b26541de",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 14,
+      "image": "final-pages/page-14.png",
+      "sha256": "a90d9dd665fe722514bab38452c8ecdd999d8e3d71a47caf708de520e810bb53",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 15,
+      "image": "final-pages/page-15.png",
+      "sha256": "7e2141f0190ab37bf5ebb26d661c18159b3570b21fd417b21fd8c70352e6a46a",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 16,
+      "image": "final-pages/page-16.png",
+      "sha256": "b1e8cf7fb358f40ead86313758b1e479a724a2bf8834d575174366a1f33c3cca",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 17,
+      "image": "final-pages/page-17.png",
+      "sha256": "2a2bbb34952b11f8d784d6dfa3c0cc58f55277e1620e25e3e013fb9227810838",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 18,
+      "image": "final-pages/page-18.png",
+      "sha256": "225b6d373da98b1c0973932ff57b1f81216a9e7b187a4134ee9af58f8cb43c2a",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    },
+    {
+      "page": 19,
+      "image": "final-pages/page-19.png",
+      "sha256": "89361079bd98357dfca54e93074bed40e1680f83846ae4e1234b4714ee783e73",
+      "inspected_at_original_resolution": true,
+      "result": "pass"
+    }
+  ],
+  "status": "pass"
+}

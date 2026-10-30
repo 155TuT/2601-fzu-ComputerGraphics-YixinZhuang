@@ -1,0 +1,14 @@
+.tools/
+build/
+build-test/
+bin/
+submission/
+__pycache__/
+verification/tmp/
+verification/template-render/
+verification/report/*-pages/
+verification/report/*-render/
+docs/screenshots/.capture/
+results/
+/screenshot_*.png
+/test.png

@@ -1,0 +1,76 @@
+{
+  "source": [
+    "code/dae/fzu/F.dae",
+    "code/dae/fzu/Z.dae",
+    "code/dae/fzu/U.dae"
+  ],
+  "container_scene": "code/dae/sky/CBbunny.dae",
+  "output": "code/dae/fzu/FZU-gallery.dae",
+  "letters": [
+    {
+      "letter": "F",
+      "source_vertices": 20,
+      "source_triangles": 36,
+      "exported_mesh": {
+        "vertices": 182,
+        "edges": 540,
+        "triangles": 360,
+        "boundary_edges": 0,
+        "signed_volume": 0.017195943626230694,
+        "normal_min_length": 9.83374772925292e-05,
+        "planar_normal_max_dot_error": 0.0,
+        "support_fraction": 0.002,
+        "support_max_vertex_displacement": 0.002621255281466149
+      },
+      "height": 0.65,
+      "width": 0.3469208211143695,
+      "baseline": 0.025,
+      "diffuse": "0.72 0.34 0.10 1"
+    },
+    {
+      "letter": "Z",
+      "source_vertices": 16,
+      "source_triangles": 28,
+      "exported_mesh": {
+        "vertices": 142,
+        "edges": 420,
+        "triangles": 280,
+        "boundary_edges": 0,
+        "signed_volume": 0.024451087104000915,
+        "normal_min_length": 0.00011306696916974347,
+        "planar_normal_max_dot_error": 2.220446049250313e-16,
+        "support_fraction": 0.002,
+        "support_max_vertex_displacement": 0.002824858483323236
+      },
+      "height": 0.65,
+      "width": 0.5861436950146628,
+      "baseline": 0.025,
+      "diffuse": "0.13 0.53 0.65 1"
+    },
+    {
+      "letter": "U",
+      "source_vertices": 156,
+      "source_triangles": 308,
+      "exported_mesh": {
+        "vertices": 1542,
+        "edges": 4620,
+        "triangles": 3080,
+        "boundary_edges": 0,
+        "signed_volume": 0.02263218433159625,
+        "normal_min_length": 1.465647897194364e-06,
+        "planar_normal_max_dot_error": 3.3306690738754696e-16,
+        "support_fraction": 0.002,
+        "support_max_vertex_displacement": 0.001640844898547999
+      },
+      "height": 0.65,
+      "width": 0.5521707670043415,
+      "baseline": 0.025,
+      "diffuse": "0.70 0.70 0.64 1"
+    }
+  ],
+  "area_light_radiance": [
+    10,
+    10,
+    10
+  ]
+}

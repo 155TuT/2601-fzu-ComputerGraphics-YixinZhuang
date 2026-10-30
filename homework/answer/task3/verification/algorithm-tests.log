@@ -1,0 +1,1 @@
+PASS 42435 checks: camera, intersections, slabs, BVH/brute, cosine BSDF, shadows, bounce sums and roulette expectation

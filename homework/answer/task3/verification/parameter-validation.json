@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "name": "zero_threads",
+      "exit_code": 1,
+      "seconds": 0.31035379999957513,
+      "output": "[PathTracer] Invalid value for -t: 0"
+    },
+    {
+      "name": "negative_threads",
+      "exit_code": 1,
+      "seconds": 0.08754570000019157,
+      "output": "[PathTracer] -t requires an integer in [1, 256]"
+    },
+    {
+      "name": "negative_spp",
+      "exit_code": 1,
+      "seconds": 0.08508960000472143,
+      "output": "[PathTracer] -s requires an integer in [1, 2147483647]"
+    },
+    {
+      "name": "zero_spp",
+      "exit_code": 1,
+      "seconds": 0.0793963000032818,
+      "output": "[PathTracer] Invalid value for -s: 0"
+    },
+    {
+      "name": "negative_lights",
+      "exit_code": 1,
+      "seconds": 0.07791840000572847,
+      "output": "[PathTracer] -l requires an integer in [1, 2147483647]"
+    },
+    {
+      "name": "negative_depth",
+      "exit_code": 1,
+      "seconds": 0.08019169999897713,
+      "output": "[PathTracer] -m requires an integer in [0, 2147483647]"
+    },
+    {
+      "name": "missing_height",
+      "exit_code": 1,
+      "seconds": 0.0937389999962761,
+      "output": "[PathTracer] Missing argument for -r height"
+    },
+    {
+      "name": "missing_crop_height",
+      "exit_code": 1,
+      "seconds": 0.08055890000105137,
+      "output": "[PathTracer] Missing argument for -p height"
+    },
+    {
+      "name": "missing_tolerance",
+      "exit_code": 1,
+      "seconds": 0.07791439999709837,
+      "output": "[PathTracer] Missing argument for -a tolerance"
+    },
+    {
+      "name": "zero_width",
+      "exit_code": 1,
+      "seconds": 0.07841170000028796,
+      "output": "[PathTracer] Invalid value for -r width: 0"
+    },
+    {
+      "name": "integer_overflow",
+      "exit_code": 1,
+      "seconds": 0.07762659999571042,
+      "output": "[PathTracer] Invalid value for -s: 999999999999999999999999"
+    },
+    {
+      "name": "invalid_mode",
+      "exit_code": 1,
+      "seconds": 0.08019240000430727,
+      "output": "[PathTracer] Invalid value for -o: 2"
+    },
+    {
+      "name": "crop_outside",
+      "exit_code": 1,
+      "seconds": 0.07855559999734396,
+      "output": "[PathTracer] The render region must lie within the image dimensions supplied with -r"
+    },
+    {
+      "name": "png_write_failure",
+      "exit_code": 1,
+      "output": "[PathTracer] Collecting primitives... Done! (0.0000 sec)\r\n[PathTracer] Building BVH from 14 primitives... Done! (0.0000 sec)\r\n[PathTracer] Rendering... \r[PathTracer] Rendering... 100%\r[PathTracer] Rendering... 100%! (0.0001s)\r\n[PathTracer] BVH traced 64 rays.\r\n[PathTracer] Average speed 0.6816 million rays per second.\r\n[PathTracer] Averaged 2.250000 intersection tests per ray.\r\n[PathTracer] Input scene file: code/dae/sky/CBspheres_lambertian.dae\r\n[PathTracer] Rendering using 1 threads\r\n[PathTracer] Saving to file: C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\verification\\missing-output-dir\\result.png... [PathTracer] Cannot write PNG 'C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\verification\\missing-output-dir\\result.png': failed to open file for writing"
+    },
+    {
+      "name": "normal_render_t1",
+      "exit_code": 0,
+      "pixels_match_prior_render": true
+    },
+    {
+      "name": "normal_render_t4",
+      "exit_code": 0,
+      "pixels_match_prior_render": true
+    }
+  ],
+  "passed": 16
+}

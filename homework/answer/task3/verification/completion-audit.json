@@ -1,0 +1,19 @@
+{
+  "mandatory_implementation": "complete",
+  "bonus_implementation": [
+    "mirror and refraction",
+    "Fresnel glass",
+    "Beckmann conductor",
+    "FZU shared scene"
+  ],
+  "canonical_ctest_groups_passed": 2,
+  "report_word_opened": true,
+  "report_pages_visually_reviewed": 19,
+  "submission_files": 1208,
+  "submission_build": "passed",
+  "submission_runtime": "passed",
+  "submission_verification_files": "excluded",
+  "identity": "name and student id placeholders preserved",
+  "submission_record": "verification/submission-layout/submission-verify.json",
+  "report_record": "verification/report/visual-qa.json"
+}

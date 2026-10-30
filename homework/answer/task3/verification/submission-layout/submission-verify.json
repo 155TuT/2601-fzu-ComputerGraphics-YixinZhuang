@@ -1,0 +1,18 @@
+{
+  "package": "task3-submit",
+  "archive_sha256": "c8a21821f114aa0a5836e7811a83153559c564b9d209c30ba077e739accc3102",
+  "extracted_path": "C:\\Users\\17169\\AppData\\Local\\Temp\\task3-check-c6a8c48d\\task3-submit",
+  "files_compared": 1208,
+  "build": "passed",
+  "verification_files": "excluded",
+  "runtime_path": "Windows System32 only",
+  "runtime": "passed",
+  "images": [
+    "fzu_rate.png",
+    "fzu.png",
+    "materials_rate.png",
+    "materials.png",
+    "spheres_rate.png",
+    "spheres.png"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source_only_directory": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\verification\\tmp\\fzu-generator-5497a185",
+  "copied_directories": [
+    "code",
+    "scripts"
+  ],
+  "verification_absent_before_generation": true,
+  "generator_exit_code": 0,
+  "identical_dae_bytes": true,
+  "scene_sha256": "fa87b17b08813dc82b4270640b5816183c3713aff6b5fa61c462c8a271cf9720",
+  "normal_preview_exit_code": 0,
+  "normal_preview_command": [
+    "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\bin\\pathtracer.exe",
+    "-N",
+    "-s",
+    "4",
+    "-t",
+    "2",
+    "-r",
+    "320",
+    "240",
+    "-f",
+    "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\verification\\fzu-previews\\fzu-preview-normals.png",
+    "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\code\\dae\\fzu\\FZU-gallery.dae"
+  ],
+  "normal_preview_log": "[PathTracer] Collecting primitives... Done! (0.0004 sec)\n[PathTracer] Building BVH from 3732 primitives... Done! (0.0025 sec)\n[PathTracer] Rendering... \n[PathTracer] Rendering... 1%\n[PathTracer] Rendering... 2%\n[PathTracer] Rendering... 3%\n[PathTracer] Rendering... 5%\n[PathTracer] Rendering... 6%\n[PathTracer] Rendering... 7%\n[PathTracer] Rendering... 8%\n[PathTracer] Rendering... 10%\n[PathTracer] Rendering... 11%\n[PathTracer] Rendering... 12%\n[PathTracer] Rendering... 13%\n[PathTracer] Rendering... 15%\n[PathTracer] Rendering... 16%\n[PathTracer] Rendering... 17%\n[PathTracer] Rendering... 18%\n[PathTracer] Rendering... 20%\n[PathTracer] Rendering... 21%\n[PathTracer] Rendering... 22%\n[PathTracer] Rendering... 23%\n[PathTracer] Rendering... 25%\n[PathTracer] Rendering... 26%\n[PathTracer] Rendering... 27%\n[PathTracer] Rendering... 28%\n[PathTracer] Rendering... 30%\n[PathTracer] Rendering... 31%\n[PathTracer] Rendering... 32%\n[PathTracer] Rendering... 33%\n[PathTracer] Rendering... 35%\n[PathTracer] Rendering... 36%\n[PathTracer] Rendering... 37%\n[PathTracer] Rendering... 38%\n[PathTracer] Rendering... 40%\n[PathTracer] Rendering... 41%\n[PathTracer] Rendering... 42%\n[PathTracer] Rendering... 43%\n[PathTracer] Rendering... 45%\n[PathTracer] Rendering... 46%\n[PathTracer] Rendering... 47%\n[PathTracer] Rendering... 48%\n[PathTracer] Rendering... 50%\n[PathTracer] Rendering... 51%\n[PathTracer] Rendering... 52%\n[PathTracer] Rendering... 53%\n[PathTracer] Rendering... 55%\n[PathTracer] Rendering... 56%\n[PathTracer] Rendering... 57%\n[PathTracer] Rendering... 58%\n[PathTracer] Rendering... 60%\n[PathTracer] Rendering... 61%\n[PathTracer] Rendering... 62%\n[PathTracer] Rendering... 63%\n[PathTracer] Rendering... 65%\n[PathTracer] Rendering... 66%\n[PathTracer] Rendering... 67%\n[PathTracer] Rendering... 68%\n[PathTracer] Rendering... 70%\n[PathTracer] Rendering... 71%\n[PathTracer] Rendering... 72%\n[PathTracer] Rendering... 73%\n[PathTracer] Rendering... 75%\n[PathTracer] Rendering... 76%\n[PathTracer] Rendering... 77%\n[PathTracer] Rendering... 78%\n[PathTracer] Rendering... 80%\n[PathTracer] Rendering... 81%\n[PathTracer] Rendering... 82%\n[PathTracer] Rendering... 83%\n[PathTracer] Rendering... 85%\n[PathTracer] Rendering... 86%\n[PathTracer] Rendering... 87%\n[PathTracer] Rendering... 88%\n[PathTracer] Rendering... 90%\n[PathTracer] Rendering... 91%\n[PathTracer] Rendering... 92%\n[PathTracer] Rendering... 93%\n[PathTracer] Rendering... 95%\n[PathTracer] Rendering... 96%\n[PathTracer] Rendering... 97%\n[PathTracer] Rendering... 98%\n[PathTracer] Rendering... 100%\n[PathTracer] Rendering... 100%! (0.1388s)\n[PathTracer] BVH traced 307200 rays.\n[PathTracer] Average speed 2.2133 million rays per second.\n[PathTracer] Averaged 9.178164 intersection tests per ray.\n[PathTracer] Job completed.\n[PathTracer] Input scene file: C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\code\\dae\\fzu\\FZU-gallery.dae\n[PathTracer] Rendering using 2 threads\n[PathTracer] Saving to file: C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\answer\\task3\\verification\\fzu-previews\\fzu-preview-normals.png... Done!\n"
+}

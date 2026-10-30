@@ -1,0 +1,336 @@
+{
+  "template_sha256": "8bad90cb5da925c56a10fcc0f2fc2ff8bb8d67e5d1dc712f6e4a00a4ff1ddd31",
+  "output_sha256": "307f9e8c05d72962c9d959d5b92a157edd051741ebbbaa12a77ee928fab154a4",
+  "reference_unchanged": true,
+  "section_count": 1,
+  "manual_page_markers": 0,
+  "paragraph_count": 110,
+  "image_occurrences": 28,
+  "images": [
+    {
+      "file": "docs\\screenshots\\normal_cube.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "5dcd42b9f70cde3128f59a0f132ebf89c41508797d3796471cb36f44647eff5e"
+    },
+    {
+      "file": "docs\\screenshots\\normal_teapot.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "6b0b098877dac2575dfbf4e1018333d80dbca86b735d5da57fcc1e652e97a80d"
+    },
+    {
+      "file": "docs\\screenshots\\normal_maxplanck.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "394f2b0a642dd00bcee7c73c5b25a4cf77458184bff0589fa14e36d073dc5965"
+    },
+    {
+      "file": "docs\\screenshots\\normal_lucy.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "8487d635d248b8729f4fc9ec538ccb9bb2808629791135f1324bd9b5b3cd0057"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_hemisphere.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "20b1c2e529d308205dc739a37d1ae83504b3b9bbf41c7d1d503a3d5cc65a26df"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_importance.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "95a85276578d1b8a4e810592cee2ccf360f7184f267817a4fbd034e3448558f8"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_light_1.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "a87cb27d9aacf497d01d15aa036fb1e37e61235db3b1b587a60d58297a3be4f6"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_light_4.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "050f9934df4b991995f53eaa5723133cc3e0efa22ac65e19215017b5d4c3cec1"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_light_16.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "6481361eaf25e96a7eed40077528251962bc0f3f59bac3c1d798b3afd33bd6da"
+    },
+    {
+      "file": "docs\\screenshots\\bounce_o0.png",
+      "pixels": [
+        752,
+        436
+      ],
+      "width_inches": 5.851388888888889,
+      "sha256": "3de53dee7429c79bac5b837a9f43bd16f50285067425596663b88d183d42b616"
+    },
+    {
+      "file": "docs\\screenshots\\bounce_o1.png",
+      "pixels": [
+        752,
+        436
+      ],
+      "width_inches": 5.851388888888889,
+      "sha256": "063b38deea03565e590d20fea3c600695f7fa0519b025e0db947a71c7637cbc2"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_direct_128.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "9d25226d63420ac1b65d7965ed9c30814af6dfc3172e99389f6f7ec936ee76a2"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_gi_128.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "0a84bdcccc32c8c4a93ca88f6f0b3a5911d6ca7c6ff674c904e097b07318f575"
+    },
+    {
+      "file": "docs\\screenshots\\spheres_gi.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 4.6,
+      "sha256": "0207175b17e9e942499e09edd9a990760a8302cb11006e9ce74b061dfb48264d"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_gi_16.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "f6041ad22060bcf1dfea4b24dc472935a17a83102e89a2eda7a8f1020206d35c"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_gi_128.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "0a84bdcccc32c8c4a93ca88f6f0b3a5911d6ca7c6ff674c904e097b07318f575"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_gi_128.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "0a84bdcccc32c8c4a93ca88f6f0b3a5911d6ca7c6ff674c904e097b07318f575"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_fixed_128.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "54e447e6e31425014694682350bf032a55514ce72805ba9c1bfd31d603ae1827"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_rr32.png",
+      "pixels": [
+        320,
+        240
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "90bc67d9d1616ef6b39c74e59b925a594f3685cf8fbcb34f95fe1db52b573d18"
+    },
+    {
+      "file": "docs\\screenshots\\bunny_fixed32.png",
+      "pixels": [
+        320,
+        240
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "a8a1f7ee1f20b773d7b5aba6efbb67cf06db8642f7031bbdebfd1ff0595bad28"
+    },
+    {
+      "file": "docs\\screenshots\\materials-mirror-glass.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 4.6,
+      "sha256": "de18b7986eaedf0f969c5bcfc2424e14c03fd5ff92eb981b211e7a7fd0dc1155"
+    },
+    {
+      "file": "docs\\screenshots\\materials-mirror.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "87645a1c68d6647e7f07b75e4ccdc1764843ba7ab4d9376b106e12846dd1cd28"
+    },
+    {
+      "file": "docs\\screenshots\\materials-glass.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "fb8234bb31f7adf6029b621250e25fe0d2d398e11466cbfdf217af4fa2b7a5bf"
+    },
+    {
+      "file": "docs\\screenshots\\materials-metal-a008.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "b0520527382b2895fa8301190ac3ee254c3b236c136f75775a769bfca1a6d775"
+    },
+    {
+      "file": "docs\\screenshots\\materials-metal-a025.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "8473c583a7fde48b4d57ce59fef709369c3e89609359e460d58f339a9d96ba12"
+    },
+    {
+      "file": "docs\\screenshots\\materials-metal-a060.png",
+      "pixels": [
+        480,
+        360
+      ],
+      "width_inches": 1.8704629629629628,
+      "sha256": "2ed73f4b4ffa0f0c0da9016d394fd431e6ccd64582d59a0c6ca206d303942864"
+    },
+    {
+      "file": "docs\\screenshots\\fzu-direct.png",
+      "pixels": [
+        640,
+        480
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "587579e4bdad4b1257eb80cb853f9e52dcc8c82acd204056e3538e7285072553"
+    },
+    {
+      "file": "docs\\screenshots\\fzu-gi.png",
+      "pixels": [
+        640,
+        480
+      ],
+      "width_inches": 2.8656944444444443,
+      "sha256": "cbbba4b92e9d4850777c261b50c7c27cd508b0d98e6224e499793fec02743987"
+    }
+  ],
+  "tables": [
+    {
+      "rows": 3,
+      "columns": 3,
+      "headers": [
+        "方法",
+        "渲染中位耗时 秒",
+        "每射线图元测试数"
+      ]
+    }
+  ],
+  "added_styles": [
+    "Title"
+  ],
+  "typography": {
+    "source": "C:\\Users\\17169\\Documents\\Mycode\\fzucourses\\Majorcourse\\2601-fzu-ComputerGraphics-YixinZhuang\\homework\\teacher\\task3\\作业报告.docx",
+    "declared_font": "Kaiti TC",
+    "body_pt": 14,
+    "title_pt": 24,
+    "subtitle_pt": 18,
+    "body_color": "000000",
+    "inline_code": "Consolas 10.5pt"
+  },
+  "preserve_only_parts": [
+    {
+      "part": "_rels/",
+      "unchanged": true
+    },
+    {
+      "part": "_rels/.rels",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/app.xml",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/core.xml",
+      "unchanged": true
+    },
+    {
+      "part": "docProps/custom.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/",
+      "unchanged": true
+    },
+    {
+      "part": "word/_rels/",
+      "unchanged": true
+    },
+    {
+      "part": "word/fontTable.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/settings.xml",
+      "unchanged": true
+    },
+    {
+      "part": "word/theme/",
+      "unchanged": true
+    },
+    {
+      "part": "word/theme/theme1.xml",
+      "unchanged": true
+    }
+  ]
+}

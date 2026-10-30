@@ -1,0 +1,44 @@
+CMake Deprecation Warning at CGL/deps/glfw/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Using Win32 for window creation
+-- Configuring done (0.4s)
+-- Generating done (0.7s)
+-- Build files have been written to: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build
+[  1%] Linking C static library libglew.a
+[  2%] Linking C static library libglfw3.a
+[  3%] Linking C static library libfreetype.a
+[  5%] Built target glew
+[ 17%] Built target glfw
+[ 50%] Built target freetype
+[ 51%] Linking CXX static library libCGL.a
+[ 62%] Built target CGL
+[ 63%] Building CXX object CMakeFiles/pt31.dir/src/scene/sphere.cpp.obj
+[ 64%] Building CXX object CMakeFiles/pt31.dir/src/scene/triangle.cpp.obj
+[ 64%] Building CXX object CMakeFiles/pt31.dir/src/scene/bvh.cpp.obj
+[ 65%] Building CXX object CMakeFiles/pt31.dir/src/scene/bbox.cpp.obj
+[ 66%] Building CXX object CMakeFiles/pt31.dir/src/pathtracer/camera.cpp.obj
+[ 67%] Building CXX object CMakeFiles/pt31.dir/src/pathtracer/bsdf.cpp.obj
+[ 67%] Building CXX object CMakeFiles/pt31.dir/src/pathtracer/pathtracer.cpp.obj
+[ 68%] Linking CXX static library libpt31.a
+[ 76%] Built target pt31
+[ 97%] Built target pathtracer_support
+[ 98%] Linking CXX executable algorithm_tests.exe
+[ 99%] Linking CXX executable pathtracer.exe
+[100%] Built target algorithm_tests
+[100%] Built target pathtracer
+Internal ctest changing into directory: C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build
+Test project C:/Users/17169/Documents/Mycode/fzucourses/Majorcourse/2601-fzu-ComputerGraphics-YixinZhuang/homework/answer/task3/build
+    Start 1: pathtracer_algorithms
+1/1 Test #1: pathtracer_algorithms ............   Passed    0.43 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.45 sec
+Ready: C:\Users\17169\Documents\Mycode\fzucourses\Majorcourse\2601-fzu-ComputerGraphics-YixinZhuang\homework\answer\task3\bin\pathtracer.exe
