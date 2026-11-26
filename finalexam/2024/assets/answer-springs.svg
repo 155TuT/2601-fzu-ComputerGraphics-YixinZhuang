@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="222" viewBox="0 0 500 222" role="img">
+  <title>Shear and bending springs on the original 4 by 4 grids</title>
+  <rect x="0" y="0" width="500" height="222" fill="white" />
+  <line x1="28" y1="30" x2="28" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="28" y1="30" x2="172" y2="30" stroke="#717981" stroke-width="1.5" />
+  <line x1="76" y1="30" x2="76" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="28" y1="78" x2="172" y2="78" stroke="#717981" stroke-width="1.5" />
+  <line x1="124" y1="30" x2="124" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="28" y1="126" x2="172" y2="126" stroke="#717981" stroke-width="1.5" />
+  <line x1="172" y1="30" x2="172" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="28" y1="174" x2="172" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="28" y1="30" x2="76" y2="78" stroke="#087f78" stroke-width="2" />
+  <line x1="28" y1="78" x2="76" y2="30" stroke="#087f78" stroke-width="2" />
+  <line x1="28" y1="78" x2="76" y2="126" stroke="#087f78" stroke-width="2" />
+  <line x1="28" y1="126" x2="76" y2="78" stroke="#087f78" stroke-width="2" />
+  <line x1="28" y1="126" x2="76" y2="174" stroke="#087f78" stroke-width="2" />
+  <line x1="28" y1="174" x2="76" y2="126" stroke="#087f78" stroke-width="2" />
+  <line x1="76" y1="30" x2="124" y2="78" stroke="#087f78" stroke-width="2" />
+  <line x1="76" y1="78" x2="124" y2="30" stroke="#087f78" stroke-width="2" />
+  <line x1="76" y1="78" x2="124" y2="126" stroke="#087f78" stroke-width="2" />
+  <line x1="76" y1="126" x2="124" y2="78" stroke="#087f78" stroke-width="2" />
+  <line x1="76" y1="126" x2="124" y2="174" stroke="#087f78" stroke-width="2" />
+  <line x1="76" y1="174" x2="124" y2="126" stroke="#087f78" stroke-width="2" />
+  <line x1="124" y1="30" x2="172" y2="78" stroke="#087f78" stroke-width="2" />
+  <line x1="124" y1="78" x2="172" y2="30" stroke="#087f78" stroke-width="2" />
+  <line x1="124" y1="78" x2="172" y2="126" stroke="#087f78" stroke-width="2" />
+  <line x1="124" y1="126" x2="172" y2="78" stroke="#087f78" stroke-width="2" />
+  <line x1="124" y1="126" x2="172" y2="174" stroke="#087f78" stroke-width="2" />
+  <line x1="124" y1="174" x2="172" y2="126" stroke="#087f78" stroke-width="2" />
+  <circle cx="28" cy="30" r="3.7" fill="#172333" />
+  <circle cx="28" cy="78" r="3.7" fill="#172333" />
+  <circle cx="28" cy="126" r="3.7" fill="#172333" />
+  <circle cx="28" cy="174" r="3.7" fill="#172333" />
+  <circle cx="76" cy="30" r="3.7" fill="#172333" />
+  <circle cx="76" cy="78" r="3.7" fill="#172333" />
+  <circle cx="76" cy="126" r="3.7" fill="#172333" />
+  <circle cx="76" cy="174" r="3.7" fill="#172333" />
+  <circle cx="124" cy="30" r="3.7" fill="#172333" />
+  <circle cx="124" cy="78" r="3.7" fill="#172333" />
+  <circle cx="124" cy="126" r="3.7" fill="#172333" />
+  <circle cx="124" cy="174" r="3.7" fill="#172333" />
+  <circle cx="172" cy="30" r="3.7" fill="#172333" />
+  <circle cx="172" cy="78" r="3.7" fill="#172333" />
+  <circle cx="172" cy="126" r="3.7" fill="#172333" />
+  <circle cx="172" cy="174" r="3.7" fill="#172333" />
+  <text x="100.0" y="207" font-family="sans-serif" font-size="15" fill="#172333" text-anchor="middle">(1)</text>
+  <line x1="290" y1="30" x2="290" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="290" y1="30" x2="434" y2="30" stroke="#717981" stroke-width="1.5" />
+  <line x1="338" y1="30" x2="338" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="290" y1="78" x2="434" y2="78" stroke="#717981" stroke-width="1.5" />
+  <line x1="386" y1="30" x2="386" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="290" y1="126" x2="434" y2="126" stroke="#717981" stroke-width="1.5" />
+  <line x1="434" y1="30" x2="434" y2="174" stroke="#717981" stroke-width="1.5" />
+  <line x1="290" y1="174" x2="434" y2="174" stroke="#717981" stroke-width="1.5" />
+  <path d="M 290 30 q 48 -18 96 0" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 290 30 q -18 48 0 96" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 338 30 q 48 -18 96 0" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 290 78 q -18 48 0 96" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 290 78 q 48 -18 96 0" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 338 30 q -18 48 0 96" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 338 78 q 48 -18 96 0" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 338 78 q -18 48 0 96" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 290 126 q 48 -18 96 0" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 386 30 q -18 48 0 96" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 338 126 q 48 -18 96 0" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 386 78 q -18 48 0 96" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 290 174 q 48 -18 96 0" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 434 30 q -18 48 0 96" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 338 174 q 48 -18 96 0" fill="none" stroke="#a4421b" stroke-width="2" />
+  <path d="M 434 78 q -18 48 0 96" fill="none" stroke="#a4421b" stroke-width="2" />
+  <circle cx="290" cy="30" r="3.7" fill="#172333" />
+  <circle cx="290" cy="78" r="3.7" fill="#172333" />
+  <circle cx="290" cy="126" r="3.7" fill="#172333" />
+  <circle cx="290" cy="174" r="3.7" fill="#172333" />
+  <circle cx="338" cy="30" r="3.7" fill="#172333" />
+  <circle cx="338" cy="78" r="3.7" fill="#172333" />
+  <circle cx="338" cy="126" r="3.7" fill="#172333" />
+  <circle cx="338" cy="174" r="3.7" fill="#172333" />
+  <circle cx="386" cy="30" r="3.7" fill="#172333" />
+  <circle cx="386" cy="78" r="3.7" fill="#172333" />
+  <circle cx="386" cy="126" r="3.7" fill="#172333" />
+  <circle cx="386" cy="174" r="3.7" fill="#172333" />
+  <circle cx="434" cy="30" r="3.7" fill="#172333" />
+  <circle cx="434" cy="78" r="3.7" fill="#172333" />
+  <circle cx="434" cy="126" r="3.7" fill="#172333" />
+  <circle cx="434" cy="174" r="3.7" fill="#172333" />
+  <text x="362.0" y="207" font-family="sans-serif" font-size="15" fill="#172333" text-anchor="middle">(2)</text>
+</svg>
